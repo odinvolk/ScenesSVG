@@ -1,0 +1,14 @@
+<svg id="door01" version="1.1" width="32px" height="32px" viewBox="0 0 64 64"
+     xmlns="http://www.w3.org/2000/svg">
+ <title>Входная дверь открыта</title>
+  <rect x="0" y="0" width="90" height="90" style="fill:green" display='%Openclose01.status|"inline;none;"%'>
+    <animate attributeType="CSS" attributeName="opacity" from="0.5" to="0" dur="0.5s" repeatCount="indefinite" />
+  </rect>
+  <!-- Дверной проем "открыто" -->
+ <path id="popen01" d="m16 7.01h34.3v50.3h-34.3z" fill="#8d6e63" fill-rule="evenodd" stroke="#8d6f62" stroke-linejoin="round" stroke-opacity=".6" stroke-width="1px"/>
+  <g id="mypane01"  transform='%Openclose01.status|"matrix(0.56512031,0.2,0,1,7.005075,-3.2);'';"%'>
+    <!-- Дверь "закрыто" -->
+ <path id="dcloce01" d="m16 7.01h34.3v50.3h-34.3z" fill="#ff5722" opacity=".9" stroke="#9c5722" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".5" style="paint-order:normal"/>
+ <path id="rcloce01" d="m42.4 27.4h2.69v9.3h-2.69z" fill="#bf360c" opacity=".9" stroke="#9c5722" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" style="paint-order:normal"/>
+  </g>
+</svg>
