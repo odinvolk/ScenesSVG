@@ -1,0 +1,385 @@
+<script>
+<!--dimmer #1-->
+
+function onchangeWidth1() {
+url_string ='/objects/?object=rx52&op=set&p=status&v='+ document.getElementById('rangeP1').value;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_m_1() {
+url_string ='/objects/?object=rx52&op=m&m=minus';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_p_1() {
+url_string ='/objects/?object=rx52&op=m&m=plus';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_off_1() {
+url_string ='/objects/?object=rx51&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_1() {
+url_string ='/objects/?object=rx51&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+<!--/dimmer #1-->
+
+
+
+<!--dimmer #2-->
+
+function onchangeWidth2() {
+url_string ='/objects/?object=rx54&op=set&p=status&v='+ document.getElementById('rangeP2').value;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_m_2() {
+url_string ='/objects/?object=rx54&op=m&m=minus';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_p_2() {
+url_string ='/objects/?object=rx54&op=m&m=plus';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_off_2() {
+url_string ='/objects/?object=rx53&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_2() {
+url_string ='/objects/?object=rx53&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+<!--/dimmer #2-->
+
+<!--dimmer #3-->
+
+function onchangeWidth3() {
+url_string ='/objects/?object=rx56&op=set&p=status&v='+ document.getElementById('rangeP3').value;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_m_3() {
+url_string ='/objects/?object=rx56&op=m&m=minus';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_p_3() {
+url_string ='/objects/?object=rx56&op=m&m=plus';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_off_3() {
+url_string ='/objects/?object=rx55&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_3() {
+url_string ='/objects/?object=rx55&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+<!--/dimmer #3-->
+ 
+<!--dimmer #4-->
+
+function onchangeWidth4() {
+url_string ='/objects/?object=rx58&op=set&p=status&v='+ document.getElementById('rangeP4').value;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_m_4() {
+url_string ='/objects/?object=rx58&op=m&m=minus';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_p_4() {
+url_string ='/objects/?object=rx58&op=m&m=plus';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_off_4() {
+url_string ='/objects/?object=rx57&op=set&p=status&v=0';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_4() {
+url_string ='/objects/?object=rx57&op=set&p=status&v=1';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+<!--/dimmer #4-->
+
+
+<!--grope #1--> 
+
+ function button_off_11() {
+url_string ='/objects/?object=rx11&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_11() {
+url_string ='/objects/?object=rx11&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+ 
+<!--/grope #1--> 
+ 
+ 
+ <!--grope #2--> 
+
+ function button_off_12() {
+url_string ='/objects/?object=rx12&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_12() {
+url_string ='/objects/?object=rx12&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+ 
+<!--/grope #2--> 
+ 
+ 
+ <!--grope #1--> 
+
+ function button_off_13() {
+url_string ='/objects/?object=rx13&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_13() {
+url_string ='/objects/?object=rx13&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+ 
+<!--/grope #3--> 
+
+<!--grope #4--> 
+
+ function button_off_14() {
+url_string ='/objects/?object=rx14&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_14() {
+url_string ='/objects/?object=rx14&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+ 
+<!--/grope #4--> 
+
+<!--grope #5--> 
+
+ function button_off_15() {
+url_string ='/objects/?object=rx15&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_15() {
+url_string ='/objects/?object=rx15&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+ 
+<!--/grope #5--> 
+
+<!--grope #6--> 
+
+ function button_off_16() {
+url_string ='/objects/?object=rx16&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_16() {
+url_string ='/objects/?object=rx16&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+ 
+<!--/grope #6--> 
+
+<!--grope #7--> 
+
+ function button_off_17() {
+url_string ='/objects/?object=rx17&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_17() {
+url_string ='/objects/?object=rx17&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+ 
+<!--/grope #7--> 
+
+
+<!--grope #7--> 
+
+ function button_off_18() {
+url_string ='/objects/?object=rx18&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_18() {
+url_string ='/objects/?object=rx18&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+ 
+<!--/grope #8--> 
+
+
+ <!--dimmer spal-->
+
+function onchangeWidth62() {
+url_string ='/objects/?object=rx62&op=set&p=status&v='+ document.getElementById('rangeP62').value;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_m_62() {
+url_string ='/objects/?object=rx62&op=m&m=minus';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_p_62() {
+url_string ='/objects/?object=rx62&op=m&m=plus';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_off_61() {
+url_string ='/objects/?object=rx61&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_61() {
+url_string ='/objects/?object=rx61&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+<!--/dimmer spal-->
+ 
+ 
+ <!--lamp left--> 
+
+ function button_off_63() {
+url_string ='/objects/?object=rx63&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_63() {
+url_string ='/objects/?object=rx63&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+ 
+ <!--/lamp left--> 
+ 
+ <!--lamp right--> 
+
+ function button_off_64() {
+url_string ='/objects/?object=rx64&op=m&m=off';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+
+function button_on_64() {
+url_string ='/objects/?object=rx64&op=m&m=on';
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", url_string, true);
+xmlhttp.send(null); 
+}
+ 
+ <!--/lamp right--> 
+ 
+</script>
