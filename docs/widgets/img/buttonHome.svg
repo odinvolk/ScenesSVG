@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="buttonHome" version="1.1" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onclick="window.location.href='%link.s1%'" onmouseover="this.style.opacity = '0.5';" onmouseout="this.style.opacity = '1';">
+ <defs id="defs4">
+  <linearGradient id="LGBattonMGreen" x1="0" x2="0" y1="90%" y2="1%">
+   <stop id="stop906" stop-color="#5fbd02" offset="0"/>
+   <stop id="stop908" stop-color="#dade94" stop-opacity="0.5" offset="1"/>
+  </linearGradient>
+  <symbol id="symbolHome">
+    <path id="House" d="m7.9 21.509v16.136l1.0926 1.1526h12.018v-10.374h5.4628v10.373h4.3702l1.093-1.152v-16.136l-10.925-11.526c-1.093-1.1526-1.093-1.1526-2.186-.0001zm-7.6479-1.153c-1.0926 1.153 1.0925 4.61 4.3702 3.458h2.1851v13.831c0 1.1526 1.0926 2.3052 2.1851 2.3052h21.852c1.0926 0 2.1851-1.1526 2.1851-2.3052v-13.831h2.1851c3.2777 1.1526 5.4628-2.3052 4.3702-3.4577l-18.573-19.594c-1.093-.94251-1.093-.95634-2.186.00030l-6.555 6.9155v-2.3052h-4.3701v6.9155z" 
+    fill="#fff" fill-rule="evenodd" stroke="#fff" stroke-width=".1" onmouseout="this.style.fill = '#fff'; this.style['stroke-width'] = 0.1;" onmouseover="this.style.fill = '#fff'; this.style['stroke-width'] = 1;"/>
+  </symbol>
+   <filter id="mFil">
+   <feGaussianBlur stdDeviation="0.2"/>
+   <feColorMatrix type="saturate" values="1.2" />
+  </filter> 
+ </defs>
+ <rect id="fon1" x="1" y="1" width="106" height="106" rx="8" ry="8" fill="#dade94"/>
+ <rect id="fon2" x="1" y="1" width="106" height="106" rx="8" ry="8" fill="url(#LGBattonMGreen)" fill-opacity="1" stroke="#ad4" stroke-width="2" stroke-opacity="1"/>
+ <text id="textHome" x="54" y="83" fill="#fff" font-family="FreeSans" font-size="16px" font-weight="500" text-anchor="middle" filter="url(#mFil)" stroke-width="0.1">Домашняя</text>
+ <use id="symbolXXX" transform="translate(36 20)" width="100%" height="100%" xlink:href="#symbolHome" filter="url(#mFil)"/>
+</svg>
