@@ -1,2 +1,2 @@
 Анимированая дверь
-![](images/Door01.svg)
+![](img/Door01.svg)
