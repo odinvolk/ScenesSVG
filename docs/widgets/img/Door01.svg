@@ -1,5 +1,4 @@
-<svg id="door01" version="1.1" width="32px" height="32px" viewBox="0 0 64 64"
-     xmlns="http://www.w3.org/2000/svg">
+<svg id="door01" version="1.1" width="32px" height="32px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
  <title>Входная дверь открыта</title>
   <rect x="0" y="0" width="90" height="90" style="fill:green" display='%Openclose01.status|"inline;none;"%'>
     <animate attributeType="CSS" attributeName="opacity" from="0.5" to="0" dur="0.5s" repeatCount="indefinite" />
