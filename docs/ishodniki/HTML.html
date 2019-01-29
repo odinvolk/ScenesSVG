@@ -1,0 +1,309 @@
+********************************************************************************************************
+**                                                                                                    **
+**                                         Кнопка основного меню                                      **
+**                                                                                                    **
+********************************************************************************************************
+
+<a href="%link.s1%">
+   <div class="b1">
+       <img src="/cms/scenes/home.png" border="0">
+       <div class="b1_in">
+           Домашняя
+       </div>
+   </div>
+</a>
+
+********************************************************************************************************
+
+ 
+ 
+ 
+ ********************************************************************************************************
+**                                                                                                    **
+**                               Кнопка бокового меню (допол.)                                        **
+**                                                                                                    **
+********************************************************************************************************
+
+<a href="">
+   <div class="br">
+       <div class="br_in">
+          Прихожая
+       </div>
+   </div>
+</a>
+
+********************************************************************************************************
+
+
+
+
+
+ 
+********************************************************************************************************
+**                                                                                                    **
+**                                         Кнопка меню сценариев                                      **
+**                                                                                                    **
+********************************************************************************************************
+
+   <div class="bb">
+       <div class="bb_in">
+        <b>Релакс</b><br>
+        <big style="font-size: 11px;">Приглуш свет и вкл музыку</big>
+       </div>
+   </div>
+
+********************************************************************************************************
+
+
+
+
+
+
+********************************************************************************************************
+**                                                                                                    **
+**                                         Информеры на сцену                                         **
+**                                                                                                    **
+********************************************************************************************************
+
+<center>За окном
+<big class="text_ten" style="font-size:28px;">%TempUlica.status%&degc</big>
+</center>
+
+********************************************************************************************************
+
+
+
+
+
+
+********************************************************************************************************
+**                                                                                                    **
+**                                   Сцена слайдеров и кнопок                                         **
+**                                                                                                    **
+********************************************************************************************************
+
+ <!--h1-->
+	<div class="line">
+
+
+		<div style="text-align:center; margin: 0 auto; width:80%" class="block_new">
+            <h2 style="font-size:18px">
+              Модуль диммирования на 220В (id=005)
+            </h2>
+		</div>
+		
+    </div> 
+	<!--/h1-->
+ 
+ 
+	<!--dimmer #1-->
+	<div class="line">
+		<div class="block_100">
+		
+			<div class="info">
+				Диммер №1
+			</div>
+		</div>
+		<div class="block_50">
+			<a href="#"  onclick="button_m_1()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						-
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_225">
+			<div class="ranG">
+				<input type="range" oninput="onchangeWidth1()" class="rangeG" id="rangeP1" value="%rx52.status%" min="0" max="180" step="1"/>
+			</div>
+		</div>
+		<div class="block_50">
+			<a href="#"  onclick="button_p_1()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						+
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_50 vid_off%rx51.status%">
+			<a href="#"  onclick="button_on_1()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						OFF
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_50 vid_on%rx51.status%">
+			<a href="#"  onclick="button_off_1()">
+				<div class="vcl">
+				      <div class="vcl_in">
+						ON
+					  </div> 
+									
+				</div>
+			</a>
+		</div>
+    </div> 
+	<!--/dimmer #1-->
+	
+	<!--dimmer #2-->
+	<div class="line">
+		<div class="block_100">
+		
+			<div class="info">
+				Диммер №2
+			</div>
+		</div>
+		<div class="block_50">
+			<a href="#"  onclick="button_m_2()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						-
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_225">
+			<div class="ranG">
+				<input type="range" oninput="onchangeWidth2()" class="rangeG" id="rangeP2" value="%rx54.status%" min="0" max="180" step="1"/>
+			</div>
+		</div>
+		<div class="block_50">
+			<a href="#"  onclick="button_p_2()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						+
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_50 vid_off%rx53.status%">
+			<a href="#"  onclick="button_on_2()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						OFF
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_50 vid_on%rx53.status%">
+			<a href="#"  onclick="button_off_2()">
+				<div class="vcl">
+					<div class="vcl_in">
+						ON
+					</div> 
+				</div>
+			</a>
+		</div>
+    </div> 
+	<!--/dimmer #2-->
+	
+	<!--dimmer #3-->
+	<div class="line">
+		<div class="block_100">
+		
+			<div class="info">
+				Диммер №3
+			</div>
+		</div>
+		<div class="block_50">
+			<a href="#"  onclick="button_m_3()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						-
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_225">
+			<div class="ranG">
+				<input type="range" oninput="onchangeWidth3()" class="rangeG" id="rangeP3" value="%rx56.status%" min="0" max="180" step="1"/>
+			</div>
+		</div>
+		<div class="block_50">
+			<a href="#"  onclick="button_p_3()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						+
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_50 vid_off%rx55.status%">
+			<a href="#"  onclick="button_on_3()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						OFF
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_50 vid_on%rx55.status%">
+			<a href="#"  onclick="button_off_3()">
+				<div class="vcl">
+					<div class="vcl_in">
+						ON
+					</div> 
+				</div>
+			</a>
+		</div>
+    </div> 
+	<!--/dimmer #3-->
+	
+	<!--dimmer #4-->
+	<div class="line">
+		<div class="block_100">
+		
+			<div class="info">
+				Диммер №4
+			</div>
+		</div>
+		<div class="block_50">
+			<a href="#"  onclick="button_m_4()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						-
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_225">
+			<div class="ranG">
+				<input type="range" oninput="onchangeWidth4()" class="rangeG" id="rangeP4" value="%rx58.status%" min="0" max="180" step="1"/>
+			</div>
+		</div>
+		<div class="block_50">
+			<a href="#"  onclick="button_p_4()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						+
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_50 vid_off%rx57.status%">
+			<a href="#"  onclick="button_on_4()">
+				<div class="vcl_off">
+					<div class="vcl_in">
+						OFF
+					</div> 
+				</div>
+			</a>
+		</div>
+		<div class="block_50 vid_on%rx57.status%">
+			<a href="#"  onclick="button_off_4()">
+				<div class="vcl">
+					<div class="vcl_in">
+						ON
+					</div> 
+				</div>
+			</a>
+		</div>
+	</div> 
+	<!--/dimmer #4-->
+
+********************************************************************************************************
+
