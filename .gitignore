@@ -1,5 +1,6 @@
 # Build and Release Folders
 docs/
+import/elements/
 bin/
 bin-debug/
 bin-release/
