@@ -1,0 +1,207 @@
+<!-- Created with Inkscape (http://www.inkscape.org/) width="140" height="120" -->
+<svg id="akva" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286 209" version="1.1" style="position:absolute;">
+   <title>Свет детская</title>
+ <path id="path912" d="m.5 9.5v164l230-18 2-156z"fill="none" stroke="#000" stroke-width="1px"/>
+ <path id="path833" d="m.5 174 231-17 55.2 31-250 21z"fill="none" stroke="#000" stroke-width="1px"/>
+ <path id="path937" d="m.5 9.5v12l231-9 54.4 17.6v-11.6l-54-18z" fill-opacity=".9" stroke="#000" stroke-width="1px"/>
+ <path id="path889" d="m.5 174v-164l36 20.5v178z" fill-opacity=".5" stroke="#020000" stroke-width="1px" fill="#56bcff"/>
+ <path id="path910" d="m232 0.5-1 156 55 32v-170z" stroke="#020000" stroke-width="1px" fill="none"/>
+ <path id="path891" d="m36.5 30.5 250-12 .355 169-250 21z" fill-opacity=".5" stroke="#030000" stroke-width="1px" fill="#56bcff"/>
+ <path id="path893" d="m.5 9.5 232-9 54 18-250 12z" fill-opacity=".4" stroke="#150000" stroke-width="1px" fill="#a8cad9"/>
+ <path id="path933" d="m.5 162 36 34 250-19v11l-250 21-36-35z" fill-opacity=".8" stroke="#000" stroke-width="1px"/>
+ <path id="path935" d="m.5 9.5 36 21 250-12v11.6l-250 11.4-35.5-20z" fill-opacity=".8" stroke="#000" stroke-width="1px"/>
+ <path id="path941" d="m6.5 10.5 31 19l244-11.8-51-16.2zm-6-1 232-9 54 18-250 12z" fill-opacity=".9" stroke="#464749" stroke-width="1px" fill="#424242"/>
+</svg>
+<script>
+$(document).ready(function(){
+    $("#akva").click(function(){
+        $("#okladModals").show();
+    });
+    $("#oklad").click(function(){
+        $("#okladModals").hide();
+    });
+});
+$(document).ready(function(){
+    $("#akva").click(function(){
+        $("#okladModals").animate({
+            left: '-145',
+            top: '-200',
+            opacity: '1',
+            height: '400px',
+            width: '400px'
+        });
+    });
+});
+</script>
+
+<svg id="okladModals" version="1.1" viewBox="0 0 571 511" width="140" height="140" display="none" style="position:absolute;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs6">
+  <linearGradient id="linearGradient1126">
+   <stop id="stop1122" stop-color="#5fdb02" offset="0"/>
+   <stop id="stop1124" stop-color="#dade94" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <filter id="filter1118" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="feGaussianBlur1112" result="blur" stdDeviation="0.3"/>
+  </filter>
+  <filter id="myFilter1">
+   <feGaussianBlur stdDeviation="0.2"/>
+   <feColorMatrix type="saturate" values="1.2" />
+  </filter>
+  <linearGradient id="linearGradient1128" x1="560" x2="450" y1="11" y2="121" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1136" x1="570" x2="450" y1="191" y2="191" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1144" x1="570" x2="450" y1="321" y2="321" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1152" x1="560" x2="440" y1="501" y2="381" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1160" x1="10" x2="120" y1="501" y2="390" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1168" x2="120" y1="321" y2="321" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1176" x2="120" y1="191" y2="191" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1184" x1="10" x2="120" y1="11" y2="121" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1200" x1="350" x2="350" y1="511" y2="391" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1208" x1="220" x2="220" y1="511" y2="391" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1216" x1="415" x2="355" y1="6" y2="66" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1224" x1="150" x2="210" y1="6" y2="65.5" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1232" x1="415" x2="354" y1="131" y2="70" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1240" x1="150" x2="205" y1="131" y2="76" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+  <linearGradient id="linearGradient1248" x1="285" x2="285" y1="1" y2="136" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1126"/>
+ </defs>
+
+ <rect id="rect894" x=".5" y=".5" width="120" height="120" rx="8" ry="8" 
+       fill="url(#linearGradient1184)" opacity=".9" stroke="#ad4" stroke-width="2"
+       style="paint-order:normal" onclick="callMethod('Relay00.switch');"/>
+ <text id="text898" x="59" y="99" fill="#000" filter="url(#myFilter1)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">Грелка</text>
+ <rect id="rect892" x=".5" y="130" width="120" height="120" rx="8" ry="8" 
+       fill="url(#linearGradient1176)" opacity=".9" stroke="#ad4" stroke-width="2"
+       style="paint-order:normal" onclick="callMethod('Relay00.switch');"/>
+ <text id="text912" x="55" y="231" fill="#000" filter="url(#filter1118)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">Подогрев</text>
+ <rect id="rect890" x=".5" y="260" width="120" height="120" rx="8" ry="8" 
+       fill="url(#linearGradient1168)" opacity=".9" stroke="#ad4" stroke-width="2"
+       style="paint-order:normal" onclick="callMethod('Relay00.switch');"/>
+ <text id="text916" x="57" y="362" fill="#000" filter="url(#filter1118)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">Кормушка</text>
+  
+  
+ <rect id="rect857" x=".5" y="390" width="120" height="120" rx="8" ry="8" 
+       fill="url(#linearGradient1160)" opacity=".9" stroke="#ad4" stroke-width="2"
+       style="paint-order:normal" onclick="callMethod('Dimmer03.pwmCnt');"/>
+ <text id="text.status" x="100" y="410" fill="#000" filter="url(#filter1118)" font-size="16px" font-weight="bold" 
+       letter-spacing="0px" stroke="#fff" stroke-width="0.5px" text-anchor="middle" word-spacing="0px">%Dimmer03.level%</text>
+ <text id="text887" x="60" y="490" fill="#000" filter="url(#filter1118)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">Свет</text>
+  
+ <rect id="rect899" x="155" y="390" width="120" height="120" rx="8" ry="8" 
+       fill="url(#linearGradient1208)" opacity=".9" stroke="#ad4" stroke-width="2"
+       style="paint-order:normal" onclick="callMethod('Dimmer01.dimUpDown');"/>
+ <text id="text.status" x="255" y="410" fill="#000" filter="url(#filter1118)" font-size="16px" font-weight="bold" 
+       letter-spacing="0px" stroke="#fff" stroke-width="0.5px" text-anchor="middle" word-spacing="0px">%Dimmer01.level%</text>
+ <text id="text917" x="213" y="492" fill="#000" filter="url(#filter1118)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">Подсветка</text>
+  
+ <rect id="rect853" x="290" y="390" width="120" height="120" rx="8" ry="8" 
+       fill="url(#linearGradient1200)" opacity=".9" stroke="#ad4" stroke-width="2"
+       style="paint-order:normal" onclick="ajaxSetGlobal('Dimmer01.level','5');ajaxSetGlobal('Dimmer03.level','5');"/>
+ <text id="text867" x="350" y="492" fill="#000" filter="url(#filter1118)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">Ночник</text>
+  
+  
+  
+ <rect id="rect855" x="450" y="390" width="120" height="120" rx="8" ry="8" 
+       fill="url(#linearGradient1152)" opacity=".9" stroke="#ad4" stroke-width="2"
+       style="paint-order:normal" onclick="callMethod('Relay12.switch');"/>
+ <text id="text871" x="509" y="494" fill="#000" filter="url(#filter1118)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">УФ фильтр</text>
+ <rect id="rect859" x="450" y="260" width="120" height="120" rx="8" ry="8" 
+       fill="url(#linearGradient1144)" opacity=".9" stroke="#ad4" stroke-width="2"
+       style="paint-order:normal" onclick="callMethod('Relay05.switch');"/>
+ <text id="text875" x="509" y="364" fill="#000" filter="url(#filter1118)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">Аэратор</text>
+ <rect id="rect861" x="450" y="130" width="120" height="120" rx="8" ry="8" 
+       fill="url(#linearGradient1136)" opacity=".9" stroke="#ad4" stroke-width="2"
+       style="paint-order:normal" onclick="callMethod('Relay11.switch');"/>
+  
+ <text id="text879" x="509" y="200" fill="#000" filter="url(#filter1118)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px"
+       onclick="ajaxGetGlobal('Motion02.countTime, 682, 2');"
+       onchange="ajaxGetGlobal('Motion02.countTime, 682, 2');"
+       onload="ajaxGetGlobal('Motion02.countTime, 682, 2');">
+       1
+  </text>
+  
+ <text id="text879" x="509" y="229" fill="#000" filter="url(#filter1118)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">Насос</text>
+ <rect id="rect863" x="450" y=".5" width="120" height="120" rx="8" ry="8" 
+       fill="url(#linearGradient1128)" opacity=".9" stroke="#ad4" stroke-width="2"
+       style="paint-order:normal" onclick="callMethod('Relay04.switch');"/>
+ <text id="text883" x="509" y="100" fill="#000" filter="url(#filter1118)" font-family="Ubuntu" font-size="18px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">Фильтр</text>
+ <rect id="rect900" x="145" y=".5" width="65" height="65" rx="8" ry="8" fill="url(#linearGradient1224)" opacity=".9" 
+       stroke="#000"
+       style="paint-order:normal"/>
+ <rect id="rect902" x="145" y="70" width="65" height="65" rx="8" ry="8" fill="url(#linearGradient1240)" opacity=".9" 
+       stroke="#000"
+       style="paint-order:normal"/>
+ <rect id="rect904" x="354" y=".5" width="65" height="65" rx="8" ry="8" fill="url(#linearGradient1216)" opacity=".9" 
+       stroke="#000"
+       style="paint-order:normal"/>
+ <rect id="rect906" x="354" y="70" width="65" height="65" rx="8" ry="8" fill="url(#linearGradient1232)" opacity=".9" 
+       stroke="#000"
+       style="paint-order:normal"/>
+ <rect id="rect908" x="215" y=".5" width="135" height="135" rx="8" ry="8" fill="url(#linearGradient1248)" opacity=".9" 
+       stroke="#000"
+       style="paint-order:normal"/>
+ <text id="text1012" x="284" y="34" fill="#ff0" font-family="FreeSans" font-size="28px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-anchor="middle" word-spacing="0px">%Sensor_temp02.value%*C</text>
+ <path id="path1020" d="m173 18.5h10v10h10v10h-10v10h-10v-10h-10v-10h10z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+ <path id="path1022" d="m165 100h30v10h-30z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+ <path id="path1024" d="m370 44.5h10l10-20 10 20h10l-15-30h-10z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+ <path id="path1026" d="m384 120h10l15-30h-10l-10 20-10-20h-10z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+ 
+<g id="oklad">
+ <rect id="rect1271" x="416" y="179" width="10" height="144" rx="1.5" ry="1.5" 
+       fill-opacity=".5" opacity="1" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".9" stroke-width=".1" 
+       style="paint-order:normal"/>
+
+ <path id="m100" d="m412 181h15" fill="none" stroke="#f00" stroke-linecap="round" stroke-width="1px"/>
+ <path id="m050" d="m412 252h15" fill="none" stroke="#f00" stroke-linecap="round" stroke-width="1px"/>
+ <path id="m000" d="m412 322h15" fill="none" stroke="#f00" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path928" d="m418 191h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path932" d="m418 201h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path938" d="m418 211h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path942" d="m418 221h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path946" d="m418 231h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path950" d="m418 241h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path954" d="m418 262h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path956" d="m418 272h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path958" d="m418 282h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path960" d="m418 292h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path962" d="m418 302h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path964" d="m418 312h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <text id="text1008" x="416" y="177" fill="#fff" font-family="Ubuntu" font-size="10px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-align="center" text-anchor="middle" word-spacing="0px">см</text>
+ <path id="path970" d="m145 175h4.77v135h-4.77z" fill-opacity=".3" fill-rule="evenodd" 
+       stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".9" stroke-width=".1"/>
+ <path id="path972" d="m135 175h15" fill="none" stroke="#f00" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path974" d="m135 245h15" fill="none" stroke="#f00" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path976" d="m135 310h15" fill="none" stroke="#f00" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path978" d="m140 185h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path980" d="m140 195h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path982" d="m140 205h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path984" d="m140 215h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path986" d="m140 225h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path988" d="m140 235h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path990" d="m140 254h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path992" d="m140 264h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path994" d="m140 274h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path996" d="m140 284h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path998" d="m140 294h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path1000" d="m140 304h10" fill="none" stroke="#0f0" stroke-linecap="round" stroke-width="1px"/>
+ <text id="text1004" x="147" y="171" fill="#fff" font-family="Ubuntu" font-size="10px" font-weight="bold" 
+       letter-spacing="0px" stroke-width="1px" text-align="center" text-anchor="middle" word-spacing="0px">t</text>
+ <path id="path1250" d="m145 300h5" fill="none" stroke="#00f" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path1261" d="m145 290h5" fill="none" stroke="#00f" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path1263" d="m145 280h5" fill="none" stroke="#00f" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path1265" d="m145 270h5" fill="none" stroke="#00f" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path1267" d="m145 250h5" fill="none" stroke="#00f" stroke-linecap="round" stroke-width="1px"/>
+ <path id="path1269" d="m145 260h5" fill="none" stroke="#00f" stroke-linecap="round" stroke-width="1px"/>
+</g>
+</svg>
