@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="shemaHome" viewBox="0 0 1221 931" width="1221" height="931" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="f1" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceGraphic" dx="20" dy="10"/>
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10"/>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+    </filter>
+  </defs>
+ <g id="objectfire">
+  <title>%Dimmer01.object_description%</title>
+   <desc>Mozilla CSS Getting Started - SVG demonstration</desc>
+   <foreignObject x="60" y="20" width="300" height="40" transform="scale(1) rotate(0)"><input type="range" class="slider" name="slider-1" id="slider-1" value="%Dimmer01.level%" min="0" max="100" step="10" oninput="ajaxSetGlobal('Dimmer01.level',+ document.getElementById('slider-1').value);"/></foreignObject>
+ </g>
+
+ <rect id="workshop" y="540" x="41" width="200" height="150" fill="#c0bba3" fill-opacity="1" stroke="#000" stroke-width=".3"><title>Мастерская</title><desc>Кабинет</desc></rect>
+ <rect id="garderob" y="690" x="41" width="200" height="201" fill="#c0bba3" fill-opacity="1" stroke="#000" stroke-width=".3"><title>Гардероб</title><desc>Гардеробное помещение</desc></rect>
+ <rect id="bedroom" y="541" x="240" width="360" height="350" fill="#c0bba3" fill-opacity="1" stroke="#000" stroke-width=".3"><title>Спальня</title><desc>Спальное помещение</desc></rect>
+ <rect id="gostinnaja" y="286" x="772" width="413" height="276" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3" onClick="return openModalTWindow('avc0001', 'Входная дверь', '/apps/devices.html', 1200, 750);"><title>Гостинная</title><desc>Гостинное помещение</desc></rect>
+ <rect id="kinderRom" y="569" x="626" width="559" height="321" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3" onClick="return openModalTWindow('avc001', 'Настройки Алисы', '/menu.html?parent=123', 750, 350);"><title>Детская</title><desc>Детская помещение</desc></rect>
+ <rect id="hall2" y="161" x="626" width="145" height="407" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3" onClick="return openModalTWindow('avc0002', 'Входная дверь', '/apps/devices.html', 1200, 750);"><title>Прихожая 2</title><desc>Прихожая помещение</desc></rect>
+ <rect id="akvariumnaya" y="353" x="461" width="140" height="188" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3" style="cursor:pointer;"><title id="akvariumnayaTitle">Аквариумная</title><desc id="akvariumnayaDesc">Аквариумная помещение</desc></rect>
+
+ <rect id="hall" y="26" x="461" width="139" height="326" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3"><title>Прихожая</title><desc>Прихожая помещение</desc></rect>
+ <rect id="peredvannoy" y="197" x="772" width="145" height="79" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3"><title>Перед ванной</title><desc>Перед ванной помещение</desc></rect>
+ <rect id="kuhna" y="26" x="917" width="270" height="250" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3"><title>Кухня</title><desc>Кухонное помещение</desc></rect>
+ <rect id="bathroom" y="36" x="776" width="135" height="155" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3"><title>Ванная</title><desc>Ванное помещение</desc></rect>
+ <rect id="kladovka" y="26" x="626" width="60" height="129" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3" style="cursor: pointer;"><title>Кладовка</title><desc>Кладовка помещение</desc></rect>
+ <rect id="tualet" y="36" x="691" width="79" height="120" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3" style="cursor: pointer;"><title>Туалет</title><desc>Туалетная помещение</desc></rect>
+
+<path id="stenki" d="m626 891 560 .0002-.1-865-560 .211zm-76.151-350.09 51.151.0941-.00010 350h-560v-350l419.85-.09.15-24.88v-490.03l10.95.02344v-25.05l-39.96-.0093-.0001 515-430.99.04-.01 415h1220v-930l-660 .03v24.99l40 .0072v490l-51-.03z" stroke="#1e0c0c" fill="#968c60" stroke-opacity="0.8" fill-opacity="1" fill-rule="evenodd" stroke-width="0.8px"/>
+
+ <path id="peregorodki" d="m682 559h-56v10h56zm99.11-223.97-.11-49.03 405-.10v-9.9h-415v59zm-10.11 88.97v145h415v-10h-405l.10675-135.01z" stroke-opacity="0.6" fill="#968c60" fill-opacity="1" fill-rule="evenodd" stroke="#1e0c0c" stroke-width="0.5px"/>
+
+ <path id="stenkiTualet" d="m844,195.96 71.9,0.0823 -0.1,-165 h -230 l -0.3,129.8 20.3,-0.05 0.05,-5.08 L 691,155.8 v -120 h 79.9 v 120 l -0.9,-8.2e-4 0.03,5.03 1,0.009 -0.05,35.2 L 780,195.96 V 191 l -4.1,-0.058 v -155 h 135 v 155 L 844,191 Z" stroke-opacity="0.6" fill-opacity="1" stroke="#1e0c0c" fill="#968c60" fill-rule="evenodd" stroke-width="0.5px"/>
+ 
+ <rect id="bedroomDoor" x="464" y="516" width="89" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose09.status|"0;-89"% 464 516)'/>
+ <rect id="kidroomDoor" x="679" y="564" width="89" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose08.status|"0;94"% 679 569)'/>
+ <rect id="smallroomDoor" x="776" y="335" width="5" height="89" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose07.status|"0;-89"% 778 335)'/>
+ <rect id="hallDoor1" x="473" y="1" width="86" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose01.status|"-90;-1;"% 473 1)'/>
+ <rect id="hallDoor2" x="473" y="19" width="86" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose02.status|"1;98;45;"% 473 24)'/>
+
+ <rect id="proemHall" x="601" y="163" width="24" height="89" stroke="#000" stroke-linecap="round" fill="none"/>
+ <rect id="proemAkvarium" x="601" y="367" width="24" height="134" stroke="#000" stroke-linecap="round" fill="none" fill-opacity=".3" fill-rule="evenodd" stroke-width="1"/>
+ <rect id="tualetDoor" x="706" y="156" width="64" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose04.status|"0;-88"% 770 161)'/>
+ <rect id="vannaDoor" x="780" y="191" width="64" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose05.status|"0;-170"% 844 196)'/>
+ <rect id="kladovkaDoor" x="627" y="156" width="59" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose03.status|"0;-170"% 683 161)'/>
+ <rect id="kuhnaDoor" x="910" y="198" width="5" height="76" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose06.status|"0;90"% 910 198)'/>
+
+ <rect id="balkonWin" x="263" y="898" width="194" height="24" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" filter="url(#f1)"/>
+ <rect id="balkonDoor1" x="263" y="904" width="49" height="5" fill="grey" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose10.status|"0;-99"% 263 904)'/>
+ <rect id="balkonDoor2" x="265" y="915" width="49" height="5" fill="grey" stroke="steelblue" stroke-width="1" opacity=".8" transform='rotate(%Openclose10.status|"0;-90"% 265 915)'/>
+ <rect id="kabinetWin" x="6" y="627" width="24" height="194" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" filter="url(#f1)"/>
+ <rect id="kidroomWin1" x="778" y="898" width="194" height="24" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" filter="url(#f1)"/>
+ <rect id="kidroomWin2" x="1192" y="627" width="24" height="194" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" filter="url(#f1)"/>
+ <rect id="smallroomWin" x="1192" y="326" width="24" height="154" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" filter="url(#f1)"/>
+ <rect id="kitchenWin" x="1192" y="70" width="24" height="154" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" filter="url(#f1)"/>
+
+ <rect id="stiralka" y="60" x="629" height="56" width="56" onclick="return openModalTWindow('usersWindow', '', '/popup/apps.html', 700, 500);" fill-opacity=".1" fill-rule="evenodd" stroke="#000" stroke-width=".3" stroke-linecap="round" stroke-linejoin="round"><title>Стиральная машина</title></rect>
+
+ <rect id="kitchenStol1" fill-opacity="0.1" height="120" width="59" stroke="#000" y="26" x="916" stroke-width="0.3"/>
+ <rect id="kitchenStol2" stroke-opacity="0.9" fill-opacity="0.2" transform="rotate(90)" height="209" width="60" stroke="#000" y="-1185" x="26" stroke-width="0.3"/>
+ <rect id="holodilnik2" fill-opacity="0.1" height="57" width="57" stroke="#000" y="147" x="918" stroke-width="0.3"/>
+ <rect id="kitchenPlita" fill-opacity=".1" height="34" width="26" stroke="#000" y="39" x="1090" stroke-width=".3" fill="#900"/>
+ <rect id="kitchenRakovina" fill-opacity=".1" height="44" width="37" stroke="#000" y="91" x="927" stroke-width=".3" fill="#900"/>
+ <rect id="kitchenStol3" fill-opacity=".2" height="142" width="78" stroke="#000" y="132" x="1105" stroke-width="0.3"/>
+ <rect id="vanna" fill-opacity=".1" height="152" width="66" stroke="#000" y="37" x="843" stroke-width=".3" fill="#900"/>
+ <rect id="rakovina" fill-opacity=".1" height="35" width="58" stroke="#000" y="37" x="783" stroke-width=".3" fill="#900"/>
+ <rect id="unitaz" fill-opacity=".1" height="56" width="36" stroke="#000" y="56" x="710" stroke-width=".3" fill="#900" onclick='callMethod("Relay02.switch");return false;'><title>Унитаз</title><desc>Унитаз в туалете</desc></rect>
+ <rect id="smalroomShkaf1" fill-opacity=".1" height="37" width="50" stroke="#000" y="287" x="782" stroke-width=".3" fill="#900"/>
+ <rect id="smalroomShkaf2" fill-opacity=".1" height="37" width="50" stroke="#000" y="287" x="832" stroke-width=".3" fill="#900"/>
+ <rect id="smalroomShkaf3" fill-opacity=".1" height="60" width="100" stroke="#000" y="498" x="782" stroke-width=".3" fill="#900"/>
+ <rect id="smalroomShkaf4" fill-opacity=".1" height="60" width="50" stroke="#000" y="498" x="883" stroke-width=".3" fill="#900"/>
+ <path id="smalroomDivan" d="m1020 353.15h82.3v144h-82.3zm84.7 0h71.3v144h-71.3zm-84.7-58.15h156v55.7h-156zm157.56 0h6.44v202h-6.44zm-157.6-7h164v4.93h-164z" fill-opacity="0.1" stroke="#000" stroke-width="0.3" fill="#900"/>
+
+ <rect id="refregirator" y="368" x="600" width="58" height="58" fill-opacity=".2" stroke="#000" stroke-width=".3" onclick="return openTWindow('usersWindow2', '', '/command.php', 600, 600);"><title>Морозильник</title><desc>Шкаф холодильный</desc></rect>
+ <rect id="hall2Shkaf" height="60" width="50" y="499" x="627" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф с аптечкой</desc><title>Шкаф</title></rect>
+ <rect id="shkafAkvarium" y="355" x="464" width="132" height="60" fill="#000" fill-opacity=".2" stroke="#000" stroke-width=".3" style="cursor: pointer;"><desc>Шкаф с аквариумом</desc><title>Аквариум</title></rect> 
+ <rect id="kidroomShkaf1" height="50" width="37" y="568" x="627" fill="#000" fill-opacity=".1" stroke="#000" stroke-width=".3"><desc>Шкаф Павлик</desc><title>Шкаф Павлик</title></rect>
+ <rect id="kidroomShkaf2" height="50" width="37" y="618" x="627" stroke="#000" stroke-width=".3" fill="#000" fill-opacity=".1"><desc>Шкаф Костя</desc><title>Шкаф Костя</title></rect> 
+ <rect id="kidroomShkaf5" height="60" width="50" y="830" x="1135" stroke="#000" stroke-width=".3" fill="#000" fill-opacity=".1"><desc>Шкаф в Детской 5</desc><title>Шкаф в Детской 5</title></rect>
+ <rect id="kidroomShkaf4" height="60" width="100" y="830" x="1035" stroke="#000" stroke-width=".3" fill="#000" fill-opacity=".1"><desc>Шкаф в Детской 4</desc><title>Шкаф в Детской 4</title></rect>
+<rect id="garderobKabinet2" height="100" width="60" x="180" y="542" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф Кабинет 2</desc><title>Шкаф Кабинет 2</title></rect>
+ <rect id="garderobKabinet3" height="100" width="60" x="180" y="643" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф Кабинет 3</desc><title>Шкаф Кабинет 3</title></rect> 
+ <rect id="garderobKabinet1" height="100" width="60" x="42" y="542" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф Кабинет 1</desc><title>Шкаф Кабинет 1</title></rect> 
+ <rect id="garderobShkaf1" height="100" width="60" x="42" y="791" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф Гардероб 1</desc><title>Шкаф Гардероб 1</title></rect>
+ <rect id="garderobShkaf2" height="100" width="60" x="42" y="690" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф Гардероб 2</desc><title>Шкаф Гардероб 2</title></rect>
+ <rect id="garderobShkaf4" height="100" width="60" x="180" y="743" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф Гардероб 4</desc><title>Шкаф Гардероб 4</title></rect>
+ <rect id="bedroomShkaf1" height="50" width="37" x="563" y="540" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф 1</desc><title>Шкаф 1</title></rect>
+ <rect id="bedroomShkaf2" height="50" width="37" x="563" y="590" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф 2</desc><title>Шкаф 2</title></rect>
+ <rect id="bedroomShkaf3" height="50" width="37" x="563" y="790" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф 3</desc><title>Шкаф 3</title></rect>
+ <rect id="bedroomShkaf4" height="50" width="37" x="563" y="840" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф 4</desc><title>Шкаф 4</title></rect>
+ 
+ <rect id="kidroomKrovat" y="669" x="627" height="221" width="130" fill="#ffd94d" fill-opacity=".1" stroke="#000" stroke-width=".3"/>
+ <rect id="kidroomKrovatkaMalchiki" height="72" width="188" y="570" x="812" fill="#ffd94d" fill-opacity=".1" stroke="#000" stroke-width=".3"/>
+
+
+ <g id="lhim">
+ <circle id="vannaHim" cy="26" cx="836" r="5" fill="skyblue" fill-opacity=".8" stroke="steelblue" stroke-width=".6" stroke-linecap="round" onclick="callMethod(%EconomMode.switch%);">
+  <title>%EconomMode.active|"Режим экономии выключен;Режим экономии включен;"%</title>
+ </circle>
+ <circle id="kuhnaHim" cy="26" cx="980" r="5" fill="skyblue" fill-opacity=".8" stroke="steelblue" stroke-width=".6" stroke-linecap="round" onclick="callMethod(%EconomMode.switch%);">
+  <title>%EconomMode.active|"Режим экономии выключен;Режим экономии включен;"%</title>
+ </circle>
+ <circle id="tualetHim2" cy="63" cx="765" r="5" fill="skyblue" fill-opacity=".8" stroke="steelblue" stroke-width=".6" stroke-linecap="round" onclick="callMethod(%EconomMode.switch%);">
+  <title>%EconomMode.active|"Режим экономии выключен;Режим экономии включен;"%</title>
+ </circle>
+  <circle id="workshopHim" cy="598" cx="164" r="5" fill="skyblue" fill-opacity=".8" stroke="steelblue" stroke-width=".6" stroke-linecap="round" onclick="callMethod(%EconomMode.switch%);">
+  <title>%EconomMode.active|"Режим экономии выключен;Режим экономии включен;"%</title>
+ </circle>
+ <circle id="tualetHim" cy="49" cx="765" r="5" fill="skyblue" fill-opacity=".8" stroke="steelblue" stroke-width=".6" stroke-linecap="round" onclick="callMethod(%EconomMode.switch%);">
+  <title>%EconomMode.active|"Режим экономии выключен;Режим экономии включен;"%</title>
+ </circle>
+ </g>
+
+ <g id="llamp">
+ <circle id="halllampa" cy="41" cx="572" r="5" fill="#ffd94d" fill-opacity=".4" stroke="#000" stroke-width=".3" stroke-linecap="round" onclick="callMethod(%EconomMode.switch%);">
+  <title>%EconomMode.active|"Режим экономии выключен;Режим экономии включен;"%</title>
+ </circle>
+ <circle id="vannalampa" cy="133" cx="781" r="5" fill="#ffd94d" fill-opacity=".4" stroke="#000" stroke-width=".3" stroke-linecap="round" onclick="callMethod(%EconomMode.switch%);">
+  <title>%EconomMode.active|"Режим экономии выключен;Режим экономии включен;"%</title>
+ </circle>
+ <circle id="tualetlampa" cy="133" cx="766" r="5" fill="#ffd94d" fill-opacity=".4" stroke="#000" stroke-width=".3" stroke-linecap="round" onclick="callMethod(%EconomMode.switch%);">
+  <title>%EconomMode.active|"Режим экономии выключен;Режим экономии включен;"%</title>
+ </circle>
+ <circle id="workshopLampa" cy="576" cx="178" r="5" fill="#ffd94d" fill-opacity=".4" stroke="#e6dc32" stroke-width=".3" stroke-linecap="round" onclick='callMethod("Relay03.switch");'>
+  <title>%EconomMode.active|"Режим экономии выключен;Режим экономии включен;"%</title>
+ </circle>
+
+  <rect id="kladovkaLed" height="8" width="50" y="145" x="630" fill-opacity=".7" stroke="#000" stroke-width=".3" fill="#ffd94d"/>
+  <rect id="hallLed" opacity="1" fill-opacity=".7" rx="8" ry="2" height="250" width="5" stroke="#000" onclick='callMethod("Dimmer02.switch");' y="36" x="543" stroke-width=".1" fill="#fff700"/>
+  <rect id="hall2Led" opacity=".9" y="170" x="709" rx="8" ry="2" height="380" width="5" stroke="#000" stroke-width=".1" fill="#ff0" fill-opacity=".4"/>
+  <rect id="tualetLed" opacity=".9" fill-opacity=".4" rx="8" ry="2" height="110" width="5" stroke="#000" onclick='callMethod("Relay02.switch");' y="41" x="726" stroke-width=".1" fill="#ff0"/>
+  <rect id="bedroomLed2" y="552" x="591" opacity=".9" fill-opacity=".5" rx="8" ry="2" height="250" width="5" stroke="#000" onclick='callMethod("Relay01.switch");' stroke-width=".1" fill="#ff0"/>
+  <rect id="bedroomLed1" opacity=".9" ry="2" fill-opacity=".5" rx="8" transform="rotate(90)" height="314" width="5" stroke="#000" onclick='callMethod("Relay01.switch");return false;' y="-582" x="552" stroke-width=".1" fill="#ff0"/>
+  <rect id="bedroomLed3" opacity=".9" fill-opacity=".5" rx="8" ry="2" height="250" width="5" stroke="#000" onclick='callMethod("Relay01.switch");return false;' y="552" x="253" stroke-width=".1" fill="#ff0"/>
+  <rect id="bedroomLed4" opacity=".9" ry="2" fill-opacity=".5" rx="8" transform="rotate(90)" height="314" width="5" stroke="#000" onclick='callMethod("Relay01.switch");return false;' y="-583" x="796" stroke-width=".1" fill="#ff0"/>
+
+  <rect id="kitchenLed1" opacity=".9" y="38" x="921" rx="8" ry="2" height="98" width="5" stroke="#000" stroke-width=".1" fill="#ff0" fill-opacity=".4"/>
+  <rect id="kitchenLed2" opacity=".9" y="38" x="930" rx="8" ry="2" height="5" width="110" stroke="#000" stroke-width=".1" fill="#ff0" fill-opacity=".4"/>
+ </g>
+ 
+ <g id="los">
+  <path id="hallSmk2" class="r" d="m558.07 25.521a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width="0.3" fill="#ff094d"><desc id="hallsmk2desc">СМК прихожая</desc><title id="hallsmk2title">Прихожая СМК</title></path>
+  <path id="hallSmk1" class="r" d="m558.07 7.3004a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width="0.3" fill="#ff1d4d"/>
+  <path id="hallPir" class="r" d="m540 337a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="tualetPir" class="r" d="m743 46.1a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="bedroomPir2" class="r" d="m240 690a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="workshopPir" class="r" d="m133 546a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="kitchenPir1" class="r" d="m1180 86.6a9.85 9.85 0 0 1 -9.85 9.85 9.85 9.85 0 0 1 -9.85 -9.85 9.85 9.85 0 0 1 9.85 -9.85 9.85 9.85 0 0 1 9.85 9.85" stroke="#c86464" fill="#ff1d4d"/>
+	<circle id="kuhnaSmk" class="r" cy="265" cx="912" r="5" fill="#ff1d4d" fill-opacity="1" stroke="#e6dc32" stroke-width=".6"><title id="kuhnaSmkTitle">%Openclose06.status|"Дверь кухни закрыта;Дверь кухни открыта;"%</title></circle>
+	<circle id="smallroomSmk" class="r" cy="420" cx="776" r="5" fill="#ff1d4d" fill-opacity="1" stroke="#e6dc32" stroke-width=".6"><title id="smallroomSmkTitle">%Openclose07.status|"Дверь гостинной закрыта;Дверь гостинной открыта;"%</title></circle>
+ <path id="vannaPir" class="r" d="m838.1 183.95a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#c86464" stroke-width="0.3" fill="#ff1d4d"/>
+  <path id="kladovkaSmk" class="r" d="m686 156a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="tualetSmk" class="r" d="m715 156a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="hall2Pir1" class="r" d="m756 172a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="bedroomSmk" class="r" d="m551 528a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="workshopSmk" class="r" d="m180 690a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="garderobPir" class="r" d="m112 886a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="bedroomPir1" class="r" d="m601 690a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="hall2Pir2" class="r" d="m687 548a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="kidroomSmk" class="r" d="m771 564a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="bedroomWinSmk1" class="r" d="m322 919a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="bedroomWinSmk2" class="r" d="m365 919a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+  <path id="kitchenPir2" class="r" d="m926 31.7a4.85 4.85 0 0 1 -4.85 4.85 4.85 4.85 0 0 1 -4.85 -4.85 4.85 4.85 0 0 1 4.85 -4.85 4.85 4.85 0 0 1 4.85 4.85" stroke="#000" stroke-width=".3" fill="#ff1d4d"/>
+ </g>
+ <g id="power">
+ <rect id="kladovkaPower1" height="10" width="10" stroke="#000" y="26" x="630" stroke-width=".3" fill="#006e00"/>
+ <rect id="kladovkaPower2" height="10" width="10" stroke="#000" y="26" x="641" stroke-width=".3" fill="#006e00"/>
+ <rect id="shkafAkvariumpower1" fill-rule="evenodd" height="10" width="10" stroke="#000" y="353" x="550" stroke-width=".3" fill="#006e00"/>
+ <rect id="shkafAkvariumpower2" fill-rule="evenodd" height="10" width="10" stroke="#000" y="353" x="560" stroke-width=".3" fill="#006e00"/>
+ <rect id="shkafAkvariumpower3" fill-rule="evenodd" height="10" width="10" stroke="#000" y="353" x="571" stroke-width=".3" fill="#006e00"/>
+ <rect id="shkafAkvariumpower4" height="10" width="10" stroke="#000" y="353" x="582" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower5" height="10" width="10" stroke="#000" y="271" x="1070" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower6" height="10" width="10" stroke="#000" y="271" x="1080" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower3" height="10" width="10" stroke="#000" y="21" x="1070" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower4" height="10" width="10" stroke="#000" y="21" x="1080" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower1" height="10" width="10" stroke="#000" y="21" x="1020" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower2" height="10" width="10" stroke="#000" y="17" x="1030" stroke-width=".3" fill="#006e00"/>
+ <rect id="kidroomPower2" height="10" width="10" stroke="#000" y="565" x="1030" stroke-width=".3" fill="#006e00"/>
+ <rect id="smalroomPower1" height="10" width="10" stroke="#000" y="554" x="1030" stroke-width=".3" fill="#006e00"/>
+ <rect id="bedroomPower2" height="10" width="10" stroke="#000" y="536" x="151" stroke-width=".3" fill="#006e00"/>
+ <rect id="bedroomPower1" height="10" width="10" stroke="#000" y="536" x="439" stroke-width=".3" fill="#006e00"/>
+ <rect id="hall2Power1" height="10" width="10" stroke="#000" y="265" x="627" stroke-width=".3" fill="#006e00"/>
+ </g>
+
+ <g id="swith">
+ <rect id="hall2Swith1-2" height="5" width="10" stroke="#000" y="260" x="627" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="hall2Swith1-1" height="5" width="10" stroke="#000" y="255" x="627" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="kithenSwith1-2" height="5" width="10" stroke="#000" y="189" x="917" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="kithenSwith1-1" height="5" width="10" stroke="#000" y="184" x="917" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="hall2Swith2-2" height="5" width="10" stroke="#000" y="173" x="761" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="hall2Swith2-1" height="5" width="10" stroke="#000" y="168" x="761" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="hall2Swith2-3" height="10" width="10" stroke="#000" y="179" x="761" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="smalroomSwith1-2" height="5" width="10" stroke="#000" y="436" x="776" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="smalroomSwith1-1" height="5" width="10" stroke="#000" y="431" x="776" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="kidroomSwith1-2" height="5" width="10" stroke="#000" y="796" x="570" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="kidroomSwith1-1" height="5" width="10" stroke="#000" y="790" x="570" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="bedroomSwith1" y="536" x="428" height="10" width="10" fill="#fcd74c" stroke="#000"/>
+ <rect id="hallSwith" height="10" width="10" stroke="#000" y="21" x="573" stroke-width=".3" fill="#ffda4f"/>
+ <rect id="zvonok2" fill-opacity=".8" height="10" width="10" stroke="#000" y="1" x="568" stroke-width=".3" fill="#900"/>
+ </g>
+
+<script id="scriptModalsShow" type="text/javascript"><![CDATA[
+$("#akvariumnaya").click(function(){
+    $("#akvariumModals").modal("show");
+});
+$("#kladovka").click(function(){
+    $("#kladovkaModals").modal("show");
+});
+$("#tualet").click(function(){
+    $("#tualetusModals").modal("show");
+});
+$("#shkafAkvarium").click(function(){
+    $("#akvariumModals").modal("show");
+});
+]]> </script>
+</svg>
