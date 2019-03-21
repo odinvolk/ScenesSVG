@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--   width="1221" height="931"  -->
+<svg id="svg9" viewBox="0 0 270 158" width="1024" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs2">
+  <style id="style117" type="text/css"><![CDATA[
+    .fil1000 {fill:none}
+    .fil2000 {fill:#FEFEFE;fill-rule:nonzero}
+   ]]></style>
+<symbol id="hallSymbol">
+ <ellipse id="hallLed" rx="6.5" ry="6.5" cx="7.5" cy="7.5" stroke-width="1.5" stroke="#f1e510" fill="none"/>
+ <ellipse id="hallLedBatt" rx="5" ry="5" cx="7.5" cy="7.5" stroke-width=".1" fill="#555f80"/>
+ <text id="hallTextT" font-size="3px" text-anchor="middle" y="7.5" x="7.5" fill="#fff">%Hall.Temperature%</text>
+ <text id="hallTextH" font-size="2.5px" text-anchor="middle" y="10.5" x="7.5" fill="#fff">%Hall.Humidity%%</text>
+ <path id="hallLeble" d="m11.5 0.6h29.7v13.7h-29.8c2.4-1.3 4.02-3.9 4.02-6.9 0-2.9-1.56-5.4-3.9-6.8z" stroke-width=".1" fill="#555f80" fill-opacity=".5"/>
+ <text id="hallTextDescription" font-size="3px" text-anchor="middle" x="27" y="5.5" fill="#fff">%Hall.Title%</text>
+ <text id="hallTextUpdatedText" font-size="2px" text-anchor="middle" x="27" y="10" fill="#fff">%Hall.LatestActivityTime%</text>
+</symbol>
+<symbol id="spalSymbol">
+ <ellipse id="spalLed" rx="6.5" ry="6.5" cx="7.5" cy="7.5" stroke-width="1.5" stroke="#f1e510" fill="none"/>
+ <ellipse id="spalLedBatt" rx="5" ry="5" cx="7.5" cy="7.5" stroke-width=".1" fill="#555f80"/>
+ <text id="spalTextT" font-size="3px" text-anchor="middle" y="7.5" x="7.5" fill="#fff">%Bedroom.Temperature%</text>
+ <text id="spalTextH" font-size="2.5px" text-anchor="middle" y="10.5" x="7.5" fill="#fff">%Bedroom.Humidity%%</text>
+ <path id="spalLeble" d="m11.5 0.6h29.7v13.7h-29.8c2.4-1.3 4.02-3.9 4.02-6.9 0-2.9-1.56-5.4-3.9-6.8z" stroke-width=".1" fill="#555f80" fill-opacity=".5"/>
+ <text id="spalTextDescription" font-size="3px" text-anchor="middle" x="27" y="5.5" fill="#fff">%Bedroom.Title%</text>
+ <text id="spalTextUpdatedText" font-size="2px" text-anchor="middle" x="27" y="10" fill="#fff">%Bedroom.LatestActivityTime%</text>
+</symbol>
+<symbol id="kidSymbol">
+ <ellipse id="kidLed" rx="6.5" ry="6.5" cx="7.5" cy="7.5" stroke-width="1.5" stroke="#f1e510" fill="none"/>
+ <ellipse id="kidLedBatt" rx="5" ry="5" cx="7.5" cy="7.5" stroke-width=".1" fill="#555f80"/>
+ <text id="kidTextT" font-size="3px" text-anchor="middle" y="7.5" x="7.5" fill="#fff">%Kinderroom.Temperature%</text>
+ <text id="kidTextH" font-size="2.5px" text-anchor="middle" y="10.5" x="7.5" fill="#fff">%Kinderroom.Humidity%%</text>
+ <path id="kidLeble" d="m11.5 0.6h29.7v13.7h-29.8c2.4-1.3 4.02-3.9 4.02-6.9 0-2.9-1.56-5.4-3.9-6.8z" stroke-width=".1" fill="#555f80" fill-opacity=".5"/>
+ <text id="kidTextDescription" font-size="3px" text-anchor="middle" x="27" y="5.5" fill="#fff">%Kinderroom.Title%</text>
+ <text id="kidTextUpdatedText" font-size="2px" text-anchor="middle" x="27" y="10" fill="#fff">%Kinderroom.LatestActivityTime%</text>
+</symbol>
+<symbol id="kuxnyaSymbol">
+ <ellipse id="kuxnyaLed" rx="6.5" ry="6.5" cx="7.5" cy="7.5" stroke-width="1.5" stroke="#f1e510" fill="none"/>
+ <ellipse id="kuxnyaLedBatt" rx="5" ry="5" cx="7.5" cy="7.5" stroke-width=".1" fill="#555f80"/>
+ <text id="kuxnyaTextT" font-size="3px" text-anchor="middle" y="7.5" x="7.5" fill="#fff">%Kitchen.Temperature%</text>
+ <text id="kuxnyaTextH" font-size="2.5px" text-anchor="middle" y="10.5" x="7.5" fill="#fff">%Kitchen.Humidity%%</text>
+ <path id="kuxnyaLeble" d="m11.5 0.6h29.7v13.7h-29.8c2.4-1.3 4.02-3.9 4.02-6.9 0-2.9-1.56-5.4-3.9-6.8z" stroke-width=".1" fill="#555f80" fill-opacity=".5"/>
+ <text id="kuxnyaTextDescription" font-size="3px" text-anchor="middle" x="27" y="5.5" fill="#fff">%Kitchen.Title%</text>
+ <text id="kuxnyaTextUpdatedText" font-size="2px" text-anchor="middle" x="27" y="10" fill="#fff">%Kitchen.LatestActivityTime%</text>
+</symbol>
+
+<symbol id="infSymbol1">
+ <ellipse id="infBatt1.1" rx="4" ry="4" cx="4" cy="4" stroke="#fff" stroke-width=".3" stroke-opacity=".2" fill="#555f80" fill-opacity=".1"/>
+ <path id="infBatt1.2" d="m3.7 2.6c-0.1 0.4-0.8 0.5-1.5 0.6 0.01 1.3 0.1 2.7 1.5 3.6 0.1 0.07 0.2 0.07 0.4 0 1.4-0.89 1.5-2.2 1.5-3.6-0.5-0.1-1.2-0.03-1.5-0.6-0.1-0.1-0.2-0.1-0.4 0z" stroke="#faf9e4" stroke-width="0.1" stroke-linejoin="round"/>
+ <path id="infBatt1.3" d="m0 4 3.9-4.1 4 4.1h-1.1v3.7h-5.6v-3.7z" fill-opacity=".6" stroke="#71c218" stroke-width="0.1" fill="#71c218" stroke-linejoin="round"/>
+</symbol>
+<symbol id="infSymbol2">
+ <ellipse id="infBatt2.1" rx="4" ry="4" cx="4" cy="4" stroke="#fff" stroke-width=".3" stroke-opacity=".2" fill="#555f80" fill-opacity=".1"/>
+ <path id="infBatt2.2" stroke-linejoin="round" d="m2.6 0.2c-6.3 3.1 0.2 12.05 5.2 5.5-3.08 1.7-8.1 0.2-5.2-5.5z" stroke="#fbf900" stroke-width=".1" fill="#fbf900" fill-opacity=".5" stroke-linecap="round"/>
+</symbol>
+<symbol id="infSymbol3">
+ <ellipse id="infBatt3.1" rx="4" ry="4" cx="4" cy="4" stroke="#fff" stroke-width=".3" stroke-opacity=".2" fill="#555f80" fill-opacity=".1"/>
+ <path id="infBatt3.2" d="m3.6 2.8c0-0.3 0.5-0.3 0.5-0.01v1.75l1.23 0.74c0.33 0.20 0.02 0.67-0.28 0.48l-1.54-0.95zm3.15 1.62a2.78 2.81 0 0 1 -2.78 2.81 2.78 2.81 0 0 1 -2.78 -2.81 2.78 2.81 0 0 1 2.78 -2.81 2.78 2.81 0 0 1 2.78 2.81zm0.61 0a3.47 3.49 0 0 1 -3.47 3.49 3.47 3.49 0 0 1 -3.47 -3.49 3.47 3.49 0 0 1 3.47 -3.49 3.47 3.49 0 0 1 3.47 3.49zm-1.75-3.81 0.51-0.58 1.81 1.53-0.51 0.58zm-5.57 0.94 1.81-1.49 0.51 0.5-1.8 1.49z" stroke-opacity=".8" fill-opacity=".5" stroke="#71c218" stroke-width=".1" fill="#71c218" fill-rule="evenodd"/>
+</symbol>
+<symbol id="infSymbol4">
+ <ellipse id="infBatt4.1" rx="4" ry="4" cx="4" cy="4" stroke="#fff" stroke-width=".3" stroke-opacity=".2" fill="#555f80" fill-opacity=".1"/>
+ <path id="infBatt4.2" d="m1.2 5.2c-0.1-0.7-0.1-1.5 0.1-2.2 0.7-1.2 2.08-2.2 3.5-2.3 1.1-0.1 2.2-0.00096 3.3 0.01 0.05 1.1-0.3 2.2-0.7 3.2-0.5 1.1-1.2 2.3-2.4 2.8-0.7 0.2-1.6 0.2-2.4-0.05-0.2-0.1-0.6-0.4-0.8-0.03-0.2 0.4-0.2 0.9-0.2 1.3-0.2 0.4-1.02 0.2-1.01-0.2-0.2-0.9 0.2-1.7 0.6-2.5z" fill="#71c218" fill-opacity=".5" stroke="#71c218" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1"/>
+</symbol>
+ </defs>
+ 
+<use xlink:href="/templates/yandexweather/img/skin/animated/cloudy-and-snow.svg" x="-50" y="-50"/>
+<use xlink:href="10.svg#icon-1" width="100%" height="100%"></use>
+<text font-size="9px" y="331" x="894" font-family="Sans" fill="#ff0000">00.022</text>
+ 
+ 
+ 
+ <rect id="fon" class="fil0 str0" width="270" height="158" stroke="#2b2a29" y="0" x="0" stroke-width=".1" fill="#2f2e2e"/>
+ <rect id="rect137240000" stroke-width=".2" width="36" y="113" x="70" height="16" fill="#444343"/>
+ <path id="stenki" d="m246.7 9.5h-31.3v10.16h-1.5v-10.1h-18.7v7.5h-1.5v-7.5h-61.8v3.2h0.003v5.3h-1.4v-3.9h-59.5v98.9h18.5v1.4h-18.5v14.9h36.1v-14.9h-0.974v-1.48431h2.4v0.008h22.01v-73.1h-0.003v-5.3h1.47902v3.8h31.4v1.4h-31.4v73.1h61.8v-73.1h-13.7v-1.4h13.8v-4.8h1.5v25.9h1.4v1.6h-1.4v60.5h51.5v-60.526h-33.5v-1.6h0.7v-3.3h1.5v3.4h31.2v-19.8h-31.2v3.1h-1.5v-14.1h1.5v9.4h31.3zm-138.5 105.1v16.4h-39.05v-17.8h0.06v-100.42h61.007v-4.7h85.1v0.02h32.8v31.6h-0.09v19.9h0.01v63.4h-54.5v-8.5h-61.9v0.008z" stroke-width=".2" class="fil2" fill="#fff"/>
+ <rect id="doorHall" height="2" width="16" y="7.8" x="169" stroke-width=".1" fill="#5b5b5b"/>
+
+ <rect id="win2" class="fil4 str0" height="2" width="36" stroke="#2b2a29" y="121" x="202" stroke-width=".6" fill="#00a0e3"/>
+ <rect id="win4" class="fil4 str0" height="2" width="39" stroke="#2b2a29" y="113" x="143" stroke-width=".6" fill="#00a0e3"/>
+ <rect id="win6" class="fil4 str0" height="2" width="18" stroke="#2b2a29" y="113" x="109" stroke-width=".6" fill="#00a0e3"/>
+ <rect id="win8" class="fil4 str0" height="2" width="34" stroke="#2b2a29" y="129" x="71" stroke-width=".6" fill="#00a0e3"/>
+
+ <rect id="hall" y="9.2" x="131.9" width="61.9" height="29.1" fill="#444" fill-opacity=".01"/>
+ <rect id="hallLight" y="9.2" x="131.9" width="61.9" height="29.1" fill="#fbf900" fill-opacity=".3"/>
+ <rect id="spalnya" y="14.2" x="71.1" width="59.4" height="98.7" fill="#444343" fill-opacity=".01"/>
+ <rect id="spalnyaLight" y="14.2" x="71.1" width="59.4" height="98.7" fill="#fbf900" fill-opacity=".3"/>
+ <rect id="kuxnya" width="51.5" y="61.1" x="195.4" height="60.4" fill="#444343" fill-opacity=".01"/>
+ <rect id="kuxnyaLight" width="51.5" y="61.1" x="195.4" height="60.4" fill="#fbf900" fill-opacity=".3"/>
+ <rect id="tualet" y="39.8" x="215.6" width="31.2" height="19.8" fill="#444" fill-opacity=".01"/>
+ <rect id="tualetLight" y="39.8" x="215.6" width="31.2" height="19.8" fill="#fbf900" fill-opacity=".3"/>
+
+
+
+ <path id="spalnyaKrovat" d="m73.6 74.04v23.6h31.1v-23.6l-0.6-0.5h-29.8zm11.4 1.1v21.3h-0.6v-21.3zm0.6 21.3v-18.4l3.8 18.4zm17.8 0h-12.7l-5.08-21.3h17.8zm-28.6-21.3h8.9v21.3h-8.9z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="spalnyaKrovatPodushka1" d="m82.5 94.2v-8.07h-5.7v8.6h5.7zm-5.08-0.5v-6.3h3.8v6.3z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="spalnyaKrovatPodushka2" d="m82.5 84.4v-8.07h-5.7v8.6h5.7zm-5.08-0.5v-6.3h3.8v6.3z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+
+<g id="kuxnyaStol">
+ <rect class="fil5 str0" rx=".4" ry=".4" height="15.3" width="27.4" stroke="#2b2a29" y="93" x="201.5" stroke-width=".6" fill="#fefefe"/>
+ <rect class="fil5 str0" height="2.1" width="8.3" stroke="#2b2a29" y="108.9" x="204.5" stroke-width=".6" fill="#fefefe"/>
+ <rect class="fil5 str0" rx=".3" ry=".3" height="1.4" width="9.6" stroke="#2b2a29" y="111.1" x="203.9" stroke-width=".6" fill="#fefefe"/>
+ <rect class="fil5 str0" height="2.1" width="8.3" stroke="#2b2a29" y="108.9" x="217.5" stroke-width=".6" fill="#fefefe"/>
+ <rect class="fil5 str0" rx=".3" ry=".3" height="1.4" width="9.6" stroke="#2b2a29" y="111.1" x="216.9" stroke-width=".624415" fill="#fefefe"/>
+ <rect class="fil5 str0" height="2.1" width="8.3" stroke="#2b2a29" y="90.2" x="217.5" stroke-width=".6" fill="#fefefe"/>
+ <rect class="fil5 str0" rx=".3" ry=".3" height="1.4" width="9.6" stroke="#2b2a29" y="88.8" x="216.9" stroke-width=".6" fill="#fefefe"/>
+ <rect class="fil5 str0" height="2.1" width="8.3" stroke="#2b2a29" y="90.2" x="204.5" stroke-width=".6" fill="#fefefe"/>
+ <rect class="fil5 str0" rx=".3" ry=".3" height="1.4" width="9.6" stroke="#2b2a29" y="88.8" x="203.9" stroke-width=".6" fill="#fefefe"/>
+</g>
+ 
+ 
+ <rect id="rect13768" fill-rule="evenodd" class="fil6 str0" rx=".87" ry=".87" height="24.98" width="12.44" stroke="#2b2a29" y="11.55" x="232.96" stroke-width=".6" fill="#9d9e9e"/>
+ <ellipse id="ellipse13770" fill-rule="evenodd" rx="5.01" ry="11.46" stroke="#2b2a29" cy="24.039" cx="239.188" stroke-width=".6" fill="#d9dada"/>
+ <rect id="rect13772" fill-rule="evenodd" height=".6" width="4.21" stroke="#2b2a29" stroke-miterlimit="22.92" y="35.92" x="237.08" stroke-width=".6" fill="#2b2a29"/>
+ <rect id="rect13774" fill-rule="evenodd" height="1.47" width="1.06" stroke="#2b2a29" stroke-miterlimit="22.92" y="34.50" x="238.65" stroke-width=".6" fill="#2b2a29"/>
+ <path id="path13776" d="m235.64 47.27c1.18 0 2.25 0.35 3.03 0.92v-2.77c0-0.48 0.35-0.88 0.79-0.88h2.90c0.43 0 0.79 0.39 0.79 0.88v9.73c0 0.48-0.35 0.88-0.79 0.88h-2.90c-0.43 0-0.79-0.39-0.79-0.88v-2.33c-0.78 0.57-1.85 0.92-3.03 0.92-2.39 0-4.33-1.45-4.33-3.24s1.94-3.24 4.33-3.24z" fill-rule="evenodd" stroke="#2b2a29" stroke-width=".624415" class="fil5 str0" fill="#fefefe"/>
+ <ellipse id="ellipse13778" fill-rule="evenodd" rx="2.95" ry="1.88" stroke="#2b2a29" class="fil9 str0" cy="50.63" cx="235.30" stroke-width=".6" fill="#b2b3b3"/>
+
+
+
+ <use id="szt00.032" xlink:href="#hallSymbol" width="100%" height="100%" x="142" y="15"/>
+ <use id="szt00.033" xlink:href="#spalSymbol" width="100%" height="100%" x="78" y="20"/>
+ <use id="szt00.034" xlink:href="#kidSymbol" width="100%" height="100%" x="142" y="65"/>
+ <use id="szt00.034" xlink:href="#kuxnyaSymbol" width="100%" height="100%" x="200" y="70"/>
+
+
+
+
+
+
+
+
+
+ <rect id="fonMenu" rx="3.38" ry="3.5" height="122.7" width="52.8" stroke="#2b2a29" y="7.5" x="5.8" stroke-width=".6" fill="#d9dada"/>
+
+ <text id="timeNow" font-size="11px" text-anchor="middle" y="20" x="24" stroke-width=".2" fill="#2b2a29">%ThisComputer.timeNow%</text>
+ <line id="line13820" stroke-width=".6" y2="30" y1="30.03" stroke="#2b2a29" stroke-miterlimit="22.92" x2="54.04" x1="9.8" fill="none"/>
+ <text id="temp" font-size="11px" text-anchor="middle" y="40" x="22" fill="#2b2a29">%yw_mycity.temp%°</text>
+ <text id="text13824" font-size="3px" text-anchor="start" y="46" x="14" fill="#2b2a29">Ощущается как</text>
+ <text id="feels_like" font-size="3px" text-anchor="start" y="46" x="38" fill="#2b2a29">%yw_mycity.feels_like%°</text>
+ <text id="text13828" font-size="3px" text-anchor="middle" y="46" x="36" fill="#2b2a29"/>
+ <text id="text13830" font-size="5px" text-anchor="middle" y="27" x="32" fill="#2b2a29">%Time.DayOfWeekTXT% %Time.DayOfMonthNum% %Time.MonthTXTalt%</text>
+
+ <line id="line13832" stroke-width=".6" y2="64" y1="64" stroke="#2b2a29" x2="54" x1="10" fill="none"/>
+
+ <use id="inf00.001" xlink:href="#infSymbol1" width="100%" height="100%" x="12" y="66"/>
+ <use id="inf00.002" xlink:href="#infSymbol2" width="100%" height="100%" x="22" y="66"/>
+ <use id="inf00.003" xlink:href="#infSymbol3" width="100%" height="100%" x="32" y="66"/>
+ <use id="inf00.004" xlink:href="#infSymbol4" width="100%" height="100%" x="42" y="66"/>
+
+ <path id="path13834" d="m76.1072 103.895v-0.55827h1.15623c0.07673 0 0.153458-0.0318 0.206375-0.0847 0.05292-0.0503 0.07937-0.12171 0.07408-0.19315l-0.201083-2.59291c-0.0106-0.137-0.1349-0.243-0.2831-0.243h-3.47926c-0.14552 0-0.269874 0.10583-0.280458 0.24341l-0.201083 2.59291c-0.0053 0.0714 0.02117 0.14288 0.07408 0.19315 0.05292 0.0529 0.129645 0.0847 0.206374 0.0847h1.15623v0.55827c0 0.14288 0.121709 0.2593 0.272521 0.26723v5.68853h-1.27529c-0.158749 0-0.288395 0.12171-0.288395 0.26988v0.35189c0 0.15081 0.129646 0.26988 0.288395 0.26988h3.57716c0.15875 0 0.288395-0.11907 0.288395-0.26988v-0.35189c0-0.14817-0.129645-0.26988-0.288395-0.26988h-1.27529v-5.68853c0.150812-0.008 0.27252-0.12435 0.27252-0.26723zm-2.65641-0.88106 0.190499-2.46591h3.35756l0.193146 2.46591zm2.30981 0.32279v0.50271h-0.878415v-0.50271zm1.29116 6.83682v0.24606h-3.46074v-0.24606zm-1.89706-0.32279v-5.68588h0.330729v5.68588z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <polygon id="light_livingroom__coner_on" fill-rule="evenodd" transform="matrix(.264583 0 0 .264583 .0369823 2.11307)" class="fil14" points="291.61 381.39 277.47 381.39 278.19 372.07 290.88 372.07" fill="#ffed00"/>
+ <path id="path13838" d="m125.685 103.895v-0.55827h1.15622c0.0794 0 0.15346-0.0318 0.20638-0.0847 0.0529-0.0503 0.082-0.12171 0.0741-0.19315l-0.20108-2.59291c-0.0106-0.13758-0.13229-0.24341-0.28046-0.24341h-3.47927c-0.14816 0-0.27252 0.10583-0.2831 0.24341l-0.20108 2.59291c-0.005 0.0714 0.0212 0.14288 0.0741 0.19315 0.0529 0.0529 0.12965 0.0847 0.20902 0.0847h1.15358v0.55827c0 0.14288 0.12171 0.2593 0.27252 0.26723v5.68853h-1.27264c-0.1614 0-0.29104 0.12171-0.29104 0.26988v0.35189c0 0.15081 0.12964 0.26988 0.29104 0.26988h3.57451c0.15875 0 0.2884-0.11907 0.2884-0.26988v-0.35189c0-0.14817-0.12965-0.26988-0.2884-0.26988h-1.27528v-5.68853c0.15345-0.008 0.27252-0.12435 0.27252-0.26723zm-2.65642-0.88106 0.19315-2.46591h3.35756l0.1905 2.46591zm2.30981 0.32279v0.50271h-0.87577v-0.50271zm1.29117 6.83682v0.24606h-3.4581v-0.24606zm-1.89442-0.32279v-5.68588h0.33073v5.68588z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <polygon id="light_livingroom__coner2_on" fill-rule="evenodd" transform="matrix(.264583 0 0 .264583 .0369823 2.11307)" class="fil14" points="478.99 381.39 464.85 381.39 465.58 372.07 478.27 372.07" fill="#ffed00"/>
+ <path id="path13842" d="m222.914 14.2574c-0.11377 0-0.20902-0.08996-0.20902-0.206375v-2.06639c0-0.11377 0.0953-0.206374 0.20902-0.206374 0.11377 0 0.20637 0.0926 0.20637 0.206374v2.06639c0 0.116417-0.0926 0.206375-0.20637 0.206375z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13844" d="m223.739 12.1937h-1.65364c-0.34132 0-0.61913-0.277812-0.61913-0.62177v-0.412749c0-0.11377 0.0926-0.206374 0.20638-0.206374 0.11377 0 0.20637 0.0926 0.20637 0.206374v0.412749c0 0.113771 0.0926 0.206375 0.20638 0.206375h1.65364c0.11377 0 0.20637-0.0926 0.20637-0.206375v-0.412749c0-0.11377 0.0926-0.206374 0.20638-0.206374 0.11377 0 0.20637 0.0926 0.20637 0.206374v0.412749c0 0.343958-0.27781 0.62177-0.61912 0.62177z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13846" d="m223.739 12.8128c-0.22754 0-0.41275-0.185208-0.41275-0.412749 0-0.230187 0.18521-0.415395 0.41275-0.415395s0.41275 0.185208 0.41275 0.415395c0 0.227541-0.18521 0.412749-0.41275 0.412749zm0-0.412749h0.20637z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13848" d="m222.914 18.7315c-0.28575 0-0.56885-0.02646-0.85196-0.07673-2.25954-0.412749-3.90259-2.37595-3.90259-4.67518v-2.4077c0-0.338666 0.27781-0.619123 0.62176-0.619123h2.0664c0.11377 0 0.20637 0.0926 0.20637 0.206374 0 0.113771-0.0926 0.206375-0.20637 0.206375h-2.0664c-0.11377 0-0.20637 0.0926-0.20637 0.206374v2.4077c0 2.09814 1.49754 3.89201 3.56129 4.26772 0.51593 0.09525 1.03981 0.09525 1.5531 0 2.06374-0.375708 3.56393-2.16958 3.56393-4.26772v-2.4077c0-0.111124-0.0926-0.206374-0.20638-0.206374h-2.06639c-0.11641 0-0.20637-0.0926-0.20637-0.206375 0-0.11377 0.09-0.206374 0.20637-0.206374h2.06639c0.34132 0 0.61913 0.280457 0.61913 0.619123v2.4077c0 2.29922-1.64042 4.26243-3.9026 4.67518-0.2831 0.05027-0.56621 0.07673-0.84931 0.07673z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13850" d="m222.914 17.9034c-0.35983 0-0.71702-0.04763-1.07685-0.148166-1.67746-0.473603-2.84956-2.07698-2.84956-3.9026v-0.04498c0-0.661456 0.53975-1.2012 1.20121-1.2012h0.95249c0.11378 0 0.20638 0.0926 0.20638 0.206374 0 0.113771-0.0926 0.206375-0.20638 0.206375h-0.95249c-0.43392 0-0.78846 0.354541-0.78846 0.788456v0.04498c0 1.64041 1.04775 3.08239 2.55058 3.50308 0.64823 0.182562 1.30439 0.179916 1.94733-0.0053 1.48695-0.428624 2.52676-1.8706 2.52676-3.50572 0-0.468311-0.35189-0.825498-0.78845-0.825498h-0.9525c-0.11113 0-0.20638-0.0926-0.20638-0.206375 0-0.11377 0.0952-0.206374 0.20638-0.206374h0.9525c0.6641 0 1.2012 0.542394 1.2012 1.20914 0 1.84679-1.16151 3.4528-2.82574 3.9317-0.36248 0.105833-0.73025 0.156104-1.09802 0.156104z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13852" d="m222.086 12.8128c-0.22755 0-0.41275-0.185208-0.41275-0.412749 0-0.230187 0.1852-0.415395 0.41275-0.415395 0.22754 0 0.41274 0.185208 0.41274 0.415395 0 0.227541-0.1852 0.412749-0.41274 0.412749zm0-0.412749h0.20637z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13854" d="m133.826 42.1233v12.6285c0 0.373061 0.30163 0.669394 0.6694 0.669394h26.5826c0.37042 0 0.66939-0.296333 0.66939-0.669394v-12.6285c0-0.373062-0.29897-0.67204-0.66939-0.67204h-26.5826c-0.36777 0-0.6694 0.298978-0.6694 0.67204zm10.2552 0.669394v11.2924h-0.39158v-11.2924zm0.73555 11.2924v-9.75781l3.37872 9.75781zm15.5919 0h-11.4353l-3.91318-11.2924h15.3485zm-25.242-11.2924h7.67555v11.2924h-7.67555z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13856" d="m141.856 52.1192v-7.36069c0-0.30427-0.24341-0.54504-0.54504-0.54504h-4.33651c-0.29898 0-0.54504 0.24077-0.54504 0.54504v7.36069c0 0.298978 0.24606 0.54504 0.54504 0.54504h4.33651c0.30163 0 0.54504-0.246062 0.54504-0.54504zm-4.33651-0.545041v-6.27061h3.24643v6.27061z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13858" d="m241.21 102.086 1.47902 2.24366h2.62995c0.10848 0 0.19579 0.0873 0.19579 0.19315v2.28864c0 0.11112-0.0873 0.19579-0.19579 0.19579h-2.62995l-1.47902 2.24366c-0.0529 0.61912-0.5715 1.10595-1.20385 1.10595-0.15346-0.0238-0.54769 0.0926-0.54769-0.19579v-8.98523c0-0.29104 0.39423-0.17198 0.54769-0.19579 0.63235 0 1.15093 0.48683 1.20385 1.10596zm3.91318 4.5323v-1.8997h-2.34421v1.8997zm-2.73579 0.13494v-2.16958l-1.1721-1.78064v5.73086zm-2.53999-5.38426v8.59894h0.15875c0.45243 0 0.81756-0.36777 0.81756-0.82021v-6.95852c0-0.45244-0.36513-0.82021-0.81756-0.82021z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13860" d="m238.257 106.271c0.13229 0.13229 0.34396 0.13229 0.47625 0 0.18256-0.18257 0.45773 0.0952 0.27517 0.27781-0.28311 0.2831-0.74348 0.2831-1.02658 0-0.1323-0.13229-0.34396-0.13229-0.47625 0-0.28311 0.2831-0.74348 0.2831-1.02658 0-0.18257-0.18256 0.0926-0.46038 0.27516-0.27781 0.13229 0.13229 0.34396 0.13229 0.47625 0 0.2831-0.28311 0.74348-0.28311 1.02658 0z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13862" d="m238.257 105.335c0.13229 0.1323 0.34396 0.1323 0.47625 0 0.0741-0.0767 0.19844-0.0767 0.27517 0 0.28575 0.28575-0.53711 0.76729-1.02658 0.27782-0.1323-0.1323-0.34396-0.1323-0.47625 0-0.28311 0.2831-0.74348 0.2831-1.02658 0-0.18257-0.18257 0.0926-0.46038 0.27516-0.27782 0.13229 0.1323 0.34396 0.1323 0.47625 0 0.2831-0.2831 0.74348-0.2831 1.02658 0z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13864" d="m238.257 104.398c0.13229 0.12965 0.34396 0.12965 0.47625 0 0.0741-0.0767 0.19844-0.0767 0.27517 0 0.28575 0.28575-0.53711 0.76729-1.02658 0.27517-0.1323-0.12965-0.34396-0.13229-0.47625 0-0.28311 0.2831-0.74348 0.2831-1.02658 0-0.17992-0.17992 0.09-0.46038 0.27516-0.27517 0.13229 0.12965 0.34396 0.12965 0.47625 0 0.2831-0.28575 0.74348-0.28575 1.02658 0z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13866" d="m206.078 27.4654h-2.46062c-0.12436 0-0.2249 0.100541-0.2249 0.224895v0.22225c0 0.121708 0.10054 0.222249 0.2249 0.222249h2.46062c0.12171 0 0.22225-0.100541 0.22225-0.222249v-0.22225c0.003-0.124354-0.0979-0.224895-0.22225-0.224895z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="path13868" d="m205.184 22.8405v-6.79184c0-0.124354-0.10054-0.222249-0.2249-0.222249h-0.22225c-0.1217 0-0.22225 0.09789-0.22225 0.222249v6.79184c-2.10607 0.171979-3.78353 1.9685-3.78353 4.10103v0.111125c0 0.121708 0.10054 0.222249 0.22225 0.222249h7.78932c0.12171 0 0.22225-0.100541 0.22225-0.222249v-0.111125c0-2.13254-1.67746-3.92905-3.78089-4.10103zm-3.76766 3.76501c0.17198-1.73566 1.66423-3.11149 3.43164-3.11149s3.26231 1.37583 3.43164 3.11149z" fill-rule="evenodd" stroke-width=".2" class="fil5" fill="#fefefe"/>
+ <path id="light_hall2_on" d="m201.424 26.6029c0.17198-1.73566 1.66687-3.11414 3.43428-3.11414 1.76477 0 3.25966 1.37848 3.43164 3.11414z" stroke-width=".2" class="fil14" fill="#ffed00"/>
+
+
+
+<g>
+ <path id="path13912" d="m38.26 38.78c0.0053 0.06-0.03 0.11-0.10 0.11-0.06 0.0053-0.11-0.04-0.11-0.10 0-0.0026-0.06-0.71 0.67-0.71 0.71 0 0.67 0.65 0.67 0.71 0 0.06-0.02 0.61-0.67 0.61h-3.11c-0.06 0-0.11-0.05-0.11-0.11 0-0.06 0.05-0.10 0.11-0.10h3.11c0.43 0 0.45-0.35 0.45-0.39v-0.01s0.05-0.47-0.45-0.47c-0.50 0-0.46 0.47-0.46 0.47z" stroke-width=".2" class="wind"/>
+ <path id="path13914" d="m39.77 39.21c-0.06 0-0.11-0.04-0.11-0.10 0-0.06 0.04-0.11 0.10-0.11 0.0026 0 0.52-0.01 0.52 0.46 0 0.45-0.41 0.42-0.46 0.42l-0.47 0.0026c-0.06 0-0.10-0.05-0.10-0.10 0-0.06 0.04-0.11 0.10-0.11l0.47-0.0026h0.02s0.21 0.02 0.21-0.20c0-0.24-0.30-0.24-0.30-0.24z" stroke-width=".2" class="wind"/>
+ <path id="path13916" d="m35.60 39.95c-0.06 0-0.11-0.04-0.11-0.10 0-0.06 0.05-0.11 0.11-0.11h2.83c0.10 0 1.01 0.01 1.02 0.98 0.01 1.01-0.95 1.02-0.95 1.02-0.06 0.0026-0.11-0.04-0.11-0.10-0.0026-0.06 0.04-0.11 0.10-0.11 0 0 0.74-0.0079 0.73-0.80-0.0079-0.74-0.71-0.76-0.79-0.76h-0.01z" stroke-width=".2" class="wind"/>
+ <path id="path13918" d="m37.87 41.17c-0.06 0.0026-0.11-0.04-0.11-0.10-0.0026-0.06 0.04-0.11 0.10-0.11 0 0 0.36-0.01 0.36-0.26 0-0.24-0.34-0.24-0.35-0.24v0.0026h-2.26c-0.06 0-0.11-0.05-0.11-0.11 0-0.06 0.05-0.11 0.11-0.11h2.26c0.0026 0 0.57 0 0.57 0.46 0 0.46-0.57 0.48-0.57 0.48z" stroke-width=".2" class="wind"/>
+</g>
+
+ <text id="wind_speed" font-size="3px" text-anchor="start" y="41" x="42" fill="#2b2a29">%yw_mycity.wind_speed% м\с</text>
+
+<g>
+ <path id="zontik" d="m38.21 32.97v-0.20c0-0.06-0.05-0.127-0.127-0.127-0.07 0-0.127 0.05-0.127 0.127v0.20c-1.08 0.06-1.92 0.96-1.93 2.05 0 0.07 0.05 0.127 0.12 0.127 0.05 0 0.10-0.03 0.12-0.09 0.02-0.07 0.06-0.19 0.10-0.23 0.06-0.06 0.15-0.10 0.25-0.10 0.19 0 0.35 0.15 0.35 0.35 0 0.07 0.05 0.12 0.127 0.12 0.07 0 0.127-0.05 0.127-0.12 0-0.19 0.16-0.35 0.35-0.35s0.35 0.15 0.35 0.35v1.29c0 0.07-0.06 0.14-0.14 0.14-0.07 0-0.14-0.06-0.14-0.14 0-0.07-0.05-0.127-0.12-0.127-0.06 0-0.127 0.05-0.127 0.127 0 0.21 0.17 0.39 0.39 0.39 0.21 0 0.39-0.17 0.39-0.39v-1.29c0-0.19 0.15-0.35 0.35-0.35 0.19 0 0.35 0.15 0.35 0.35 0 0.07 0.05 0.12 0.12 0.12 0.06 0 0.127-0.05 0.127-0.12 0-0.19 0.15-0.35 0.35-0.35 0.09 0 0.18 0.03 0.25 0.10 0.04 0.04 0.08 0.16 0.10 0.23 0.01 0.05 0.06 0.09 0.12 0.09 0.07 0 0.127-0.05 0.127-0.127 0-1.08-0.84-1.98-1.92-2.05zm1.31 1.49c-0.16 0-0.31 0.06-0.43 0.17-0.01 0.01-0.03 0.03-0.05 0.05-0.01-0.01-0.03-0.03-0.05-0.05-0.11-0.11-0.26-0.17-0.42-0.17-0.16 0-0.31 0.06-0.43 0.17-0.01 0.01-0.03 0.03-0.05 0.05h-0.0053c-0.11-0.14-0.29-0.23-0.47-0.23-0.16 0-0.31 0.06-0.43 0.17-0.01 0.01-0.03 0.03-0.05 0.05-0.01-0.01-0.03-0.03-0.05-0.05-0.11-0.11-0.26-0.17-0.43-0.17-0.09 0-0.19 0.02-0.28 0.07 0.21-0.77 0.92-1.31 1.73-1.31 0.80 0 1.51 0.53 1.73 1.31-0.08-0.04-0.18-0.07-0.28-0.071z" fill-rule="evenodd" stroke-width=".2" class="humidity"/>
+ <path d="m38.89 35.84c0.05-0.05 0.08-0.13 0.08-0.21 0-0.07-0.03-0.15-0.08-0.21l-0.21-0.21-0.21 0.21c-0.05 0.05-0.08 0.13-0.08 0.21 0 0.16 0.13 0.30 0.30 0.30 0.07 0 0.15-0.03 0.21-0.08z" fill-rule="evenodd" stroke-width=".2" class="humidity"/>
+ <path d="m39.68 36.25c0.05-0.05 0.08-0.13 0.08-0.21 0-0.08-0.03-0.16-0.08-0.21l-0.21-0.21-0.21 0.21c-0.05 0.05-0.08 0.13-0.08 0.21 0 0.16 0.13 0.30 0.30 0.30 0.07 0 0.15-0.02 0.21-0.08z" fill-rule="evenodd" stroke-width=".2" class="humidity"/>
+ <path d="m36.80 36.28c0.05 0.05 0.12 0.08 0.20 0.08 0.16 0 0.29-0.12 0.29-0.29 0-0.07-0.03-0.15-0.08-0.20l-0.20-0.20-0.20 0.20c-0.05 0.05-0.08 0.127-0.08 0.20 0 0.07 0.03 0.15 0.08 0.20z" fill-rule="evenodd" stroke-width=".2" class="humidity"/>
+ <path d="m36.56 35.07-0.20 0.20c-0.05 0.05-0.08 0.12-0.08 0.20 0 0.16 0.12 0.29 0.29 0.29 0.16 0 0.29-0.12 0.29-0.29 0-0.07-0.03-0.15-0.08-0.20z" fill-rule="evenodd" stroke-width=".2" class="humidity"/>
+</g>
+
+ <text id="humidity" font-size="3px" text-anchor="start" y="36" x="42" stroke-width=".2" fill="#2b2a29">%yw_mycity.humidity%%</text>
+
+ <line id="line14024" stroke-width=".6" y2="48" y1="48" stroke="#2b2a29" x2="54" x1="10" fill="none"/>
+
+ <path id="path15257" d="m72.42 118.79 32.27-0.13" fill-rule="evenodd" stroke="#000" stroke-width=".2px" fill="#4d4d4d"/>
+ <path id="path15259" d="m72.42 120.79 32.27-0.13" fill-rule="evenodd" stroke="#000" stroke-width=".2px" fill="#4d4d4d"/>
+ <path id="path15261" d="m72.42 122.80 32.27-0.13" fill-rule="evenodd" stroke="#000" stroke-width=".2px" fill="#4d4d4d"/>
+ <path id="path15263" d="m72.42 124.80 32.27-0.13" fill-rule="evenodd" stroke="#000" stroke-width=".2px" fill="#4d4d4d"/>
+ <path id="path15265" d="m72.42 126.81 32.27-0.13" fill-rule="evenodd" stroke="#000" stroke-width=".2px" fill="#4d4d4d"/>
+ <path id="path15267" d="m72.42 116.78 32.27-0.13" fill-rule="evenodd" stroke="#000" stroke-width=".2px" fill="#4d4d4d"/>
+
+
+ <text text-anchor="middle" font-size="3px" y="52" x="17" fill="#000">Утро</text>
+ <text text-anchor="middle" font-size="3px" y="52" x="27" fill="#000">День</text>
+ <text text-anchor="middle" font-size="3px" y="52" x="37" fill="#000">Вечер</text>
+ <text text-anchor="middle" font-size="3px" y="52" x="47" fill="#000">Ночь</text>
+
+ <use xlink:href="/templates/yandexweather/img/skin/animated/clear(1).svg#%yw_mycity.condition%" x="42" y="10" width="24" height="24"/>
+ <use xlink:href="/templates/yandexweather/img/skin/animated/clear(1).svg#%yw_mycity.forecast_0_morningcondition%" x="14" y="54" width="11" height="11"/>
+ <use xlink:href="/templates/yandexweather/img/skin/animated/clear(1).svg#%yw_mycity.forecast_0_daycondition%" x="24" y="54" width="11" height="11"/>
+ <use xlink:href="/templates/yandexweather/img/skin/animated/clear(1).svg#%yw_mycity.forecast_0_eveningcondition%" x="34" y="54" width="11" height="11"/>
+ <use xlink:href="/templates/yandexweather/img/skin/animated/clear(1).svg#%yw_mycity.forecast_0_nightcondition%" x="44" y="54" width="11" height="11"/>
+ 
+ <text id="text13954" font-size="2px" text-anchor="middle" y="61" x="17" fill="#000">%yw_mycity.forecast_0_morning_temp_avg%°</text>
+ <text id="text13958" font-size="2px" text-anchor="middle" y="61" x="27" fill="#000">%yw_mycity.forecast_0_day_temp_avg%°</text>
+ <text id="text13959" font-size="2px" text-anchor="middle" y="61" x="37" fill="#000">%yw_mycity.forecast_0_evening_temp_avg%°</text>
+ <text id="text13977" font-size="2px" text-anchor="middle" y="61" x="47" fill="#000">%yw_mycity.forecast_0_night_temp_avg%°</text>
+</svg>
