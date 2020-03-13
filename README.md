@@ -1,2 +1,2 @@
-# OkBitScenesSVG
-OkBitScenes с применением SVG
+# ScenesSVG
+Scenes с применением SVG
