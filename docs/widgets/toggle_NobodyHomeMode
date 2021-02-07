@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="NobodyHomeMode" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onclick="callMethod('NobodyHomeMode.switch');">
+ <title>%NobodyHomeMode.active|"Дома кто-то есть;Никого нет дома;"%</title>
+ <defs>
+  <linearGradient id="LGToggleOrange">
+   <stop id="stop908" stop-color="#ffd300" offset="0"/>
+   <stop id="stop906" stop-color="#f27b0f" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleGrey">
+   <stop id="stop23456" stop-color="#f9f9f9" offset="0"/>
+   <stop id="stop23458" stop-color="#5f5c5d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleGreen">
+   <stop id="stop11822" stop-color="#a9ff00" offset="0"/>
+   <stop id="stop11824" stop-color="#005600" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleRed">
+   <stop id="stop862" stop-color="#ff9488" offset="0"/>
+   <stop id="stop864" stop-color="#f10303" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="148" height="148" rx="74" ry="73" stroke="#ccc" y="1" x="1" stroke="#000" stroke-opacity=".4" fill='%NobodyHomeMode.active|"#ccc;orange;"%' fill-opacity=".6"/>
+ <rect width="140" height="140" y="5" x="5" rx="70" ry="73" fill='%NobodyHomeMode.active|"url(#LGToggleGrey);url(#LGToggleOrange);"%' fill-opacity=".8" stroke='%NobodyHomeMode.active|"#ccc;url(#LGToggleOrange);"%' stroke-width=".1" stroke-opacity=".8"/>
+ <ellipse rx="68" ry="68" cy="75" cx="75" stroke="#000" stroke-width="1.2" stroke-opacity=".4" fill="#f0f0f0" fill-opacity=".6">
+    <animate
+            attributeType="XML"
+            attributeName="stroke-opacity"
+            values="0.2;0.4;0.6;0.8;1;"
+            dur='%NobodyHomeMode.active|"0;1;"%s'
+            repeatCount="indefinite"/>
+ </ellipse>
+<symbol id="sNobodyHomeMode" viewBox="0 0 40 40">
+ <path id="home" d="m8.15 20.55 11.7-12.4l12 12.4h-3.36v11.3h-17v-11.3z" stroke='%NobodyHomeMode.active|"url(#LGToggleGreen);url(#LGToggleGrey);"%' stroke-width=".3" fill='%NobodyHomeMode.active|"url(#LGToggleGrey);url(#LGToggleGreen);"%' fill-opacity=".4"/>
+ <path d="m16 18.5c0-6.4 8.1-6.4 8.1 0m-9.4 1.64v6.04h10.6v-6.04z" stroke='%NobodyHomeMode.active|"url(#LGToggleGreen);url(#LGToggleGrey);"%' stroke-width=".5" fill='%NobodyHomeMode.active|"url(#LGToggleGrey);url(#LGToggleRed);"%' fill-opacity=".2"/>
+</symbol>
+ <use xlink:href="#sNobodyHomeMode" x="5" y="5" width="140" height="140"/>
+</svg>
