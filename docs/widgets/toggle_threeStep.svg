@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="toggle_threeStep" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="LGToggleOrange">
+   <stop id="stop908" stop-color="#ffd300" offset="0"/>
+   <stop id="stop906" stop-color="#f27b0f" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleGrey">
+   <stop id="stop23456" stop-color="#f9f9f9" offset="0"/>
+   <stop id="stop23458" stop-color="#5f5c5d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleGreen">
+   <stop id="stop11822" stop-color="#a9ff00" offset="0"/>
+   <stop id="stop11824" stop-color="#005600" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="418" height="148" rx="74" ry="73" stroke="#ccc" y="1" x="1" stroke="#000" stroke-opacity=".4" fill='%colorsBattscenarios.status|"#ccc;#ad4;#ffd300;"%' fill-opacity=".6"/>
+ <rect id="rect894" width="410" height="140" y="5" x="5" rx="70" ry="73"
+       fill='%colorsBattscenarios.status|"url(#LGToggleGrey);url(#LGToggleGreen);url(#LGToggleOrange);"%' fill-opacity=".8"
+       stroke='%colorsBattscenarios.status|"#ccc;#ad4;#ffd300;"%' stroke-width="0.1" stroke-opacity=".8"/>
+ <rect height="140" width="141" y="5" x="5" fill='#000' fill-opacity=".01" stroke="none" onclick="ajaxSetGlobal('colorsBattscenarios.status','0');"/> 
+ <rect height="140" width="141" y="5" x="139" fill='#000' fill-opacity=".01" stroke="none" onclick="ajaxSetGlobal('colorsBattscenarios.status','1');"/>
+ <rect height="140" width="141" y="5" x="279" fill='#000' fill-opacity=".01" stroke="none" onclick="ajaxSetGlobal('colorsBattscenarios.status','2');"/>
+ <ellipse rx="68" ry="68" cy="75" cx='%colorsBattscenarios.status|"75;210;344;"%' stroke="#000" stroke-width="1.2" stroke-opacity=".4" fill="#f0f0f0" fill-opacity=".6" onclick="callMethod('colorsBattscenarios.status.switch');">
+  <title>%colorsBattscenarios.status|"Режим 0;Режим 1;Режим 2;"%</title>
+ </ellipse>
+</svg>
