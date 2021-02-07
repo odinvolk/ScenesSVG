@@ -1,4 +1,4 @@
-/*<?php
+/* <?php
 SQLExec('
 CREATE TABLE IF NOT EXISTS `sys_date_format` (
   `ID` int(10) UNSIGNED NOT NULL,
@@ -16,4 +16,5 @@ INSERT INTO `sys_date_format` (`TITLE`, `FORMAT`, `LINKED_OBJECT`, `LINKED_PROPE
 (\'День недели\', \'n1\', \'Time\', \'DayOfWeek\');
 ');
   
-?>*/
+?>
+*/
