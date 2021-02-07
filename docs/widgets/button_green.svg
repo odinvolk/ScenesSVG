@@ -1,0 +1,19 @@
+<svg id="LGBattonGreen02" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 150" x="290" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+  <linearGradient id="LGToggleGrey">
+   <stop id="stop23456" stop-color="#f9f9f9" offset="0"/>
+   <stop id="stop23458" stop-color="#5f5c5d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleGreen">
+   <stop id="stop11822" stop-color="#a9ff00" offset="0"/>
+   <stop id="stop11824" stop-color="#005600" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="278" height="148" x="1" y="1" rx="74" ry="73" stroke="#000" stroke-miterlimit="10" stroke-width="1" fill="#0f0" fill-opacity=".6" stroke-opacity=".4"/>
+ <rect width="270" height="140" x="5" y="5" rx="70" ry="73" fill='%EconomMode.active|"url(#LGToggleGrey);url(#LGToggleGreen);"%' fill-opacity=".8" stroke-width="1"/>
+ <rect width="140" height="148" x="0" y="0" rx="74" ry="73" fill="#ccc" fill-opacity=".01" onclick="callMethod('EconomMode.deactivate');"/>
+ <rect width="140" height="148" x="140" y="0" rx="74" ry="73" fill="#000" fill-opacity=".01" onclick="callMethod('EconomMode.activate');"/>
+ <ellipse rx="68" ry="68" cy="75" cx='%EconomMode.active|"75;204;"%' stroke="#000" stroke-width="1.2" stroke-opacity=".4" fill="#f0f0f0" fill-opacity=".6" onclick="callMethod('EconomMode.switch');"> 
+  <title id="tEconomMode">%EconomMode.active|"Режим экономии выключен;Режим экономии включен;"%</title>
+ </ellipse> 
+</svg>
