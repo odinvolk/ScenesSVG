@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="toggle_oneStep" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="LGToggleOrange">
+   <stop id="stop908" stop-color="#ffd300" offset="0"/>
+   <stop id="stop906" stop-color="#f27b0f" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleGrey">
+   <stop id="stop23456" stop-color="#f9f9f9" offset="0"/>
+   <stop id="stop23458" stop-color="#5f5c5d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleGreen">
+   <stop id="stop11822" stop-color="#a9ff00" offset="0"/>
+   <stop id="stop11824" stop-color="#005600" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleRed">
+   <stop id="stop862" stop-color="#ff9488" offset="0"/>
+   <stop id="stop864" stop-color="#f10303" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect width="148" height="148" rx="74" ry="73" stroke="#ccc" y="1" x="1" stroke="#000" stroke-opacity=".4" fill='%EconomMode.active|"#ccc;red;"%' fill-opacity=".6"/>
+ <rect width="140" height="140" y="5" x="5" rx="70" ry="73" fill='%EconomMode.active|"url(#LGToggleGrey);url(#LGToggleRed);"%' fill-opacity=".8" stroke='%EconomMode.active|"#ccc;red;"%' stroke-width="0.1" stroke-opacity=".8"/>
+ <ellipse rx="68" ry="68" cy="75" cx="75" stroke="#000" stroke-width="1.2" stroke-opacity=".4" fill="#f0f0f0" fill-opacity=".6" onclick="callMethod('EconomMode.switch');">
+  <title>%EconomMode.active|"Режим 0;Режим 1;"%</title>
+ </ellipse>
+</svg>
