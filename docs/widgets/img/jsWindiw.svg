@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 170" version="1.1">
+ <script><![CDATA[
+function shows(evt, node)
+{
+        var svgdoc = evt.target.ownerDocument;
+        var obj = svgdoc.getElementById(node);
+        obj.setAttribute("display", "block");
+}
+function hides(evt, node)
+{
+        var svgdoc = evt.target.ownerDocument;
+        var obj = svgdoc.getElementById(node);
+        obj.setAttribute("display" , "none");
+}
+]]></script>
+<g id="msg22"  display="none" onclick="hides(evt, 'msg22');" transform="scale(1) rotate(0)">
+ <circle id="path817" opacity=".9" cx="85" fill-opacity=".3" cy="85" r="85" fill="#262626"/>
+ <circle opacity=".9" fill-rule="evenodd" cx="128.58" cy="43.4" r="20" fill="#1987ff"/>
+ <circle opacity=".9" fill-rule="evenodd" cx="27.9" cy="86.26" r="20" fill="#feb414"/>
+ <circle opacity=".9" fill-rule="evenodd" cx="41.4" cy="43.4" r="21" fill="#505078"/>
+ <path fill-rule="evenodd" fill="#fffffc" d="m26.614 29.95 1.65 1.207c-6.35 7.86-6.47 16.204.06 24.519-.57.38-1.14.78-1.71 1.16-7.24-7.90-6.59-19.709.008-26.891z"/>
+ <path fill-rule="evenodd" fill="#fffffc" d="m56.21 29.95-1.65 1.207c6.35 7.86 6.47 16.204-.06 24.519.57.38 1.14.78 1.71 1.16 7.24-7.90 6.59-19.709-.008-26.891z"/>
+ <text style="text-anchor:middle" font-size="21px" y="42.18" x="50%" font-family="Ubuntu" fill="#fff">481</text>
+ <circle opacity=".9" cx="142" fill-opacity=".7" cy="86.26" r="20" fill="#464545" onclick="myWindow2.minimize()"/>
+ <circle opacity=".9" cx="128.58" fill-opacity=".7" cy="128.05" r="20" fill="#464545" onclick="myWindow2.hide()"/>
+ <circle opacity=".9" cx="41.41" fill-opacity=".7" cy="128.05" r="20" fill="#464646" onclick="myWindow2.show()"/>
+</g>
+ <circle opacity=".9" style="paint-order:normal" fill-rule="evenodd" cx="85" cy="85" r="25" fill="#1a87fe" stroke="#1a87fe" stroke-width="0"
+         onclick="shows(evt, 'msg22'); shows(evt, 'path817');"
+         onmouseout="this.style.stroke = '#00000'; this.style['stroke-width'] = 0;" 
+         onmouseover="this.style.stroke = '#d9000'; this.style['stroke-width'] = 3;"/>
+ <path stroke-linejoin="round" d="m67.79 70.27 1.735 1.347c-6.2412 8.9936-8.0059 17.95 0 26.826l-.35858.26567-1.3764 1.0198c-8.4383-10.166-6.9044-19.603 0-29.458z" 
+       fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width=".1" fill="#fff"/>
+ <path stroke-linejoin="round" d="m102.2 70.28-1.735 1.347c6.2412 8.9936 8.0059 17.95 0 26.826l.35857.26567 1.3765 1.0198c8.4383-10.166 6.9044-19.603 0-29.458z" 
+       fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width=".1" fill="#fff"/>
+ <path d="m81.93 75.52c0-2.28 3.06-2.28 3.06 0v2.45h5.50c.37.81.27 1.58 0 2.33h-5.50v2.33h5.50c.44614.77252.37718 1.5536 0 2.3399h-5.5041v2.3399h5.5041c.49481.79169.32178 1.5676 0 2.3399h-5.5041l.0001 2.0959c2.0526 1.3863 1.2671 5.0191-1.5135 5.0325-2.7468.0316-3.5715-3.5514-1.553-5.0325z"
+       fill-rule="evenodd" fill="#fff"/>
+</svg>
