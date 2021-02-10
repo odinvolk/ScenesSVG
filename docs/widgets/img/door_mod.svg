@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>%Openclose01.status|"Дверь закрыта;Дверь открыта;"%</title>
+ <defs>
+  <linearGradient id="LGToggleOrange">
+   <stop id="stop908" stop-color="#ffd300" offset="0"/>
+   <stop id="stop906" stop-color="#f27b0f" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleGrey">
+   <stop id="stop23456" stop-color="#f9f9f9" offset="0"/>
+   <stop id="stop23458" stop-color="#5f5c5d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleGreen">
+   <stop id="stop11822" stop-color="#a9ff00" offset="0"/>
+   <stop id="stop11824" stop-color="#005600" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleRed">
+   <stop id="stop862" stop-color="#ff9488" offset="0"/>
+   <stop id="stop864" stop-color="#f10303" offset="1"/>
+  </linearGradient>
+<symbol id="Door129" viewBox="0 0 40 40" preserveAspectRatio="xMidYMid meet">
+ <path d="m14 10 12.2.01187.0033 18.992-12.2.0021z" fill="#8d6e63" fill-rule="evenodd" stroke="#8d6f62" stroke-width=".3" stroke-opacity=".5"/>
+ <path d="m13.8 10.4 7.2-.88.0174 21-7.2581-1.1142z" opacity=".9" fill="#ff5722" stroke="#9c5722" stroke-width=".3" stroke-opacity=".5" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m19.5 21.115h.61098v2.413h-.61098z" opacity=".9" fill="#bf360c" stroke="#9c5722" stroke-width=".1" stroke-linejoin="round" stroke-linecap="round"/> 
+</symbol>
+ </defs>
+ <rect width="148" height="148" rx="74" ry="74" stroke="#ccc" y="1" x="1" stroke="#000" stroke-opacity=".4" fill='%Openclose01.status|"#ccc;red;"%' fill-opacity=".6"/>
+ <rect width="140" height="140" y="5" x="5" rx="70" ry="70" fill='%Openclose01.status|"url(#LGToggleGrey);url(#LGToggleRed);"%' fill-opacity=".8" stroke='%.value|"#ccc;red;"%' stroke-width=".1" stroke-opacity=".8">
+  <animate attributeType="XML" attributeName="stroke-width" values="0.5;0.7;1;1.5;2;2.5;3;" dur='%.value|"0;1;"%s' repeatCount="indefinite"/>
+ </rect>
+<ellipse rx="68" ry="68" cy="75" cx="75" stroke="#000" stroke-width="1.2" stroke-opacity=".4" fill="#f0f0f0" fill-opacity=".6" onclick="callMethod('Openclose01.statusUpdated');">
+   <animate attributeType="XML" attributeName="fill-opacity" values="0.4;0.6;0.8;1;" dur='%Openclose01.status|"0;1;"%s' repeatCount="indefinite"/>
+ </ellipse>
+ <use xlink:href="#Door129" x="5" y="5" width="140" height="140"/>
+</svg>
