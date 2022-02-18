@@ -33,14 +33,9 @@ function atualizar() {
 window.onload = inic;
 </script>
   <defs>
-    <filter
-        id="sombra"
-      >
-      <feGaussianBlur
-          stdDeviation="4"
-      />
-    </filter
-    >
+    <filter id="sombra">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
     <linearGradient
         id="metal1"
         y2=".8"
@@ -231,131 +226,48 @@ window.onload = inic;
       y="42"
       x="135"
   />
-  <rect
-      id="segundos"
-      style="stroke:#FFF;fill:#138AD1"
-      rx="3"
-      height="110"
-      width="6"
-      y="31"
-      x="136"
-  />
-  <circle
-      cy="138"
-      cx="139"
-      r="8"
-      style="stroke:#FFF;fill:#138AD1"
-  />
-  <path
-      style="fill:url(#ref1)"
-      d="m139 8c-65 0-119 48-128 110 37-16 81-25 128-25s91 9 128 25c-9-62-63-110-128-110z"
-      transform="rotate(-15 139 138)"
-  />
-  <path
-      style="fill:url(#ref2)"
-      d="m39 196c21 35 58 58 101 58s80-28 101-58c-24 17-60 28-101 28s-77-11-101-28z"
-      transform="rotate(-15 139 138)"
-  />
+  <rect id="segundos" style="stroke:#FFF;fill:#138AD1" rx="3" height="110" width="6" y="31" x="136"/>
+  <circle cy="138" cx="139" r="8" style="stroke:#FFF;fill:#138AD1"/>
+  <path style="fill:url(#ref1)" d="m139 8c-65 0-119 48-128 110 37-16 81-25 128-25s91 9 128 25c-9-62-63-110-128-110z" transform="rotate(-15 139 138)"/>
+  <path style="fill:url(#ref2)" d="m39 196c21 35 58 58 101 58s80-28 101-58c-24 17-60 28-101 28s-77-11-101-28z" transform="rotate(-15 139 138)"/>
   <metadata>
-    <rdf:RDF
-      >
-      <cc:Work
-        >
-        <dc:format
-          >image/svg+xml</dc:format
-        >
-        <dc:type
-            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
-        />
-        <cc:license
-            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
-        />
-        <dc:publisher
-          >
-          <cc:Agent
-              rdf:about="http://openclipart.org/"
-            >
-            <dc:title
-              >Openclipart</dc:title
-            >
-          </cc:Agent
-          >
-        </dc:publisher
-        >
-        <dc:title
-          >Relógio Analógico</dc:title
-        >
-        <dc:date
-          >2010-12-22T15:14:17</dc:date
-        >
-        <dc:description
-          >Relógio analógico que marca a hora com javascript.\nVocê precisa abrir o SVG para ver o relógio funcionanado.\n\n* Alguns dos pontos estão com a localização errada!</dc:description
-        >
-        <dc:source
-          >https://openclipart.org/detail/101581/relógio-analógico-by-guerreiro</dc:source
-        >
-        <dc:creator
-          >
-          <cc:Agent
-            >
-            <dc:title
-              >Guerreiro</dc:title
-            >
-          </cc:Agent
-          >
-        </dc:creator
-        >
-        <dc:subject
-          >
-          <rdf:Bag
-            >
-            <rdf:li
-              >analog</rdf:li
-            >
-            <rdf:li
-              >analógico</rdf:li
-            >
-            <rdf:li
-              >animation</rdf:li
-            >
-            <rdf:li
-              >animação</rdf:li
-            >
-            <rdf:li
-              >clock</rdf:li
-            >
-            <rdf:li
-              >javascript</rdf:li
-            >
-            <rdf:li
-              >relogio</rdf:li
-            >
-            <rdf:li
-              >watch</rdf:li
-            >
-          </rdf:Bag
-          >
-        </dc:subject
-        >
-      </cc:Work
-      >
-      <cc:License
-          rdf:about="http://creativecommons.org/licenses/publicdomain/"
-        >
-        <cc:permits
-            rdf:resource="http://creativecommons.org/ns#Reproduction"
-        />
-        <cc:permits
-            rdf:resource="http://creativecommons.org/ns#Distribution"
-        />
-        <cc:permits
-            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
-        />
-      </cc:License
-      >
-    </rdf:RDF
-    >
-  </metadata
-  >
-</svg
->
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Relógio Analógico</dc:title>
+        <dc:date>2010-12-22T15:14:17</dc:date>
+        <dc:description>Relógio analógico que marca a hora com javascript.\nVocê precisa abrir o SVG para ver o relógio funcionanado.\n\n* Alguns dos pontos estão com a localização errada!</dc:description>
+        <dc:source>https://openclipart.org/detail/101581/relógio-analógico-by-guerreiro</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Guerreiro</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>analog</rdf:li>
+            <rdf:li>analógico</rdf:li>
+            <rdf:li>animation</rdf:li>
+            <rdf:li>animação</rdf:li>
+            <rdf:li>clock</rdf:li>
+            <rdf:li>javascript</rdf:li>
+            <rdf:li>relogio</rdf:li>
+            <rdf:li>watch</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

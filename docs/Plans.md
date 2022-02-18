@@ -1,4 +1,4 @@
-# Last.FM
+# Планы помещений
 
 If you have a Last.FM account, RompЯ will scrobble tracks to it and allow you to Love and add tags to tracks. If you use Mopidy-Spotify you will also be able to use your scrobbles to [generate radio stations](/RompR/Music-Discovery) like the old Last.FM Mix radio.
 
