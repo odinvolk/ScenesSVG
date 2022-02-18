@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "ru-RU" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+{% seo %}
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+          <img id="logo" src="images/favicon-128.png" />
+        <a href="{{ '/' | absolute_url }}">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        </a>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <p class="slogan">Слушай больше, узнай больше, расслабься больше</p>
+        {% if site.github.is_project_page %}
+          <a href="{{ site.github.repository_url }}" class="button"><small>Посмотреть проект на</small> GitHub</a>
+        {% endif %}
+        {% if site.github.is_user_page %}
+          <a href="{{ site.github.owner_url }}" class="button"><small>Следуй за мной на</small> GitHub</a>
+        {% endif %}
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          {{ content }}
+        </section>
+
+        <aside id="sidebar">
+          {% if site.show_downloads %}
+            <a href="{{ site.github.zip_url }}" class="button">
+              <small>Загрузить</small>
+              .zip файл
+            </a>
+            <a href="{{ site.github.tar_url }}" class="button">
+              <small>Загрузить</small>
+              .tar.gz файл
+            </a>
+          {% endif %}
+
+          <a href="https://odinvolk.github.io/ScenesSVG/releases" class="button download"><small><b>Загрузить свежий релиз</b></small></a>
+
+          <h3>Ресурсы MajorDoMo</h3>
+
+
 ghgghghgfhfh
+
+
+
+
+
+
+
+       </aside>
+     </div>
+   </div>
+  </body>
+</html>
