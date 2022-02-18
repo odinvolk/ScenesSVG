@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" style="position:absolute;cursor:pointer;" version="1.1">
+<svg id="menuRaibowhome" class="p" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" version="1.1" style="position:absolute;">
+ <defs>
+   <symbol id="symbolLampa" preserveAspectRatio="xMidYMid slice" viewBox="0 0 80 80">
+     <path id="slampa" d="m 6.5,23.4 c 3.4,0.02 6.8,0.04 10.2,0.06 -0.01,1.6 -0.03,3.2 -0.05,4.9 -3.4,0.0025 -6.8,0.0037 -10.2,0.0062 0.01,-1.6 0.02154,-3.320921 0.03231,-4.981257 z m 1.926765,9.89173 c 0.06586,0.700106 0.131843,1.400139 0.197765,2.100331 1.8458028,0.0148 3.6917288,0.02947 5.5375318,0.04427 0.07391,-0.690747 0.147825,-1.381518 0.221731,-2.072215 -1.985692,-0.02405 -3.971385,-0.04822 -5.9570768,-0.07239 z m -2.062446,-0.02466 c 0.05422,-3.94626 0.108446,-7.892396 0.162656,-11.838656 C 3.2488192,18.35245 0.46674518,15.758236 0.50029418,11.079598 0.48915418,7.7897529 2.5407052,3.3946209 5.5063692,2.0561399 c 4.130091,-1.93915597 9.2028918,-2.37138097 12.8624338,0.492959 2.529653,1.955311 3.724411,4.508214 4.017066,8.5798871 -0.474487,4.605141 -0.923186,5.242196 -5.557587,10.382531 -0.0416,3.981529 -0.08331,7.96318 -0.124923,11.944708 -3.438689,-0.0418 -6.8772548,-0.08348 -10.3159448,-0.125302 z" 
+          stroke="#fff" stroke-linejoin="round" stroke-width="2px" fill="none"/>
+   </symbol>
+  </defs>
+  <circle id="menuRaibowhome1" opacity=".6" style="paint-order:normal" fill-rule="evenodd" cx="50%" cy="50%" r="38" fill="#feb414" stroke="#feb414" stroke-width="0"
+          onmouseout="this.style.stroke = '#red'; this.style['stroke-width'] = 0;" onmouseover="this.style.stroke = '#red'; this.style['stroke-width'] = 3;">
+   <title>Свет детская</title>
+  </circle>
+  <use xlink:href="#symbolLampa" x="28" y="22" width="80" height="80"/>
+<!--  <use transform="translate(28 20)" width="100%" height="100%" xlink:href="#symbolLampa"/> -->
+</svg>
+<script>
+$(document).ready(function(){
+    $("#menuRaibowhome1").click(function(){
+        $("#menuRaibowhomeModals").show();
+    });
+    $("#menuRaibowhome2").click(function(){
+        $("#menuRaibowhomeModals").hide();
+    });
+});
+$(document).ready(function(){
+    $("#menuRaibowhome1").click(function(){
+        $("#menuRaibowhomeModals").animate({
+            left: '-80',
+            top: '-80',
+            opacity: '0.9',
+            height: '200px',
+            width: '200px'
+        });
+    });
+});
+</script>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="menuRaibowhomeModals" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 530" style="position:absolute;cursor:pointer;" display="none" version="1.1">
+ <defs>
+  <linearGradient id="linearGradient1044" y2="170" gradientUnits="userSpaceOnUse" x2="260" y1="4" x1="260">
+   <stop id="stop1036" stop-color="#ff9a26" offset="0"/>
+   <stop id="stop1038" stop-color="#ff9a26" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1060" y2="310" gradientUnits="userSpaceOnUse" x2="170" y1="400" x1="25">
+   <stop id="stop1054" stop-color="#00aed2" offset="0"/>
+   <stop id="stop1056" stop-color="#00aed2" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1068" y2="360" gradientUnits="userSpaceOnUse" x2="260" y1="530" x1="250">
+   <stop id="stop1062" stop-color="#123a98" offset="0"/>
+   <stop id="stop1064" stop-color="#123a98" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1076" y2="310" gradientUnits="userSpaceOnUse" x2="340" y1="400" x1="480">
+   <stop id="stop1070" stop-color="#980952" offset="0"/>
+   <stop id="stop1072" stop-color="#980952" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1084" x1="480" spreadMethod="reflect" gradientUnits="userSpaceOnUse" x2="330" y1="130" y2="220">
+   <stop id="stop1078" stop-color="#ee292a" offset="0"/>
+   <stop id="stop1080" stop-color="#ee292a" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1098" y2="220" gradientUnits="userSpaceOnUse" x2="170" y1="130" x1="25">
+   <stop id="stop1092" stop-color="#75c02a" offset="0"/>
+   <stop id="stop1094" stop-color="#75c02a" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+<g id="menuRaibowhome2"> 
+ <path d="m195.06 259.95 70-68 34 34v-11h15v25l20 20h-20v68h-100v-68z" fill="#e2172b" stroke="#red" stroke-width=".1" onmouseout="this.style.stroke = '#red'; this.style['stroke-width'] = 0;" onmouseover="this.style.stroke = '#red'; this.style['stroke-width'] = 5;"/>
+ <text x="50%" y="50%" fill="#fff" font-family="FreeSans" font-size="34px" font-weight="600" text-anchor="middle" filter="url(#mFil)">Алиса</text>
+</g>
+<g id="menu34324324">
+ <path d="m375.06 89.95h99l49 85-49 85h-99l-48-85z" fill-rule="evenodd" stroke="#000" stroke-width=".1" fill="url(#linearGradient1084)"
+       onclick="ajaxSetGlobal('colorsBattscenarios.status','0');"/>
+ <path d="m64.058 89.95 99 .00003 48 85-48 85h-99.002l-49-85z" fill-rule="evenodd" stroke="#000" stroke-width=".1" fill="url(#linearGradient1098)"
+       onclick="ajaxSetGlobal('colorsBattscenarios.status','0');"/>
+ <path d="m219.76 0.45 99 5e-7 49 85-49 85h-99l-49-85z" fill-rule="evenodd" stroke="#000" stroke-width=".1" fill="url(#linearGradient1044)"
+       onclick="ajaxSetGlobal('colorsBattscenarios.status','0');"/>
+ <path d="m375.06 439.95h99l49-85-49-85h-99l-48 85z" fill-rule="evenodd" stroke="#000" stroke-width=".1" fill="url(#linearGradient1076)"
+       onclick="ajaxSetGlobal('colorsBattscenarios.status','2');"/>
+ <path d="m64.058 439.95 99-.00003 48-85-48-85h-99.002l-49 85z" fill-rule="evenodd" stroke="#000" stroke-width=".1" fill="url(#linearGradient1060)"
+       onclick="ajaxSetGlobal('colorsBattscenarios.status','1');"/>
+ <path d="m219.76 529.95h99l49-85-49-85h-99l-49 85z" fill-rule="evenodd" stroke="#000" stroke-width=".1" fill="url(#linearGradient1068)"
+       onclick="ajaxSetGlobal('colorsBattscenarios.status','0');"/>
+</g>
+</svg></svg>
