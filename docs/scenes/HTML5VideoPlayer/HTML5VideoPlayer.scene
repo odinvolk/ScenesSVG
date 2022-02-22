@@ -1,0 +1,69 @@
+<br />
+<b>Warning</b>:  Use of undefined constant PMA_USR_BROWSER_AGENT - assumed 'PMA_USR_BROWSER_AGENT' (this will throw an Error in a future version of PHP) in <b>/var/www/html/modules/scenes/scenes.class.php</b> on line <b>406</b><br />
+<br />
+<b>Warning</b>:  Use of undefined constant PMA_USR_BROWSER_AGENT - assumed 'PMA_USR_BROWSER_AGENT' (this will throw an Error in a future version of PHP) in <b>/var/www/html/modules/scenes/scenes.class.php</b> on line <b>406</b><br />
+<br />
+<b>Warning</b>:  Use of undefined constant PMA_USR_BROWSER_AGENT - assumed 'PMA_USR_BROWSER_AGENT' (this will throw an Error in a future version of PHP) in <b>/var/www/html/modules/scenes/scenes.class.php</b> on line <b>410</b><br />
+a:1:{s:10:"SCENE_DATA";a:10:{s:5:"TITLE";s:16:"HTML5VideoPlayer";s:10:"BACKGROUND";s:0:"";s:8:"PRIORITY";s:5:"18000";s:6:"HIDDEN";s:1:"1";s:9:"WALLPAPER";s:0:"";s:15:"WALLPAPER_FIXED";s:1:"0";s:18:"WALLPAPER_NOREPEAT";s:1:"0";s:10:"AUTO_SCALE";s:1:"0";s:18:"DEVICES_BACKGROUND";s:0:"";s:8:"ELEMENTS";a:1:{i:0;a:30:{s:2:"ID";s:3:"415";s:5:"TITLE";s:18:"html5-video-player";s:4:"TYPE";s:4:"html";s:3:"TOP";s:2:"60";s:4:"LEFT";s:2:"50";s:5:"WIDTH";s:3:"640";s:6:"HEIGHT";s:3:"400";s:11:"CROSS_SCENE";s:1:"0";s:10:"BACKGROUND";s:1:"1";s:10:"JAVASCRIPT";s:0:"";s:3:"CSS";s:334:"@import url("/templates_alt/html5-video-player/css/px-video.css");
+
+#wrapper {
+	width: 640px;
+	margin: 1em auto;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#brand a,
+p a {
+	border: 1px #fff dotted;
+}
+#brand a:focus,
+p a:focus {
+	border: 1px #999 dotted;
+	outline: none;
+}
+p {
+	padding-top: 1em;
+}
+";s:2:"DX";s:1:"0";s:2:"DY";s:1:"0";s:17:"LINKED_ELEMENT_ID";s:1:"0";s:8:"PRIORITY";s:1:"0";s:9:"CSS_STYLE";s:8:"white_bg";s:13:"POSITION_TYPE";s:1:"0";s:12:"CONTAINER_ID";s:1:"0";s:9:"S3D_SCENE";s:0:"";s:12:"SMART_REPEAT";s:1:"0";s:13:"LINKED_OBJECT";s:0:"";s:15:"LINKED_PROPERTY";s:0:"";s:13:"LINKED_METHOD";s:0:"";s:11:"EASY_CONFIG";s:1:"0";s:11:"WIZARD_DATA";s:0:"";s:16:"APPEAR_ANIMATION";s:1:"0";s:6:"SYSTEM";s:0:"";s:9:"DEVICE_ID";s:1:"0";s:14:"CLASS_TEMPLATE";s:0:"";s:6:"STATES";a:1:{i:0;a:27:{s:5:"TITLE";s:7:"Default";s:5:"IMAGE";s:0:"";s:4:"HTML";s:1203:"<div id="wrapper">
+
+
+
+<div class="px-video-container" id="myvid">
+	<div class="px-video-img-captions-container">
+		<div class="px-video-captions hide"></div>
+		<video width="640" height="360" poster="%HTML5VP1.Poster%" controls>
+			<!-- video files -->
+			<source src="%HTML5VP1.Video%" type="%HTML5VP1.Type%" />
+
+			<!-- text track file -->
+			<track kind="captions" label="Russian captions" src="/media/captions.vtt" srclang="ru" default />
+
+			<!-- fallback for browsers that don't support the video element			 -->
+			<div>
+				<a href="%HTML5VP1.Video%">
+					<img src="%HTML5VP1.Poster%" width="640" height="360" alt="download video" />
+				</a>
+			</div>
+
+		</video>
+	</div><!-- end container for captions and video -->
+	<div class="px-video-controls"></div>
+</div><!-- end video container -->
+
+
+</div><!-- end page wrapper container -->
+<script src="/templates_alt/html5-video-player/js/strings.js"></script>
+<script src="/templates_alt/html5-video-player/js/px-video.js"></script>
+
+<script>
+
+// Initialize
+new InitPxVideo({
+	"videoId": "myvid",
+	"captionsOnDefault": true,
+	"seekInterval": 20,
+	"videoTitle": "Majordomo",
+	"debug": true
+});
+
+</script>
+";s:10:"IS_DYNAMIC";s:1:"0";s:13:"CURRENT_STATE";s:1:"1";s:13:"LINKED_OBJECT";s:0:"";s:15:"LINKED_PROPERTY";s:0:"";s:9:"CONDITION";s:1:"1";s:15:"CONDITION_VALUE";s:0:"";s:18:"CONDITION_ADVANCED";s:0:"";s:9:"SCRIPT_ID";s:1:"0";s:12:"SWITCH_SCENE";s:1:"0";s:14:"CURRENT_STATUS";s:1:"0";s:13:"ACTION_OBJECT";s:0:"";s:13:"ACTION_METHOD";s:0:"";s:12:"MENU_ITEM_ID";s:1:"0";s:11:"WINDOW_POSX";s:1:"0";s:11:"WINDOW_POSY";s:1:"0";s:12:"WINDOW_WIDTH";s:1:"0";s:13:"WINDOW_HEIGHT";s:1:"0";s:11:"HOMEPAGE_ID";s:1:"0";s:7:"EXT_URL";s:0:"";s:8:"PRIORITY";s:1:"0";s:4:"CODE";s:0:"";s:13:"OPEN_SCENE_ID";s:1:"0";s:10:"S3D_OBJECT";s:0:"";s:10:"S3D_CAMERA";s:0:"";}}}}}}
