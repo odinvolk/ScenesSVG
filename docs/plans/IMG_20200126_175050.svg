@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="shemaHome3" width="1169" height="929" version="1.1" viewBox="0 0 969 729" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs id="defs57">
+		<pattern id="palermo" x="23" y="-3" width="80" height="40" patternUnits="userSpaceOnUse">
+			<rect id="rect8" width="40" height="20" fill="#960" stroke="#000" stroke-width=".3"/>
+			<rect id="rect10" x="40" y="20" width="40" height="20" fill="#960" stroke="#000" stroke-width=".3"/>
+		</pattern>
+	</defs>
+	<path id="stenki1" d="m19.8 690h603l-.01-164 308 .01v-507h-911zm-19.3-690h969v19.3h-19.3v527h-298l.112 183h-652v-729z" fill="#968c60" fill-rule="evenodd" stroke="#1e0c0c" stroke-opacity=".8" stroke-width=".8"/>
+	<path id="stenki2" d="m652 675 289-5e-4.048-129h9v143h-298z" fill="#968c60" fill-rule="evenodd" stroke="#1e0c0c" stroke-opacity=".8" stroke-width=".8"/>
+	<rect id="vanna" x="19.8" y="19" width="196" height="217" fill="#c1bca4" stroke="#fff" stroke-width=".3"/>
+	<rect id="komnata1" x="19.8" y="247" width="308" height="443" fill="#c1bca4" stroke="#fff" stroke-width=".3"/>
+	<rect id="komnata2" x="347" y="245" width="276" height="445" fill="#c1bca4" stroke="#fff" stroke-width=".3"/>
+	<rect id="hall" x="226" y="19" width="397" height="217" fill="#c1bca4" stroke="#fff" stroke-width=".3"/>
+	<rect id="hallFloor" x="226" y="19" width="397" height="217" fill="url(#palermo)" fill-opacity=".1" stroke="#fff" stroke-width=".3"/>
+	<rect id="hallLight" x="226" y="19" width="397" height="217" fill="#ff6" stroke="#fff" stroke-width=".3">
+		<title id="title67">Прихожая</title>
+			<desc id="desc69">Прихожая помещение</desc>
+	</rect>
+	<rect id="tualet" x="632" y="19" width="189" height="102" fill="#c1bca4" stroke="#fff" stroke-width=".3"/>
+	<rect id="kuhna" x="632" y="131" width="299" height="396" fill="#c1bca4" stroke="#fff" stroke-width=".3"/>
+	<rect id="lodgia" x="652" y="546" width="289" height="129" fill="#c1bca4" stroke="#fff" stroke-width=".3"/>
+	<rect id="vent1" x="19.8" y="191" width="89.1" height="44.5" fill="none" stroke="#000"/>
+	<rect id="vent2" x="830" y="30" width="44.5" height="89" fill="none" stroke="#000"/>
+	<rect id="vent3" x="880" y="30" width="44.5" height="89" fill="none" stroke="#000"/>
+	<rect id="komnata1Win" x="63" y="700" width="194" height="24" fill="skyblue" opacity=".8" stroke="#4682b4"/>
+	<rect id="komnata2Win" x="380" y="700" width="194" height="24" fill="skyblue" opacity=".8" stroke="#4682b4"/>
+	<rect id="balkonDoorWin" x="658" y="530" width="75" height="12" fill="skyblue" opacity=".8" stroke="#4682b4"/>
+	<rect id="balkonWinL" x="740" y="530" width="185" height="14" fill="skyblue" opacity=".8" stroke="#4682b4"/>
+	<rect id="balkonWin" x="654" y="676" width="285" height="12" fill="skyblue" opacity=".8" stroke="#4682b4"/>
+		<use id="bedroomDoor" x="235" y="240" width="100%" height="100%" xlink:href="#symbolbedroomDoor"/>
+		<use id="vannaDoor" x="220" y="80" width="100%" height="100%" xlink:href="#symbolvannaDoor"/>
+		<use id="vanna2Door" x="610" y="280" width="100%" height="100%" xlink:href="#symbolvanna2Door"/>
+		<use id="kuhnaDoor" x="625" y="198" width="100%" height="100%" xlink:href="#symbolkuhnaDoor"/>
+		<use id="lodgiyaDoor" x="665" y="680" width="100%" height="100%" xlink:href="#symbollodgiyaDoor"/>
+		<use id="hallDoor1" x="473" y="1" width="100%" height="100%" xlink:href="#symbolhallDoor1"/>
+		<use id="hallDoor2" x="473" y="13" width="100%" height="100%" xlink:href="#symbolhallDoor2"/>
+		<use id="tualetDoor" x="625" y="30" width="100%" height="100%" xlink:href="#symboltualetDoor"/>
+		<use id="balkonDoor" x="660" y="535" width="100%" height="100%" xlink:href="#symbolbalkonDoor"/>
+<path id="stenki3" d="m19.8 236h196v-217h9.64v217l318 0.534v37.7h79.8l-0.346-255h9.64v102l299 0.192 0.05 9.45-299-4e-4v396l-9.65-0.01 0.306-245h-89.5v-36.1l-118 0.171h-69v445h-19.3v-443h-308z" fill="#968c60" fill-rule="evenodd" stroke="#1e0c0c" stroke-opacity=".8" stroke-width=".8"/>
+</svg>

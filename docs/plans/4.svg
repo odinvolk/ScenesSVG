@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--  width="411" height="1236" transform='rotate(90)' -->
+<svg id="PhilipsTV" viewBox="0 0 411 1236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <rect x=".3" y=".3" width="409" height="1235" rx="30" ry="29.8" fill="#3d4045" fill-rule="evenodd" stroke="#616266" stroke-width="2"/>
+ 
+ <rect id="ButtPhPower" x="177" y="60" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <path id="ButtPhPowerSymbol" d="m209 69.5-.0884 8.13m-7.34-3.01c-7.56 18.8 23.1 19 15.5-.177" fill="none" stroke="#ec4a5f" stroke-linecap="round" stroke-width="2.8"/>
+ <rect id="ButtPhPowerMask" x="177" y="60" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2" opacity=".4"/>
+ 
+ 
+ <rect x="66.3" y="172" width="53" height="33.1" rx="18" ry="18" fill="#b63f37" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <path d="m150 351c17.3-26.4 95.1-24.1 113 1.21 2.99 3.65-19.3 27.7-24.2 25.2-16.4-10-46.7-10.4-65.1.125-4.99 2.41-27.3-22.6-24.1-26.5z" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="1"/>
+ <rect x="63.1" y="597" width="65" height="80" rx="10" ry="10" fill="#bacad9" fill-rule="evenodd" stroke="#616266" stroke-width=".8"/>
+ <rect x="285" y="596" width="65" height="85.3" rx="10" ry="10" fill="#bacad9" fill-rule="evenodd" stroke="#616266" stroke-width=".9"/>
+ <rect x="63.2" y="677" width="65" height="84.8" rx="10" ry="10" fill="#bacad9" fill-rule="evenodd" stroke="#616266" stroke-width=".8"/>
+ <rect x="286" y="681" width="65" height="78.5" rx="10" ry="10" fill="#bacad9" fill-rule="evenodd" stroke="#616266" stroke-width=".8"/>
+ <rect x="144" y="170" width="53" height="33" rx="18" ry="18" fill="#49e8ad" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="221" y="170" width="53" height="33" rx="18" ry="18" fill="#e1d232" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="297" y="171" width="53" height="33" rx="18" ry="18" fill="#3283cc" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="66.1" y="238" width="53" height="33" rx="18" ry="18" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="144" y="237" width="53" height="33" rx="18" ry="18" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="221" y="236" width="53" height="33" rx="18" ry="18" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="297" y="236" width="53" height="33" rx="18" ry="18" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="66.4" y="302" width="53" height="33" rx="18" ry="18" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="298" y="300" width="53" height="33" rx="18" ry="18" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="65" y="531" width="53" height="33" rx="18" ry="18" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="295" y="530" width="53" height="33" rx="18" ry="18" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="182" y="621" width="53" height="33" rx="18" ry="18" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="181" y="704" width="53" height="33" rx="18" ry="18" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="65" y="801" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="175" y="800" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="283" y="800" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="64" y="870" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="173" y="867" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="283" y="868" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="63.5" y="936" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="175" y="936" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="283" y="935" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="64" y="1e3" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <rect x="175" y="1e3" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ 
+ 
+ <rect id="ButtPhAV" x="284" y="1e3" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2"/>
+ <text id="ButtPhAVtext" x="314" y="1029" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">AV</text>
+ <rect id="ButtPhAVMask" x="284" y="1e3" width="63" height="38" rx="20" ry="20" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="2" opacity=".4"/>
+ <ellipse id="ButtPhOK" cx="209" cy="433" rx="39" ry="39" fill="#bacad9" fill-rule="evenodd" stroke="#616266"/>
+ <text id="ButtPhOKtext" x="206" y="444" fill="#000" font-family="sans-serif" font-size="32" text-anchor="middle">OK</text>
+ <ellipse id="ButtPhOKMask" cx="209" cy="433" rx="39" ry="39" fill="#bacad9" fill-rule="evenodd" stroke="#616266" opacity=".4"/>
+
+
+ <path d="m152 515c17.3 26.4 95.1 24.1 113-1.21 2.99-3.65-19.3-27.7-24.2-25.2-16.4 10-46.7 10.4-65.1-.125-4.99-2.41-27.3 22.6-24.1 26.5z" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="1"/>
+ <path d="m128 487c-26.4-17.3-24.1-95.1 1.21-113 3.65-2.99 27.7 19.3 25.2 24.2-10 16.4-10.4 46.7.125 65.1 2.41 4.99-22.6 27.3-26.5 24.1z" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="1"/>
+ <path d="m291 376c26.4 17.3 24.1 95.1-1.21 113-3.65 2.99-27.7-19.3-25.2-24.2 10-16.4 10.4-46.7-.125-65.1-2.41-4.99 22.6-27.3 26.5-24.1z" fill="#bacad9" fill-rule="evenodd" stroke="#0a182e" stroke-width="1"/>
+ <path d="m208 346-7.39 9.33 14.5-.0107z" fill="#272e34" stroke="#3c4448" stroke-width="1px"/>
+ <path d="m209 519-7.39-9.33 14.5.0107z" fill="#272e34" stroke="#3c4448" stroke-width="1px"/>
+ <path d="m123 427 9.33 7.39-.0107-14.5z" fill="#272e34" stroke="#3c4448" stroke-width="1px"/>
+ <path d="m298 430-9.33-7.39.0107 14.5z" fill="#272e34" stroke="#3c4448" stroke-width="1px"/>
+ <text x="97" y="633" fill="#000" font-family="sans-serif" font-size="32" text-anchor="middle">+</text>
+ <text x="94" y="722" fill="#000" font-family="sans-serif" font-size="32" text-anchor="middle">--</text>
+ <text x="97" y="683" fill="#000" font-family="sans-serif" font-size="21" font-weight="bold" text-anchor="middle">VOL</text>
+ <text x="320" y="689" fill="#000" font-family="sans-serif" font-size="21" font-weight="bold" text-anchor="middle">P</text>
+ <text x="91" y="552" fill="#000" font-family="sans-serif" font-size="16" text-anchor="middle">MENU</text>
+ <text x="205" y="691" fill="#e7eef4" font-family="sans-serif" font-size="24" text-anchor="middle">MUTE</text>
+ <text x="314" y="1029" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">AV</text>
+ <text x="205" y="313" fill="#e7eef4" font-family="sans-serif" font-size="21" text-anchor="middle">SMART</text>
+ <text x="209" y="644" fill="#000" font-family="sans-serif" font-size="18" text-anchor="middle">A/CH</text>
+ <text x="94" y="833" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">1</text>
+ <text x="207" y="829" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">2</text>
+ <text x="316" y="828" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">3</text>
+ <text x="94" y="898" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">4</text>
+ <text x="203" y="898" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">5</text>
+ <text x="309" y="896" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">6</text>
+ <text x="95" y="965" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">7</text>
+ <text x="201" y="965" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">8</text>
+ <text x="312" y="964" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">9</text>
+ <text x="203" y="1033" fill="#000" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">0</text>
+ <text x="317" y="631" fill="#000" font-family="sans-serif" font-size="32px" text-anchor="middle">+</text>
+ <text x="320" y="722" fill="#000" font-family="sans-serif" font-size="32px" text-anchor="middle">--</text>
+ <path d="m203 728 15.6-15m-15.9-.354 16.1 15.6m-13.3-11.7 8.85-5.33.029 17.7-8.85-5.04zm-6.54-.412h3.5v7.75h-3.5z" fill="none" stroke="#000" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg8" version="1.1" viewBox="0 0 1279 747" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+ <defs id="svgSym">
+  <symbol id="symbolHome" style="stroke: black;" preserveAspectRatio="xMidYMid slice" viewBox="0 0 40 40">
+    <desc>Octagon as symbol</desc>
+    <path d="m7.9 21.509v16.136l1.0926 1.1526h12.018v-10.374h5.4628v10.373h4.3702l1.093-1.152v-16.136l-10.925-11.526c-1.093-1.1526-1.093-1.1526-2.186-.0001zm-7.6479-1.153c-1.0926 1.153 1.0925 4.61 4.3702 3.458h2.1851v13.831c0 1.1526 1.0926 2.3052 2.1851 2.3052h21.852c1.0926 0 2.1851-1.1526 2.1851-2.3052v-13.831h2.1851c3.2777 1.1526 5.4628-2.3052 4.3702-3.4577l-18.573-19.594c-1.093-.94251-1.093-.95634-2.186.00030l-6.555 6.9155v-2.3052h-4.3701v6.9155z" 
+    fill-rule="evenodd" stroke="#fff" stroke-width=".1" fill="#fff"/>
+  </symbol>
+  <symbol id="symbolMuz">
+    <path d="m9.8874 12.377c-1.6854 0-1.6854 0-1.6854 1.6853v13.505c0 1.6853 0 1.6853 1.6854 1.6853h6.7417l10.113 8.4376c1.6854 1.6853 5.0563 1.6853 5.0563 0v-35.38c0-1.6853-3.3709-1.6853-5.0563 0l-10.113 10.123z" 
+    stroke="#ccc" fill="#fff"/>
+    <path d="m20.59.88706c0-1.1161 1.1162-1.1161 1.1162 0v3.3482c4.621 2.846 10.046 7.2322 12.278 10.045 3.036 5.4688-.02534 9.922-2.2324 14.509-.14622.44755-1.4064.31585-1.1162-1.1161 2.2324-2.9241 4.8665-8.9287 2.2324-12.277-1.8194-2.2322-6.6971-4.721-7.8133-5.5804-1.6854-1.1161-3.3485-1.1161-3.3485 0v21.205c0 1.1161-.43196 2.4331-1.1162 3.3483-2.232 3.349-6.976 4.733-11.162 5.581-2.2319 0-5.5805-2.232-4.4643-4.464 3.4825-4.442 7.6123-7.913 15.626-5.581z" 
+    fill-rule="evenodd" stroke="#ccc" stroke-width=".1" fill="#fff"/>
+  </symbol>
+  <symbol id="symbolSec">
+    <path stroke-linejoin="round" d="m20 9.17h3.42c7.981 3.42 3.421 18.24-3.42 18.24zm-5.9057-5.586h11.857c.84367 3.3744 3.3747 5.0616 5.9057 5.9052 0 17.67-2.531 19.722-11.857 24.738-9.28-5.061-11.857-7.045-11.857-24.738 2.5766-.90858 5.062-2.5308 5.9057-5.9052zm-2.075-3.534h15.962c1.14 4.56 4.56 6.84 7.98 7.98 0 23.94-3.42 25.08-15.961 31.92-12.541-6.84-15.961-7.98-15.961-31.92 3.4773-1.2312 6.8406-3.42 7.9807-7.98z" fill-rule="evenodd" stroke="#000" stroke-width=".1" fill="#fff"/>
+  </symbol>
+  <symbol id="symbolLamp">
+    <path d="m16 36h8c1.49 0 1.45 2 0 2h-8c-1.58 0-1.55-2 0-2zm0-4c-1.49 0-1.51 1 0 1h8c1.46 0 1.5-1 0-1zm1-17h6c1 0 1 1 0 1h-6c-1 0-1-1 0-1zm0-5h6c1 0 1 1 0 1h-6c-1 0-1-1 0-1zm2 9h2v8h-2zm-2.92 8c-0.461 0-0.8-0.408-0.786-0.852-0.786-5.96-4.3-8.74-4.3-12.1 0-5.96 3.5-10 9-10 4.72 0 9 4.04 9 10 0 3.41-3.48 6.19-4.27 12.1 0 0.44-0.372 0.852-0.786 0.852zm-1.08 2c-0.586 0-1.02-0.479-1-1-1-7-5-10-5-14 0-7 4-12 11-12 6 0 11 5 11 12 0 4-4 7-5 14 0 0.516-0.473 1-1 1z" fill="#fffffa" fill-rule="evenodd" stroke="#000" stroke-width=".1"/>
+  </symbol>
+  <symbol id="symbolLampa">
+    <path d="m 6.5,23.4 c 3.4,0.02 6.8,0.04 10.2,0.06 -0.01,1.6 -0.03,3.2 -0.05,4.9 -3.4,0.0025 -6.8,0.0037 -10.2,0.0062 0.01,-1.6 0.02154,-3.320921 0.03231,-4.981257 z m 1.926765,9.89173 c 0.06586,0.700106 0.131843,1.400139 0.197765,2.100331 1.8458028,0.0148 3.6917288,0.02947 5.5375318,0.04427 0.07391,-0.690747 0.147825,-1.381518 0.221731,-2.072215 -1.985692,-0.02405 -3.971385,-0.04822 -5.9570768,-0.07239 z m -2.062446,-0.02466 c 0.05422,-3.94626 0.108446,-7.892396 0.162656,-11.838656 C 3.2488192,18.35245 0.46674518,15.758236 0.50029418,11.079598 0.48915418,7.7897529 2.5407052,3.3946209 5.5063692,2.0561399 c 4.130091,-1.93915597 9.2028918,-2.37138097 12.8624338,0.492959 2.529653,1.955311 3.724411,4.508214 4.017066,8.5798871 -0.474487,4.605141 -0.923186,5.242196 -5.557587,10.382531 -0.0416,3.981529 -0.08331,7.96318 -0.124923,11.944708 -3.438689,-0.0418 -6.8772548,-0.08348 -10.3159448,-0.125302 z" stroke="#fff"  stroke-linejoin="round" stroke-width="2px" fill="none"/>
+  </symbol>
+  <symbol id="symbolSet">
+    <path stroke-linejoin="round" d="m24.985 19.936c0 2.7491-2.7373 5.4857-5.4622 5.4857-2.7373 0-5.4622-2.7491-5.4622-5.4857 0-2.7491 2.7373-5.4857 5.4622-5.4857 2.7373 0 5.4622 2.7491 5.4622 5.4857zm-8.499-17.825c.29998-2.7491 5.7622-2.7491 6.0622.008l-.02025 2.95c1.5124.29876 2.8873.86239 4.1873 1.5691l2.1249-2.5985c1.1249-1.5189 6.0122 2.1968 4.6747 3.9793l-2.1499 2.6361c.96244 1.2679 1.6749 2.5985 2.2374 3.9793l3.2373-.58748c3.1748-.96156 4.5372 5.8999 1.0874 6.1133l-3.2623.60506c-.03787 1.7198-.35248 3.1634-.76746 4.5442l2.8373 1.6821c1.9124 1.1812-.81495 6.6657-2.9873 5.4229l-2.863-1.707c-1.0149 1.1285-2.0874 2.1717-3.4248 2.95l1.1174 3.1634c1.1599 2.3098-4.9497 3.678-5.6497 2.1717l-1.1387-3.201c-1.4874.18955-2.9623.24981-4.4497-.02033l-1.1287 3.1885c-.76621 2.2972-6.6621.17951-5.6997-2.0964l1.141-3.215c-1.231-.841-2.387-1.795-3.3995-2.962l-2.8498 1.707c-1.6624 1.037-4.9747-4.23-3.0623-5.385l2.8623-1.7198c-.4175-1.418-.7312-2.9-.7750-4.544l-3.2248-.590c-2.1624-.219-.95866-6.503 1.0112-6.164l3.2623.58748c.5513-1.506 1.35-2.773 2.2249-3.979l-2.0999-2.5981c-1.9374-1.7951 2.9999-5.9125 4.5876-4.0546l2.1249 2.6361c1.349-.7933 2.762-1.2804 4.187-1.5942z" 
+          fill-rule="evenodd" stroke="#ccc" stroke-linecap="round" stroke-width="0.1" fill="#fff"/>
+  </symbol>
+  <symbol id="symbolGradus">
+    <path d="m16 23v-17c1-4 7-4 8 0v17c8 5 4 15-4 15s-12-10-4-15z" fill="#fff" fill-opacity=".1" fill-rule="evenodd" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1px"/>
+    <path d="m16 29h8c0 2-1.49 4-4 4-2.49 0-4-2-4-4z" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".1"/>
+    <path d="m17 24.6h3m-3-3.1h3m-3-3.1h3m-3-2.9h3m-3-3h3m-3-2.5h3"/>
+  </symbol>
+  <linearGradient id="LGToggleGrey">
+   <stop stop-color="#f9f9f9" offset="0"/>
+   <stop stop-color="#5f5c5d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGToggleGreen">
+   <stop stop-color="#a9ff00" offset="0"/>
+   <stop stop-color="#005600" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGBattonGreen">
+   <stop stop-color="#a9ff00" offset="0"/>
+   <stop stop-color="#005600" offset="1"/>
+  </linearGradient>
+  <linearGradient id="LGBattonMGreen" x1="0" x2="0" y1="90%" y2="1%">
+   <stop stop-color="#5fbd02" offset="0"/>
+   <stop stop-color="#dade94" stop-opacity="0.5" offset="1"/>
+  </linearGradient>
+
+  <filter id="mFil">
+   <feGaussianBlur stdDeviation="0.2"/>
+   <feColorMatrix type="saturate" values="1.2" />
+  </filter> 
+ </defs>
+
+<rect id="fon" x="0.1" y="0.1" width="1279" height="747" rx="4" ry="4" fill="#000" fill-opacity=".9" stroke="#ccc" stroke-width=".1" stroke-opacity=".1"/>
+
+<rect id="title" x="10.5" y="10.5" width="199" height="89" fill="none" stroke="#000"/>
+<rect id="left_info" x="10.5" y="110" width="989" height="504" fill="#353535" fill-opacity=".4" stroke="#ccc" stroke-width=".2" stroke-opacity=".4"/>
+<rect id="weather" x="490" y="30.5" width="179" height="49" fill="none" stroke="#000"/>
+
+<rect id="button_m" x="27.3" y="25.3" width="59" height="59" fill="none" stroke="none"/>
+<svg id="mojordomo_logo" version="1.1" viewBox="0 0 32 32" x="27.3" y="25.3" width="59" height="59" style="cursor: pointer;">
+ <path id="mojordomo_logo_a" d="m15.8 0.221c0.446-0.23 0.911-0.33 1.46 0.0252l12.4 7.2c0.161 0.17 0.294 0.352 0.323 0.58l0.0616 17.9c-0.0027 0.576 0.022 1.17-1.05 1.12l-4.26 0.07 0.0165 3.82c-0.0717 0.988-0.643 1.19-1.43 1.04l-8.11-4.76-11.2-0.0663c-0.573-0.068-0.838-0.382-0.935-0.831l-0.168-18.1c0.0717-0.509 0.352-0.777 0.687-0.985z" 
+  fill="green" fill-opacity=".6" fill-rule="evenodd" stroke-width="1"/>
+ <path id="mojordomo_logo_b" d="m15.9 2.64c0.375-0.19 0.771-0.273 1.24 0.0209l10.5 5.96c0.136 0.141 0.248 0.292 0.273 0.479l0.0523 14.8c-0.0021 0.476 0.0186 0.965-0.888 0.925l-3.65 0.058c-0.273 0.063-0.576 0.0319-0.67 0.64l-0.0998 2.97c0.0106 0.704-0.489 0.271-0.854 0.0667l-6.37-3.59-9.48-0.0549c-0.483-0.0563-0.707-0.317-0.791-0.687l-0.142-14.9c0.0606-0.422 0.296-0.643 0.58-0.818z"
+ fill="#fff" fill-rule="evenodd" stroke-width="1"/>
+ <path id="mojordomo_logo_d" d="m9.33 21.7-0.0142-11.8h2.88l4.22 9.11 0.305 0.0048 4.29-9.15 2.72 0.0118-0.0048 11.8-1.95-0.0142-0.0664-8.18-4.19 8.21h-1.96l-4.22-8.75-0.0138 8.68z" 
+ fill="green" fill-rule="evenodd" stroke-width="1"/>
+</svg>
+
+<rect id="button_okbit" x="110" y="25.5" width="59" height="59" fill="none" stroke="none"/>
+<svg id="okbit_logo" version="1.1" viewBox="0 0 200 200" x="110" y="25.5" width="59" height="59" xmlns="http://www.w3.org/2000/svg" onclick="openNav()" style="cursor: pointer;">
+ <path id="okbit_a" d="m139 100a39.1 39.4 0 0 1 -39.1 39.4 39.1 39.4 0 0 1 -39.1 -39.4 39.1 39.4 0 0 1 39.1 -39.4 39.1 39.4 0 0 1 39.1 39.4zm-139-0.0424 10.2-20.9c3.21-13.4 9.12-26.1 18.5-38.1l-8.3-1.3c20.5-24.8 45.2-37.8 75.1-39.8 3.22 2.37 6.46 2.03 9.69 0 40.4 3.97 58.3 21.5 74.9 39.7l-8.65 1.43c9.18 10.9 14.7 23.8 18.4 37.6l10.2 21.5-9.95 21c-1.87 9.7-6.18 21.1-18.4 38.1l8.71 1.54c-19.8 23.7-44.3 38.2-75.6 39.1-5.5-3.42-6.33-1.65-9.76 0.103-24-1.13-48.5-9.61-74.6-39l8.14-1.6c-6.1-7.27-14.7-23.4-18.4-38z" fill-rule="evenodd" style="paint-order:normal"/>
+ <path id="okbit_b" d="m90.4 145c-8.88 4.8-31 12.7-61.7 17.1 11 10.3 27.4 30.2 66.6 32.9 69.4-23.7 90.6-69.8 101-95.7-28-64-64.1-83-102-95.4-24.2 1.4-44.4 10.5-66.5 32.6 20.5 2.73 43.7 8.12 61.4 17.8 22.6-3.81 51.7 7.63 57.1 41.8 5.26 1.76 5.29 3.02 0.854 6.53-4.55 20.3-17.2 46.2-56.8 42.4z" fill="#f68338" fill-opacity=".9" fill-rule="evenodd"/>
+ <path id="okbit_c" d="m111 144c8.88 4.8 30.8 13.7 61.5 18.1-11 10.3-27.9 29.6-67.1 32.4-69.4-23.7-91-70.3-101-96.2 28-64 63.6-83.1 101-95.5 24.2 1.4 46.6 10.9 66.5 32.6-22.3 3.49-44.1 8.84-61.9 18.5-28.5-1.81-48 8.78-55.8 41.5-3.7 2.91-4.3 3.31 0.142 6.81 1.2 21.9 18.6 47.2 56.6 41.7z" fill="#4eaa4b" fill-rule="evenodd"/>
+</svg>
+
+<rect id="timer" x="350" y=".5" width="249" height="89" fill="none" stroke="#000"/>
+
+<rect id="scenu" x="10.5" y="626" width="989" height="109" fill="#353535" fill-opacity=".4" stroke="#ccc" stroke-width=".2" stroke-opacity=".4"/>
+<rect id="alarm-one" x="944" y="632" width="49" height="97" rx="4" ry="4" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="968.5" y="646" fill="#ad4" font-family="Ubuntu" font-size="10" font-weight="500" stroke-width="2" text-anchor="middle">Рел</text>
+ <text x="968.5" y="660" fill="#fff" font-family="Ubuntu" font-size="10" font-weight="500" stroke-width="1" text-anchor="middle">При</text>
+
+<rect id="button_sc8" x="712" y="683" width="226" height="46" rx="4" ry="4" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="822.5" y="706" fill="#ad4" font-family="Ubuntu" font-size="12" font-weight="500" stroke-width="2" text-anchor="middle">Релакс</text>
+ <text x="822.5" y="720" fill="#fff" font-family="Ubuntu" font-size="11" font-weight="500" stroke-width="1" text-anchor="middle">Пригл. свет и вкл. музыку</text>
+
+<rect id="button_sc7" x="712" y="631" width="226" height="46" rx="4" ry="4" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="822.5" y="654" fill="#ad4" font-family="Ubuntu" font-size="12" font-weight="500" stroke-width="2" text-anchor="middle">Релакс</text>
+ <text x="822.5" y="668" fill="#fff" font-family="Ubuntu" font-size="11" font-weight="500" stroke-width="1" text-anchor="middle">Пригл. свет и вкл. музыку</text>
+
+<rect id="button_sc6" x="480" y="683" width="226" height="46" rx="4" ry="4" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="588.5" y="706" fill="#ad4" font-family="Ubuntu" font-size="12" font-weight="500" stroke-width="2" text-anchor="middle">Релакс</text>
+ <text x="588.5" y="720" fill="#fff" font-family="Ubuntu" font-size="11" font-weight="500" stroke-width="1" text-anchor="middle">Пригл. свет и вкл. музыку</text>
+
+<rect id="button_sc5" x="480" y="631" width="226" height="46" rx="4" ry="4" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="588.5" y="654" fill="#ad4" font-family="Ubuntu" font-size="12" font-weight="500" stroke-width="2" text-anchor="middle">Релакс</text>
+ <text x="588.5" y="668" fill="#fff" font-family="Ubuntu" font-size="11" font-weight="500" stroke-width="1" text-anchor="middle">Пригл. свет и вкл. музыку</text>
+
+<rect id="button_sc4" x="248" y="683" width="226" height="46" rx="4" ry="4" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="360.5" y="706" fill="#ad4" font-family="Ubuntu" font-size="12" font-weight="500" stroke-width="2" text-anchor="middle">Релакс</text>
+ <text x="360.5" y="720" fill="#fff" font-family="Ubuntu" font-size="11" font-weight="500" stroke-width="1" text-anchor="middle">Пригл. свет и вкл. музыку</text>
+
+<rect id="button_sc3" x="248" y="631" width="226" height="46" rx="4" ry="4" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="360.5" y="654" fill="#ad4" font-family="Ubuntu" font-size="12" font-weight="500" stroke-width="2" text-anchor="middle">Релакс</text>
+ <text x="360.5" y="668" fill="#fff" font-family="Ubuntu" font-size="11" font-weight="500" stroke-width="1" text-anchor="middle">Пригл. свет и вкл. музыку</text>
+
+
+<rect id="button_sc2" x="16.5" y="683" width="226" height="46" rx="4" ry="4" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="129.5" y="706" fill="#ad4" font-family="Ubuntu" font-size="12" font-weight="500" stroke-width="2" text-anchor="middle">Релакс</text>
+ <text x="129.5" y="720" fill="#fff" font-family="Ubuntu" font-size="11" font-weight="500" stroke-width="1" text-anchor="middle">Пригл. свет и вкл. музыку</text>
+
+
+<rect id="button_sc1" x="16.5" y="631" width="226" height="46" rx="4" ry="4" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="129.5" y="654" fill="#ad4" font-family="Ubuntu" font-size="12" font-weight="500" stroke-width="2" text-anchor="middle">Релакс</text>
+ <text x="129.5" y="668" fill="#fff" font-family="Ubuntu" font-size="11" font-weight="500" stroke-width="1" text-anchor="middle">Пригл. свет и вкл. музыку</text>
+
+
+<rect id="menu" x="756" y="10.5" width="514" height="89" fill="#353535" fill-opacity=".4" stroke="#ccc" stroke-width=".2" stroke-opacity=".4"/>
+ <rect id="buttonHome_fon1" x="760" y="15.5" width="79" height="79" rx="8" ry="8" fill="#dade94" stroke="#000" onclick="window.location.href='%link.s1%'"/>
+ <rect id="buttonHome_fon2" x="760" y="15.5" width="79" height="79" rx="8" ry="8" onmouseover="this.style.opacity = '0.5';" onmouseout="this.style.opacity = '1';"
+       fill="url(#LGBattonMGreen)" fill-opacity="1" stroke="#ad4" stroke-width="2" stroke-opacity="1"/>
+ <text id="buttonHome_text" x="800" y="83" fill="#fff" font-family="FreeSans" font-size="12" font-weight="600" text-anchor="middle" filter="url(#mFil)" stroke-width=".1">Домашняя</text>
+ <use x="780" y="26" width="40" height="40" xlink:href="#symbolHome" filter="url(#mFil)"/>
+
+<rect id="buttonGradus_fon1" x="846" y="15.5" width="79" height="79" rx="8" ry="8" fill="#dade94" stroke="#000"/>
+ <rect id="buttonGradus_fon2" x="846" y="15.5" width="79" height="79" rx="8" ry="8" onmouseover="this.style.opacity = '0.5';" onmouseout="this.style.opacity = '1';"
+       fill="url(#LGBattonMGreen)" fill-opacity="1" stroke="#ad4" stroke-width="2" stroke-opacity="1"/>
+ <text id="buttonGradus_text" x="886" y="83" fill="#fff" font-family="FreeSans" font-size="12" font-weight="600" text-anchor="middle" filter="url(#mFil)" stroke-width=".1">Климат</text>
+ <use x="866" y="26" width="40" height="40" xlink:href="#symbolGradus" filter="url(#mFil)"/>
+
+<rect id="buttonLamp_fon1" x="930" y="15.5" width="79" height="79" rx="8" ry="8" fill="#dade94" stroke="#000"/>
+ <rect id="buttonLamp_fon2" x="930" y="15.5" width="79" height="79" rx="8" ry="8" onmouseover="this.style.opacity = '0.5';" onmouseout="this.style.opacity = '1';"
+       fill="url(#LGBattonMGreen)" fill-opacity="1" stroke="#ad4" stroke-width="2" stroke-opacity="1"/>
+ <text id="buttonLamp_text" x="970" y="83" fill="#fff" font-family="FreeSans" font-size="12" font-weight="600" text-anchor="middle" filter="url(#mFil)" stroke-width=".1">Освещение</text>
+ <use x="950" y="26" width="40" height="40" xlink:href="#symbolLamp" filter="url(#mFil)"/>
+
+<rect id="buttonSec_fon1" x="1016" y="15.5" width="79" height="79" rx="8" ry="8" fill="#dade94" stroke="#000"/>
+ <rect id="buttonSec_fon2" x="1016" y="15.5" width="79" height="79" rx="8" ry="8" onmouseover="this.style.opacity = '0.5';" onmouseout="this.style.opacity = '1';"
+       fill="url(#LGBattonMGreen)" fill-opacity="1" stroke="#ad4" stroke-width="2" stroke-opacity="1"/>
+ <text id="buttonSec_text" x="1056" y="83" fill="#fff" font-family="FreeSans" font-size="12" font-weight="600" text-anchor="middle" filter="url(#mFil)" stroke-width=".1">Охрана</text>
+ <use x="1036" y="26" width="40" height="40" xlink:href="#symbolSec" filter="url(#mFil)"/>
+
+<rect id="buttonMuz_fon1" x="1100" y="15.5" width="79" height="79" rx="8" ry="8" fill="#dade94" stroke="#000"/>
+ <rect id="buttonMuz_fon2" x="1100" y="15.5" width="79" height="79" rx="8" ry="8" onmouseover="this.style.opacity = '0.5';" onmouseout="this.style.opacity = '1';"
+       fill="url(#LGBattonMGreen)" fill-opacity="1" stroke="#ad4" stroke-width="2" stroke-opacity="1"/>
+ <text id="buttonMuz_text" x="1140" y="83" fill="#fff" font-family="FreeSans" font-size="12" font-weight="600" text-anchor="middle" filter="url(#mFil)" stroke-width=".1">Музыка</text>
+ <use x="1120" y="26" width="40" height="40" xlink:href="#symbolMuz" filter="url(#mFil)"/>
+
+<rect id="buttonSet_fon1" x="1186" y="15.5" width="79" height="79" rx="8" ry="8" fill="#dade94" stroke="#000"/>
+ <rect id="buttonSet_fon2" x="1186" y="15.5" width="79" height="79" rx="8" ry="8" onmouseover="this.style.opacity = '0.5';" onmouseout="this.style.opacity = '1';"
+       fill="url(#LGBattonMGreen)" fill-opacity="1" stroke="#ad4" stroke-width="2" stroke-opacity="1"/>
+ <text id="buttonSet_text" x="1226" y="83" fill="#fff" font-family="FreeSans" font-size="12" font-weight="600" text-anchor="middle" filter="url(#mFil)" stroke-width=".1">Система</text>
+ <use x="1206" y="26" width="40" height="40" xlink:href="#symbolSet" filter="url(#mFil)"/>
+
+
+
+<rect id="dop_menu" x="1010" y="110" width="259" height="624" fill="#353535" fill-opacity=".4" stroke="#ccc" stroke-width=".2" stroke-opacity=".4"/>
+
+<rect id="button_dop1" x="1016" y="116" width="249" height="39" rx="2" ry="2" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="1140" y="140" fill="#fff" font-family="Ubuntu" font-size="14px" font-weight="500" text-anchor="middle">Прихожая</text>
+
+<rect id="button_dop2" x="1016" y="160" width="249" height="39" rx="2" ry="2" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="1140" y="184" fill="#fff" font-family="Ubuntu" font-size="14px" font-weight="500" text-anchor="middle">Гостинная</text>
+
+<rect id="button_dop3" x="1016" y="206" width="249" height="39" rx="2" ry="2" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="1140" y="230" fill="#fff" font-family="Ubuntu" font-size="14px" font-weight="500" text-anchor="middle">Детская</text>
+
+<rect id="button_dop4" x="1016" y="250" width="249" height="39" rx="2" ry="2" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="1140" y="274" fill="#fff" font-family="Ubuntu" font-size="14px" font-weight="500" text-anchor="middle">Балкон</text>
+
+<rect id="button_dop5" x="1016" y="296" width="249" height="39" rx="2" ry="2" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="1140" y="320" fill="#fff" font-family="Ubuntu" font-size="14px" font-weight="500" text-anchor="middle">Кухня</text>
+
+<rect id="button_dop6" x="1016" y="340" width="249" height="39" rx="2" ry="2" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="1140" y="364" fill="#fff" font-family="Ubuntu" font-size="14px" font-weight="500" text-anchor="middle">Ванная</text>
+
+<rect id="button_dop7" x="1016" y="386" width="249" height="39" rx="2" ry="2" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="1140" y="410" fill="#fff" font-family="Ubuntu" font-size="14px" font-weight="500" text-anchor="middle">Схема</text>
+
+<rect id="button_dop8" x="1016" y="430" width="249" height="39" rx="2" ry="2" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="1140" y="454" fill="#fff" font-family="Ubuntu" font-size="14px" font-weight="500" text-anchor="middle">Прихожая</text>
+
+<rect id="button_dop12" x="1016" y="691" width="249" height="39" rx="2" ry="2" fill="#000" fill-opacity=".4" stroke="#ccc" stroke-width="1" stroke-opacity=".5" style="cursor: pointer;"/>
+ <text x="1140" y="715" fill="#fff" font-family="Ubuntu" font-size="14px" font-weight="500" text-anchor="middle">Прихожая</text>
+</svg>
