@@ -14,7 +14,6 @@ INSERT INTO `sys_date_format` (`TITLE`, `FORMAT`, `LINKED_OBJECT`, `LINKED_PROPE
 (\'Время\', \'H:i\', \'Time\', \'timeNow\'),
 (\'Дата\', \'d1\', \'Time\', \'dateNow\'),
 (\'День недели\', \'n1\', \'Time\', \'DayOfWeek\');
-');
-  
+');  
 ?>
 */
