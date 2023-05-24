@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--   width="1221" height="931"  transform='rotate(90)' -->
+<svg id="shemaHome" viewBox="0 0 1221 931" width="1221" height="931" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="fgb">
+        <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="fgb1">
+        <feGaussianBlur stdDeviation="0.5"/>
+    </filter>
+    <pattern id="palermo" x="8" y="-4" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="40" height="40" fill="#996600"/>
+      <rect x="40" y="40" width="40" height="40" fill="#996600"/>
+    </pattern>
+    <symbol id="symbolVent" viewBox="0 0 78 78">
+       <path d="m38.9 0c-21.5 0-38.9 17.4-38.9 38.9s17.4 38.9 38.9 38.9 38.9-17.4 38.9-38.9-17.4-38.9-38.9-38.9zm0 70.6c-17.5 0-31.7-14.2-31.7-31.7s14.2-31.7 31.7-31.7 31.7 14.2 31.7 31.7-14.2 31.7-31.7 31.7z" fill="#0f361a"/>
+       <path id="path23" d="m38.9 1.52c-20.7 0-37.4 16.8-37.4 37.4 0 20.7 16.8 37.4 37.4 37.4 20.7 0 37.4-16.8 37.4-37.4.001-20.7-16.8-37.4-37.4-37.4zm0 69.1c-17.5 0-31.7-14.2-31.7-31.7s14.2-31.7 31.7-31.7 31.7 14.2 31.7 31.7-14.2 31.7-31.7 31.7z" fill="#4a5a4a"/>
+       <path id="path36" d="m38.9 5.78c-18.3 0-33.2 14.8-33.2 33.2s14.8 33.2 33.2 33.2c18.3 0 33.2-14.8 33.2-33.2s-14.8-33.2-33.2-33.2zm0 64.8c-17.5 0-31.7-14.2-31.7-31.7s14.2-31.7 31.7-31.7 31.7 14.2 31.7 31.7-14.2 31.7-31.7 31.7z" fill="#1c2b1a"/>
+      <g id="symbolVentsG">
+       <path d="m34.5 28.9s-4.79-5.75-9.04-8.51c-5.38-3.49-6.84-4.16-.496-7.37 6.34-3.2 13.2-3.2 14.7-.757 1.44 2.44 2.26 10.8-.191 15.6 0 0-3.55-.044-4.92 1.05z" stroke="#b5c291" stroke-width=".8" fill="#dcdcd2"/>
+       <path d="m43.9 29.5s1.38-7.35.797-12.4c-.735-6.37-1.15-7.92 5.36-5.08s10.9 8.14 9.92 10.8c-.967 2.66-6.86 8.61-12.1 9.79 0 0-2.23-2.76-3.95-3.12z" stroke="#b5c291" stroke-width=".8" fill="#dcdcd2"/>
+       <path d="m28.4 35.9s-7.48.154-12.3 1.76c-6.09 2.02-7.52 2.75-6.07-4.21s5.74-12.3 8.55-11.9c2.8.399 9.83 4.95 12.1 9.87 0 0-2.25 2.75-2.25 4.5z" stroke="#b5c291" stroke-width=".8" fill="#dcdcd2"/>
+       <path d="m30.2 45.2s-4.54 5.94-6.3 10.7c-2.22 6.02-2.54 7.59-7.08 2.11s-6.05-12.2-3.98-14.1c2.06-1.94 10-4.59 15.2-3.27 0 0 .745 3.47 2.12 4.57z" stroke="#b5c291" stroke-width=".8" fill="#dcdcd2"/>
+       <path d="m37.9 49.2s1.93 7.23 4.64 11.5c3.42 5.43 4.46 6.65-2.64 6.9-7.1.249-13.3-2.64-13.6-5.46-.281-2.82 2.47-10.7 6.71-14.1.001 0 3.21 1.53 4.91 1.11z" stroke="#b5c291" stroke-width=".8" fill="#dcdcd2"/>
+       <path d="m46.7 45.6s6.8 3.12 11.8 3.77c6.36.828 7.96.802 3.63 6.43-4.34 5.63-10.5 8.6-12.9 7.01-2.35-1.58-6.69-8.74-6.56-14.1.001 0 3.22-1.5 3.99-3.08z" stroke="#b5c291" stroke-width=".8" fill="#dcdcd2"/>
+       <path d="m48.9 36.2s6.62-3.49 10.2-7.08c4.54-4.54 5.5-5.82 7.31 1.05s.383 13.6-2.3 14.5c-2.69.899-11-.028-15.2-3.43.001 0 .783-3.46-.003-5.04z" stroke="#b5c291" stroke-width=".8" fill="#dcdcd2"/>
+       <circle cx="39" cy="39" r="12" fill="#e6e6f0" stroke="#b5c291" stroke-width=".7"/>
+       <circle cx="39" cy="39" r="10" fill="#a8bab0"/>
+       <circle cx="39" cy="39" r="8" fill="#dcdcd2"/>
+      </g>
+    </symbol>
+    <symbol>
+      <rect id="symbolhallDoor1" x="0" y="0" width="86" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+      <rect id="symbolhallDoor2" x="0" y="0" width="86" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+      <rect id="symbolsmallroomDoor" x="0" y="0" width="5" height="89" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+      <rect id="symbolbedroomDoor" x="0" y="0" width="89" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+      <rect id="symbolkidroomDoor" x="0" y="0" width="89" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+      <rect id="symbolkladovkaDoor" x="0" y="0" width="58" height="4" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+      <rect id="symboltualetDoor" x="0" y="0" width="63" height="4" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform="rotate(180)"/>
+      <rect id="symbolvannaDoor" x="0" y="0" width="64" height="5" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8" transform="rotate(180)"/>
+      <rect id="symbolkuhnaDoor" x="0" y="0" width="5" height="76" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+      <rect id="symbolbalkonDoor" x="0" y="0" width="49" height="5"  fill="grey" stroke="steelblue" stroke-width="1" opacity=".8"/>
+      <rect id="symbolgarderobDoor" x="0" y="0" width="60" height="3"  fill="grey" stroke="steelblue" stroke-width="1" opacity=".8"/>
+    </symbol>
+    <symbol id="symbolzanaveski1">
+      <rect id="symbolzanaveskiS" x="0" y="0" width="5" height="10" fill="#000" fill-opacity=".5" transform="rotate(180)"/>
+      <rect id="symbolzanaveskiG" x="0" y="0" width="5" height="10" fill="#000" fill-opacity=".5"/>
+    </symbol>
+  </defs>
+
+  <path id="stenki" d="m626 891 560 .0002-.1-865-560 .211zm-76.151-350.09 51.151.0941-.00010 350h-560v-350l419.85-.09.15-24.88v-490.03l10.95.02344v-25.05l-39.96-.0093-.0001 515-430.99.04-.01 415h1220v-930l-660 .03v24.99l40 .0072v490l-51-.03z" stroke="#1e0c0c" fill="#968c60" stroke-opacity=".8" fill-opacity="1" stroke-width=".8px" onclick="window.location.href='%link.s1%'"/>
+  
+  
+  
+  
+   <rect id="hallx-3" height="599.7" width="140" stroke="#fff" y="-1299.4" x="461" stroke-width=".3" fill="#c1bca4"/>
+ <path id="stenkix" d="m431.99 0.96824v-1327.3h193.91v1328.3l-24.9-2v-1299.4h-140v1299.4z" stroke="#1e0c0c" fill="#968c60" stroke-opacity=".8" fill-opacity="1" stroke-width=".8"/>
+ <rect id="hallx" y="-700" x="461" width="140" height="700" fill="#c1bca4" fill-opacity="1" stroke="#fff" stroke-width=".3"></rect>
+ <rect id="hallxl" y="-1250" x="-80" width="500" height="140" fill="#c1bca4" fill-opacity="1" stroke="#fff" stroke-width=".3"></rect>
+  
+
+ <rect id="workshop" y="540" x="41" width="200" height="150" fill="#c0bba3" fill-opacity="1" stroke="#000" stroke-width=".3"><title>Мастерская</title><desc>Кабинет</desc></rect>
+ <rect id="workshopFloor" y="540" x="41" width="200" height="150" fill="url(#palermo)" fill-opacity=".1" stroke="#fff" stroke-width=".3"></rect>
+ <rect id="workshopLight" y="540" x="41" width="200" height="150" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width=".3" class="hide_it"><title>Мастерская</title><desc>Кабинет</desc></rect>
+  
+ 
+ 
+ 
+ 
+ <rect id="garderob" y="690" x="41" width="200" height="201" fill="#c0bba3" fill-opacity="1" stroke="#000" stroke-width=".3">
+     <title>Гардероб</title><desc>Гардеробное помещение</desc></rect>
+ <rect id="garderobLight" y="690" x="41" width="200" height="201" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width=".3" class="hide_it">
+     <title>Гардероб</title><desc>Гардеробное помещение</desc></rect>
+ <rect id="bedroom" y="541" x="240" width="360" height="350" fill="#c0bba3" fill-opacity="1" stroke="#000" stroke-width=".3">
+     <title>Спальня</title><desc>Спальное помещение</desc></rect>
+ <rect id="bedroomLight" y="541" x="240" width="360" height="350" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width=".3" class="hide_it">
+     <title>Спальня</title><desc>Спальное помещение</desc></rect>
+ <rect id="gostinnaja" y="286" x="772" width="413" height="276" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3">
+     <title>Гостинная</title><desc>Гостинное помещение</desc></rect>
+ <rect id="gostinnajaLight" y="286" x="772" width="413" height="276" fill="#ffff66" fill-opacity=".1" stroke="#fff" stroke-width=".3" class="hide_it">
+     <title>Гостинная</title><desc>Гостинное помещение</desc></rect>
+
+ <rect id="kinderRom" y="569" x="626" width="559" height="321" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3">
+     <title>Детская</title><desc>Детская помещение</desc></rect>
+ <rect id="kinderRomLight" y="569" x="626" width="559" height="321" fill="#ffff66" fill-opacity=".1" stroke="#fff" stroke-width=".3" class="hide_it">
+     <title>Детская</title><desc>Детская помещение</desc></rect>
+ 
+ 
+ <rect id="hall2" y="160" x="626" width="146" height="407" fill="#c1bca4" fill-opacity="1" stroke="#fff" stroke-width=".3"></rect>
+ <rect id="hall2Floor" y="160" x="626" width="146" height="407" fill="url(#palermo)" fill-opacity=".1" stroke="#fff" stroke-width=".3"></rect>
+ <rect id="hall2Light" y="160" x="626" width="146" height="407" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width=".3" onClick="return openTWindow('hall2LightTWindow', 'Прихожая 2', '/popup/plans.html?id=6', 1200, 600);"><title>Прихожая 2</title><desc>Прихожая помещение</desc></rect>
+
+
+
+
+ <rect id="hall" y="26" x="461" width="140" height="504" fill="#c1bca4" fill-opacity="1" stroke="#fff" stroke-width=".3"></rect>
+ <rect id="hallFloor" y="26" x="461" width="140" height="504" fill="url(#palermo)" fill-opacity=".1" stroke="#fff" stroke-width=".3"></rect>
+ <rect id="hallLight" y="26" x="461" width="140" height="326" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width=".3">
+     <title>Прихожая</title><desc>Прихожая помещение</desc></rect>
+ <rect id="akvariumnayaLight" y="353" x="461" width="140" height="188" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width=".3" style="cursor:pointer;"><title id="akvariumnayaTitle">Аквариумная</title><desc id="akvariumnayaDesc">Аквариумная помещение</desc></rect>
+
+ <rect id="tualet" y="36" x="691" width="80" height="121" fill="#c1bca4" fill-opacity="1" stroke="#fff" stroke-width="0"/>
+ <rect id="tualetFloor" y="36" x="691" width="80" height="121" fill="url(#palermo)" fill-opacity=".1" stroke="#fff" stroke-width="0"/>
+ <rect id="tualetLight" y="36" x="691" width="80" height="121" filter="url(#fgb)" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width="0" style="cursor: pointer;">
+     <title>Туалет</title><desc>Туалетное помещение</desc></rect>
+
+ <rect id="peredvannoy" y="196" x="771" width="145.2" height="80" fill="#c1bca4" fill-opacity="1" stroke="#fff" stroke-width=".1"></rect>
+ <rect id="peredvannoyFloor" y="196" x="771" width="145.2" height="80" fill="url(#palermo)" fill-opacity=".1" stroke="#fff" stroke-width=".1"><title>Перед ванной</title><desc>Перед ванной помещение</desc></rect>
+ 
+ 
+ <rect id="kuhna" y="26" x="916" width="270" height="250" fill="#c1bca4" fill-opacity="1" stroke="#fff" stroke-width=".1"></rect>
+ <rect id="kuhnaFloor" y="26" x="916" width="270" height="250" fill="url(#palermo)" fill-opacity=".1" stroke="#fff" stroke-width=".1"><title>Кухня</title><desc>Кухонное помещение</desc></rect>
+ <rect id="kuhnaLight" y="26" x="916" width="270" height="250" filter="url(#fgb)" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width="0"></rect>
+ 
+ 
+ <rect id="bathroom" y="36" x="776" width="135" height="155" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width=".3" onClick="return openTWindow('bathroomTWindow', 'Ванная', '/popup/plans.html?id=10', 754, 753);"><title>Ванная</title><desc>Ванное помещение</desc></rect>
+ <rect id="kladovka" y="26" x="626" width="60" height="131" fill="#c0bba3" fill-opacity="1" stroke="#fff" stroke-width="0" style="cursor: pointer;" onClick="return openTWindow('kladovkaTWindow', 'Кладовка', '/popup/plans.html?id=9', 754, 753);"><title>Кладовка</title><desc>Кладовка помещение</desc></rect>
+ <rect id="kladovkaFloor" y="26" x="626" width="60" height="131" fill="url(#palermo)" fill-opacity=".1" stroke="#fff" stroke-width="0"/>
+ <rect id="kladovkaLight" y="26" x="626" width="60" height="131" filter="url(#fgb)" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width="0" style="cursor: pointer;">
+     <title>Кладовка</title><desc>Кладовка помещение</desc></rect>
+
+ <rect id="balkon" x="200" y="931" width="350" height="80" fill="#c0bba3" fill-opacity="1" stroke="#000" stroke-width=".3">
+     <title>Балкон</title><desc>Балкон</desc></rect>
+
+
+
+ <path id="peregorodki" d="m682 559h-56v10h56zm99.11-223.97-.11-49.03 405-.10v-9.9h-415v59zm-10.11 88.97v145h415v-10h-405l.10675-135.01z" stroke-opacity=".6" fill="#968c60" fill-opacity="1" stroke="#1e0c0c" stroke-width="0.5px"/>
+
+ <path id="stenkiTualet" d="m844,195.96 71.9,0.0823 -0.1,-165 h -230 l -0.3,129.8 20.3,-0.05 0.05,-5.08 L 691,155.8 v -120 h 79.9 v 120 l -0.9,-8.2e-4 0.03,5.03 1,0.009 -0.05,35.2 L 780,195.96 V 191 l -4.1,-0.058 v -155 h 135 v 155 L 844,191 Z" stroke-opacity=".6" fill-opacity="1" stroke="#1e0c0c" fill="#968c60" stroke-width=".5"/>
+ 
+ <rect id="balkonWin" x="263" y="898" width="194" height="24" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+ <rect id="kabinetWin" x="6" y="627" width="24" height="194" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+ <rect id="kidroomWin1" x="778" y="898" width="194" height="24" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+ <rect id="kidroomWin2" x="1192" y="627" width="24" height="194" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+ <rect id="smallroomWin" x="1192" y="326" width="24" height="154" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+ <rect id="kitchenWin" x="1192" y="70" width="24" height="154" fill="skyblue" stroke="steelblue" stroke-width="1" opacity=".8"/>
+
+ <use id="bedroomDoor" xlink:href="#symbolbedroomDoor" height="100%" width="100%" x="461" y="516"/>
+ <use id="kidroomDoor" xlink:href="#symbolkidroomDoor" height="100%" width="100%" x="682" y="564"/>
+ <use id="smallroomDoor" xlink:href="#symbolsmallroomDoor" height="100%" width="100%" x="776" y="335"/>
+ <use id="hallDoor1" xlink:href="#symbolhallDoor1" height="100%" width="100%" x="473" y="1"/>
+ <use id="hallDoor2" xlink:href="#symbolhallDoor2" height="100%" width="100%" x="473" y="19"/>
+ <use id="kladovkaDoor" xlink:href="#symbolkladovkaDoor" height="100%" width="100%" x="626.6" y="156.6"/>
+ 
+ <use id="tualetDoor" xlink:href="#symboltualetDoor" height="100%" width="100%" x="769.4" y="160.4"/>
+ <use id="vannaDoor" xlink:href="#symbolvannaDoor" height="100%" width="100%" x="844" y="196"/>
+<!-- <use id="kuhnaDoor" xlink:href="#symbolkuhnaDoor" height="100%" width="100%" x="910" y="198"/> -->
+ <use id="balkonDoor" xlink:href="#symbolbalkonDoor" height="100%" width="100%"  x="265" y="915"/>
+ <use id="garderobDoor" xlink:href="#symbolgarderobDoor" height="100%" width="100%"  x="42" y="687"/>
+
+ <rect id="proemHall" x="601.5" y="163" width="24" height="85" fill="#c0bba3" fill-opacity="1" stroke="#000" stroke-width=".1"/>
+ <rect id="proemHall" x="601.5" y="163" width="24" height="85" fill="url(#palermo)" fill-opacity=".1" stroke="#000" stroke-width=".1"/>
+ <rect id="proemAkvarium" x="601.5" y="370" width="24" height="128" fill="#c0bba3" fill-opacity="1" stroke="#000" stroke-width=".1"/>
+ <rect id="proemAkvarium" x="601.5" y="370" width="24" height="128" fill="url(#palermo)" fill-opacity=".1" stroke="#000" stroke-width=".1"/>
+
+ <rect id="stiralka" x="629" y="60" width="56" height="56" onclick="return openTWindow('stiralkaTWindow', '', '/popup/apps.html', 700, 500);" fill-opacity=".1" stroke="#000" stroke-width=".3"><title>Стиральная машина</title></rect>
+ 
+ 
+ <rect id="kitchenStol1" x="916" y="26" width="59" height="170" fill="#000" fill-opacity=".1" stroke="#000" stroke-width=".3"/>
+ <rect id="kitchenStol2" x="975" y="26" width="40" height="60" fill="#000" fill-opacity=".1" stroke="#000" stroke-width=".3"/>
+ <rect id="kitchenStol3" x="1022" y="225" width="120" height="50" fill="#000" fill-opacity=".1" stroke="#000" stroke-width=".3"/>
+ <rect id="kitchenStol4" x="1075" y="26" width="50" height="60" fill="#000" fill-opacity=".1" stroke="#000" stroke-width=".3"/>
+ 
+ <rect id="holodilnik2" x="1126" y="28.8" width="60" height="57" fill="#000" fill-opacity=".1" stroke="#000" stroke-width=".3"><title>Холодильник</title></rect>
+ <rect id="kitchenPlita" x="1015" y="26" width="60" height="60" fill="#900" fill-opacity=".1" stroke="#000" stroke-width=".3"><title>Плита</title></rect>
+ <rect id="kitchenRakovina" x="927" y="91" width="37" height="44" fill="#900" fill-opacity=".1" stroke="#000" stroke-width=".3"><title>Раковина</title></rect>
+ 
+ 
+ 
+ <rect id="vanna" fill-opacity=".1" height="152" width="66" stroke="#000" y="37" x="843" stroke-width=".3" fill="#900"/>
+ <rect id="rakovina" fill-opacity=".1" height="35" width="58" stroke="#000" y="37" x="783" stroke-width=".3" fill="#900"/>
+ <rect id="unitaz" fill-opacity=".1" height="56" width="36" stroke="#000" y="56" x="710" stroke-width=".3" fill="#900"><title>Унитаз</title><desc>Унитаз в туалете</desc></rect>
+ <rect id="smalroomShkaf1" fill-opacity=".1" height="37" width="50" stroke="#000" y="287" x="782" stroke-width=".3" fill="#900"/>
+ <rect id="smalroomShkaf2" fill-opacity=".1" height="37" width="50" stroke="#000" y="287" x="832" stroke-width=".3" fill="#900"/>
+ <rect id="smalroomShkaf3" fill-opacity=".1" height="60" width="100" stroke="#000" y="498" x="782" stroke-width=".3" fill="#900"/>
+ <rect id="smalroomShkaf4" x="883" y="498" width="50" height="60" fill="#900" fill-opacity=".1" stroke="#000" stroke-width=".3"/>
+ <rect id="smalroomKrovat" x="982" y="290" width="200" height="100" fill="#000" fill-opacity=".1" stroke="#000" stroke-width=".3"/>
+ <rect id="refregirator" x="1126" y="498" width="58" height="58" fill-opacity=".2" stroke="#000" stroke-width=".3" onclick="return openTWindow('refregiratorTWindow', '', '/command.php', 600, 600);"><title>Морозильник</title><desc>Шкаф холодильный</desc></rect>
+ 
+ 
+ <rect id="hall2Shkaf" height="60" width="50" y="499" x="627" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000">
+     <desc>Шкаф с аптечкой</desc><title>Шкаф</title></rect>
+ <rect id="shkafAkvarium" y="355" x="463" width="135" height="60" fill="skyblue" fill-opacity="1" stroke="#000" stroke-width=".3" style="cursor: pointer;">
+     <desc>Шкаф с аквариумом</desc><title>Аквариум</title></rect> 
+ <rect id="kidroomShkaf1" height="50" width="37" y="568" x="627" fill="#000" fill-opacity=".1" stroke="#000" stroke-width=".3">
+     <desc>Шкаф Павлик</desc><title>Шкаф Павлик</title></rect>
+ <rect id="kidroomShkaf2" height="50" width="37" y="618" x="627" stroke="#000" stroke-width=".3" fill="#000" fill-opacity=".1">
+     <desc>Шкаф Костя</desc><title>Шкаф Костя</title></rect> 
+ <rect id="kidroomShkaf5" height="60" width="50" y="830" x="1135" stroke="#000" stroke-width=".3" fill="#000" fill-opacity=".1">
+     <desc>Шкаф в Детской 5</desc><title>Шкаф в Детской 5</title></rect>
+ <rect id="kidroomShkaf4" height="60" width="100" y="830" x="1035" stroke="#000" stroke-width=".3" fill="#000" fill-opacity=".1">
+     <desc>Шкаф в Детской 4</desc><title>Шкаф в Детской 4</title></rect>
+<rect id="garderobKabinet2" height="100" width="60" x="180" y="542" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000">
+    <desc>Шкаф Кабинет 2</desc><title>Шкаф Кабинет 2</title></rect>
+
+
+<rect id="bedroomStol" height="50" width="90" x="280" y="542" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000">
+    <desc>Стол1</desc><title>Стол1</title></rect>
+<rect id="bedroomStolLight" height="50" width="90" x="280" y="542" filter="url(#fgb)" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width="0">
+    <desc>Стол</desc><title>Стол</title></rect>
+<rect id="bedroomShkaf5" height="37" width="50" x="380" y="542" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000">
+    <desc>Шкаф 5</desc><title>Шкаф 5</title></rect>
+<rect id="garderobStol" height="50" width="78" x="102" y="542" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000">
+    <desc>Стол2</desc><title>Стол2</title></rect>
+<rect id="garderobStolLight" height="50" width="78" x="102" y="542" filter="url(#fgb)" fill="#ffff66" fill-opacity="1" stroke="#fff" stroke-width="0">
+    <desc>Стол</desc><title>Стол</title></rect>
+
+
+ <rect id="garderobKabinet3" height="100" width="60" x="180" y="643" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000">
+     <desc>Шкаф Кабинет 3</desc><title>Шкаф Кабинет 3</title></rect> 
+ <rect id="garderobKabinet1" height="100" width="60" x="42" y="542" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000">
+     <desc>Шкаф Кабинет 1</desc><title>Шкаф Кабинет 1</title></rect> 
+ <rect id="garderobShkaf1" height="100" width="60" x="42" y="791" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000">
+     <desc>Шкаф Гардероб 1</desc><title>Шкаф Гардероб 1</title></rect>
+ <rect id="garderobShkaf2" height="100" width="60" x="42" y="690" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000">
+     <desc>Шкаф Гардероб 2</desc><title>Шкаф Гардероб 2</title></rect>
+ <rect id="garderobShkaf4" height="100" width="60" x="180" y="743" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000">
+     <desc>Шкаф Гардероб 4</desc><title>Шкаф Гардероб 4</title></rect>
+ <rect id="bedroomShkaf1" height="50" width="37" x="563" y="540" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф 1</desc><title>Шкаф 1</title></rect>
+ <rect id="bedroomShkaf2" height="50" width="37" x="563" y="590" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф 2</desc><title>Шкаф 2</title></rect>
+ <rect id="bedroomShkaf3" height="50" width="37" x="563" y="790" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф 3</desc><title>Шкаф 3</title></rect>
+ <rect id="bedroomShkaf4" height="50" width="37" x="563" y="840" fill-opacity=".1" stroke="#000" stroke-width=".3" fill="#000"><desc>Шкаф 4</desc><title>Шкаф 4</title></rect>
+ 
+ <rect id="kidroomKrovat" y="669" x="627" height="221" width="130" fill="#ffd94d" fill-opacity=".1" stroke="#000" stroke-width=".3"/>
+ <rect id="kidroomKrovatkaMalchiki" height="72" width="188" y="570" x="812" fill="#ffd94d" fill-opacity=".1" stroke="#000" stroke-width=".3"/>
+
+
+ <g id="lhim">
+ <use id="vannaVent" xlink:href="#symbolVent" height="25" width="25" y="10" x="826"/>
+ <circle id="vannaHim2" cy="26" cx="836" r="1" fill="skyblue" fill-opacity=".8" stroke="steelblue" stroke-width=".6" stroke-linecap="round"/>
+ <circle id="kuhnaHim" cy="26" cx="980" r="5" fill="skyblue" fill-opacity=".8" stroke="steelblue" stroke-width=".6" stroke-linecap="round"/>
+ <circle id="tualetHim2" cy="63" cx="765" r="5" fill="skyblue" fill-opacity=".8" stroke="steelblue" stroke-width=".6" stroke-linecap="round"/>
+ 
+  <circle id="workshopHim" cy="598" cx="164" r="5" fill="skyblue" fill-opacity=".8" stroke="steelblue" stroke-width=".6" onClick="return openTWindow('workshopHimTWindow', 'Настройки Кабинет', '/menu.html?parent=222', 750, 350);">
+      <desc id="workshopHimDesc">Температура Кабинет</desc><title id="workshopHimTitle">Кабинет Температура</title></circle>
+  
+ <circle id="tualetHim" cy="49" cx="765" r="5" fill="skyblue" fill-opacity=".8" stroke="steelblue" stroke-width=".6" stroke-linecap="round"/>
+ </g>
+
+ <g id="llamp">
+ <circle id="halllampa" cy="41" cx="572" r="5" fill="#ffd94d" fill-opacity=".4" stroke="#000" stroke-width=".3" stroke-linecap="round"/>
+ <circle id="vannalampa" cy="133" cx="781" r="15" fill="#ffd94d" fill-opacity="1" stroke="#000" stroke-width=".3" stroke-linecap="round" filter="url(#fgb)"/>
+ <circle id="tualetlampa" cy="133" cx="766" r="15" fill="#ffd94d" fill-opacity="1" stroke="#000" stroke-width=".3" stroke-linecap="round" filter="url(#fgb)"/>
+ <circle id="workshopLampa" cy="640" cx="140" r="5" fill="#ffd94d" fill-opacity=".4" stroke="#e6dc32" stroke-width=".3" stroke-linecap="round"/>
+
+  <rect id="hallLed" opacity="1" fill-opacity=".7" rx="8" ry="2" height="250" width="5" stroke="#000" y="36" x="543" stroke-width=".1" fill="#fff700"/>
+  <rect id="hall2Led" opacity=".9" y="170" x="709" rx="8" ry="2" height="380" width="5" stroke="#000" stroke-width=".1" fill="#ff0" fill-opacity=".4"/>
+  <rect id="tualetLed" opacity=".9" fill-opacity=".4" rx="8" ry="2" height="110" width="5" stroke="#000" y="41" x="726" stroke-width=".1" fill="#ff0"/>
+  <rect id="bedroomLed2" opacity=".9" y="552" x="591" fill-opacity=".5" rx="8" ry="2" height="250" width="5" stroke="#000" stroke-width=".1" fill="#ff0"/>
+  <rect id="bedroomLed1" opacity=".9" fill-opacity=".5" rx="8" ry="2" transform="rotate(90)" height="314" width="5" stroke="#000" y="-582" x="552" stroke-width=".1" fill="#ff0"/>
+  <rect id="bedroomLed3" opacity=".9" y="552" x="253" rx="8" ry="2" height="250" width="5" stroke="#000" stroke-width=".1" fill="#ff0" fill-opacity=".5"/>
+  <rect id="bedroomLed4" opacity=".9" y="583" x="796" rx="8" ry="2" height="314" width="5" stroke="#000" stroke-width=".1" fill="#ff0" fill-opacity=".5"/>
+  <rect id="bedroomLed5" opacity=".9" y="572" x="300" rx="2" ry="6" height="4" width="40" stroke="#000" stroke-width=".1" fill="#ff0" fill-opacity=".4"/>
+  <rect id="workshopLed" opacity=".9" y="572" x="120" rx="2" ry="6" height="4" width="40" stroke="#000" stroke-width=".1" fill="#ff0" fill-opacity=".4"/>
+  <rect id="kitchenLed1" opacity=".9" y="38" x="921" rx="8" ry="2" height="98" width="5" stroke="#000" stroke-width=".1" fill="#ff0" fill-opacity=".4"/>
+  <rect id="kitchenLed2" opacity=".9" y="38" x="930" rx="2" ry="8" height="5" width="110" stroke="#000" stroke-width=".1" fill="#ff0" fill-opacity=".4"/>
+ </g>
+ 
+ <g id="los">
+  <circle id="hallSmk1" class="r" cy="3.3" cx="550" r="3" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="hallsmk2desc">СМК1 прихожая</desc><title id="hallsmk2title">Прихожая СМК1</title></circle>
+  <circle id="hallSmk2" class="r" cy="21.5" cx="550" r="3" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="hallsmk2desc">СМК2 прихожая</desc><title id="hallsmk2title">Прихожая СМК2</title></circle>
+  <circle id="smallroomSmk" class="r" cy="420" cx="776" r="5" fill="#ff1d4d" fill-opacity="1" stroke="#e6dc32" stroke-width=".6">
+      <title id="smallroomSmkTitle">СМК Маленькая комната</title></circle>
+  <circle id="hallPir" cy="320" cx="530" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="hallpirdesc">Движение прихожая</desc><title id="hallpirtitle">Прихожая движение</title></circle>
+      
+  <circle id="tualetPir" cy="42" cx="743" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="tualetPirDesc">Движение туалет</desc><title id="tualetPirTitle">Туалет движение</title></circle>
+      
+  <circle id="tuyaCamPir" cy="580" cx="45" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="bedroomtpirdesc">Движение гостиная</desc><title id="bedroompirtitle">Прихожая СМК2</title></circle>
+      
+      
+  <circle id="workshopPirBloc" cy="546" cx="133" r="10" fill="orange" fill-opacity="0.8" stroke="yellow" stroke-width="3" onclick="openNav4();">
+      <desc>Датчик Движение кабинет заблокирован</desc><title>Датчик Движение кабинет заблокирован</title></circle>
+  
+  <circle id="workshopPir" cy="546" cx="133" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width="0.3" onclick="openNav4();">
+      <desc>Движение кабинет</desc><title>Движение Кабинет</title></circle>
+
+  <circle id="kitchenPir1A" class="r" cy="270" cx="1130" r="7" fill="#ff0" fill-opacity=".6" stroke="#ff0" stroke-opacity=".3" stroke-width="3"/>
+  <circle id="kitchenPir1" cy="270" cx="1130" r="5" fill="#ff094d" fill-opacity=".6" stroke="#ff094d" stroke-opacity=".3" stroke-width="3">
+      <desc id="kitchenpir1desc">Движение кухня</desc><title id="kitchenpir1title">Прихожая СМК2</title></circle>
+
+
+  <circle id="AkvariumPir" cy="360" cx="530" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="Akvariumpirdesc">Движение Аквариум</desc><title id="hallpirtitle">Аквариум движение</title></circle>
+
+
+  <circle id="vannaPir" class="r" cy="183" cx="838" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="vannapirdesc">СМК2 прихожая</desc><title id="vannapirtitle">Прихожая СМК2</title></circle>
+  <circle id="hall2Pir1" class="r" cy="172" cx="756" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="hall2pir1desc">СМК2 прихожая</desc><title id="hall2pir1title">Прихожая СМК2</title></circle>
+  <circle id="garderobPir" class="r" cy="885" cx="108" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="garderobpirdesc">СМК2 прихожая</desc><title id="garderobpirtitle">Прихожая СМК2</title></circle>
+  <circle id="bedroomPir1" class="r" cy="690" cx="601" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="bedroompirdesc">СМК2 прихожая</desc><title id="bedroompirtitle">Прихожая СМК2</title></circle>
+  <circle id="hall2Pir2" class="r" cy="548" cx="687" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="hall2pir2desc">СМК2 прихожая</desc><title id="hall2pir2title">Прихожая СМК2</title></circle>
+  <circle id="kitchenPir2" class="r" cy="31" cx="926" r="5" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="kitchenpir2desc">СМК2 прихожая</desc><title id="kitchenpir2title">Прихожая СМК2</title></circle>
+      
+  <circle id="kladovkaSmkA" class="r" cy="158.6" cx="676" r="6" fill="#ff0" fill-opacity=".6" stroke="#ff0" stroke-opacity=".3" stroke-width="3"/>
+  <circle id="kladovkaSmk" class="r" cy="158.6" cx="676" r="3" fill="#ff094d" fill-opacity=".6" stroke="#ff094d" stroke-opacity=".4" stroke-width="2">
+      <desc id="kladovkasmkdesc">СМК2 прихожая</desc><title id="kladovkasmktitle">Прихожая СМК2</title></circle>
+      
+  <circle id="tualetSmk" class="r" cy="158.6" cx="715" r="3" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="tualetsmkdesc">СМК Туалет</desc><title id="tualetsmktitle">Туалет СМК</title></circle>
+  <circle id="vannaSmk" class="r" cy="193.7" cx="790" r="3" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="vannaSmkDesc">СМК Ванная</desc><title id="vannaSmkTitle">Ванная СМК</title></circle>
+      
+  <circle id="bedroomSmk" class="r" cy="528" cx="551" r="3" filter="url(#fgb1)" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="bedroomsmkdesc">СМК Спальня</desc><title id="bedroomsmktitle">СМК Спальня</title></circle>
+  <circle id="workshopSmk" class="r" cy="690" cx="180" r="3" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="workshopsmkdesc">СМК2 прихожая</desc><title id="workshopsmktitle">Прихожая СМК2</title></circle>
+  <circle id="kidroomSmk" class="r" cy="564" cx="771" r="3" filter="url(#fgb1)" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="kidroomsmkdesc">СМК2 прихожая</desc><title id="kidroomsmktitle">Прихожая СМК2</title></circle>
+  <circle id="bedroomWinSmk1" class="r" cy="919" cx="322" r="3" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="bedroomWinsmk1desc">СМК2 прихожая</desc><title id="bedroomWinsmk1title">Прихожая СМК2</title></circle>
+  <circle id="bedroomWinSmk2" class="r" cy="919" cx="365" r="3" fill="#ff094d" fill-opacity="1" stroke="#000" stroke-width=".3">
+      <desc id="bedroomWinsmk2desc">СМК2 прихожая</desc><title id="bedroomWinsmk2title">Прихожая СМК2</title></circle>
+ </g>
+ <g id="power">
+ <rect id="kladovkaPower1" x="630" y="18" width="10" height="10" fill="#006e00" stroke="#000" stroke-width=".3"/>
+ <rect id="kladovkaPower2" height="10" width="10" stroke="#000" y="18" x="641" stroke-width=".3" fill="#006e00"/>
+ <rect id="shkafAkvariumpower1" height="10" width="10" stroke="#000" y="353" x="549" stroke-width=".8" fill="#006e00"/>
+ <rect id="shkafAkvariumpower2" height="10" width="10" stroke="#000" y="353" x="560" stroke-width=".8" fill="#006e00"/>
+ <rect id="shkafAkvariumpower3" height="10" width="10" stroke="#000" y="353" x="571" stroke-width=".8" fill="#006e00"/>
+ <rect id="shkafAkvariumpower4" height="10" width="10" stroke="#000" y="353" x="582" stroke-width=".8" fill="#006e00"/>
+ <rect id="kitchenPower5" height="10" width="10" stroke="#000" y="275" x="1160" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower6" height="10" width="10" stroke="#000" y="275" x="1170" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower3" height="10" width="10" stroke="#000" y="16" x="1160" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower4" height="10" width="10" stroke="#000" y="16" x="1170" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower1" height="10" width="10" stroke="#000" y="16" x="980" stroke-width=".3" fill="#006e00"/>
+ <rect id="kitchenPower2" height="10" width="10" stroke="#000" y="16" x="990" stroke-width=".3" fill="#006e00"/>
+ <rect id="kidroomPower2" height="10" width="10" stroke="#000" y="560" x="1050" stroke-width=".3" fill="#006e00"/>
+ <rect id="smalroomPower1" height="10" width="10" stroke="#000" y="558" x="1060" stroke-width=".3" fill="#006e00"/>
+ <rect id="bedroomPower2" height="10" width="10" stroke="#000" y="530" x="151" stroke-width=".3" fill="#006e00"/>
+ <rect id="bedroomPower1" height="10" width="10" stroke="#000" y="530" x="439" stroke-width=".3" fill="#006e00"/>
+ <rect id="hall2Power1" height="10" width="10" stroke="#000" y="265" x="617" stroke-width=".3" fill="#006e00"/>
+</g>
+
+<g id="swith">
+ <rect id="hall2Swith1-2" height="5" width="10" stroke="#000" y="260" x="617" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="hall2Swith1-1" height="5" width="10" stroke="#000" y="255" x="617" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="kithenSwith1-2" height="5" width="10" stroke="#000" y="189" x="912" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="kithenSwith1-1" height="5" width="10" stroke="#000" y="184" x="912" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="hall2Swith2-2" height="5" width="10" stroke="#000" y="173" x="766" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="hall2Swith2-1" height="5" width="10" stroke="#000" y="168" x="766" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="hall2Swith2-3" height="10" width="10" stroke="#000" y="179" x="766" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="smalroomSwith1-2" height="5" width="10" stroke="#000" y="436" x="772" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="smalroomSwith1-1" height="5" width="10" stroke="#000" y="431" x="772" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="kidroomSwith1-2" height="10" width="5" stroke="#000" y="560" x="795" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="kidroomSwith1-1" height="10" width="5" stroke="#000" y="560" x="790" stroke-width=".3" fill="#fcd74c"/>
+ <rect id="bedroomSwith1" y="530" x="428" height="10" width="10" fill="#fcd74c" stroke="#000"/>
+ <rect id="hallSwith" height="10" width="10" stroke="#000" y="16" x="573" stroke-width=".3" fill="#ffda4f"/>
+ <rect id="zvonok2" fill-opacity=".8" height="10" width="10" stroke="#000" y="1" x="568" stroke-width=".3" fill="#900"/>
+</g>
+
+ <rect id="smalroomTV" x="1025" y="546" width="100" height="5" stroke="#000" stroke-width=".3" fill="#900" onClick="%link.smalroomTV%"/>
+ <rect id="bedroomTV" height="5" width="80" stroke="#000" y="550" x="247" stroke-width=".3" fill="#900" onClick="%link.bedroomTV%"/>
+
+ <use id="zanaveskiSmalRoom1" xlink:href="#symbolzanaveski1" x="1198" y="326"/>
+ <use id="zanaveskiSmalRoom2" xlink:href="#symbolzanaveskiS" x="1203" y="480"/>
+ <use id="zanaveskiSmalRoom3" xlink:href="#symbolzanaveskiG" x="1198" y="70"/>
+ <use id="zanaveskiSmalRoom4" xlink:href="#symbolzanaveskiS" x="1203" y="224"/>
+ <use id="zanaveskiSmalRoom5" xlink:href="#symbolzanaveskiG" x="1198" y="626"/>
+ <use id="zanaveskiSmalRoom6" xlink:href="#symbolzanaveskiS" x="1203" y="780"/>
+ 
+ 
+ 
+ <rect id="dopInfo" x="1" y="1" width="429" height="513" fill="#000" fill-opacity=".8" stroke="#fff" stroke-width=".1">
+      <desc id="dopInfoDesc">Дополнительная информация</desc><title id="dopInfoTitle">Дополнительная информация</title></rect>
+ 
+ <g id="curNav4" class="button_dop" display="none">
+   <rect x="1" y="200" width="429" height="313" rx="4" ry="4" fill="#ccc" fill-opacity=".2" stroke="#ccc" stroke-width="1" stroke-opacity=".6" xlink:href="https://ya.ru/"/>
+ <!--  <use x="10.5" y="110" width="989" height="504" xlink:href="/cms/plans/5.svg#shemaHome3"/> -->
+ 
+        <circle id="00001" cx="40" cy="240" r="25" fill="orange" fill-opacity="0.8" stroke="yellow" stroke-width="1">
+      <desc>Датчик Движение кабинет заблокирован</desc><title>Датчик Движение кабинет заблокирован</title></circle>
+        <circle id="00002" cx="100" cy="240" r="25" fill="orange" fill-opacity="0.8" stroke="yellow" stroke-width="1">
+      <desc>Датчик Движение кабинет заблокирован</desc><title>Датчик Движение кабинет заблокирован</title></circle>
+        <circle id="00003" cx="70" cy="240" r="20" fill="orange" fill-opacity="0.8" stroke="yellow" stroke-width="1">
+      <desc>Датчик Движение кабинет заблокирован</desc><title>Датчик Движение кабинет заблокирован</title></circle>
+ 
+ 
+ 
+ 
+ 
+ 
+   <rect class="button_Nav" x="390" y="200" width="40" height="40" rx="2" ry="2" fill="#dade94" stroke="#000"/>
+   <text class="button_Nav" x="405" y="230" font-size="24px" font-weight="600" text-anchor="middle" fill="#000">X</text>
+   <rect class="button_Nav" x="390" y="200" width="40" height="40" rx="2" ry="2" fill="green" fill-opacity=".8" stroke="#ad4" stroke-width="1" stroke-opacity="1" onclick="closeNav4()"/>
+</g>
+
+  <script>
+    // <![CDATA[
+/*    
+jQuery.event.special.touchstart = {
+  setup: function( _, ns, handle ){
+    if ( ns.includes("noPreventDefault") ) {
+      this.addEventListener("touchstart", handle, { passive: false });
+    } else {
+      this.addEventListener("touchstart", handle, { passive: true });
+    }
+  }
+};
+*/
+/*
+function checkZoomLevel() {
+ var zoomLevel=panZoom.getZoom();
+ if (zoomLevel>1.1) {
+    $('#zvonok2, #balkon').show();
+ } else {
+    $('#zvonok2, #balkon').hide();
+ }
+setTimeout('checkZoomLevel();',500);
+}
+
+document.addEventListener('long-press', function(e) {
+                console.log(e.target);
+            });
+            
+
+            */
+//---------------------------------------------------------
+ $.subscribe('button02.status.updated',function (_, value) {
+//  alert('New value: '+value);
+  var elem=$('#bedroomPower2');
+  if (value=='1') { 
+        elem.attr('fill','red');
+        } else {
+        elem.attr('fill','green');
+        }
+ });
+//---------------------------------------------------------  Button02.status return false link.bedroomtv
+    // ]]>
+</script>
+<!-- %Button02.status|1% -->
+</svg>
