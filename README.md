@@ -1,2 +1,2 @@
 # ScenesSVG
-Scenes с применением SVG
+Наработки по Scenes и Plans с применением SVG
